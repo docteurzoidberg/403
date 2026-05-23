@@ -9,3 +9,6 @@ Desktop.ini
 .idea/
 *.swp
 *~
+
+# Claude Code (local overrides)
+.claude/settings.local.json
