@@ -21,7 +21,7 @@ Documentation bilingue : français (principal) + anglais (sections sponsoring no
 vehicule/
   01-achat/                       → suivi de l'achat + photos
   02-preparation-export/          → préparation pour transport vers le Maroc
-    pieces-a-acheter.md           → pièces à acheter en France
+    pieces-a-acheter.md           → pièces à acquérir avant départ (FR ou atelier Maroc)
     taches.md                     → tâches avant départ
   03-restauration-maroc/          → restauration sur place
     taches.md                     → tâches de restauration
@@ -37,11 +37,11 @@ raid/
 
 ## Listes de travail
 
-5 fichiers de listes recensent les items ouverts par phase. Format checklist markdown (`- [ ] item` / `- [x] item`) sous un en-tête `## À faire`. Un item terminé est coché et reste dans la liste — il n'est pas automatiquement déplacé.
+5 fichiers de listes recensent les items ouverts par phase. Format checklist markdown (`- [ ] item` / `- [x] item`) sous un en-tête `## À faire`, avec sous-sections optionnelles `### <Catégorie>` (Sellerie, Mécanique, Carrosserie, etc.) quand une liste s'y prête. Un item terminé est coché et reste dans la liste — il n'est pas automatiquement déplacé.
 
 | Code | Liste | Fichier |
 |---|---|---|
-| `pieces` | Pièces à acheter en France | `vehicule/02-preparation-export/pieces-a-acheter.md` |
+| `pieces` | Pièces à acquérir avant départ (France ou atelier Maroc) | `vehicule/02-preparation-export/pieces-a-acheter.md` |
 | `export` | Tâches avant départ Maroc | `vehicule/02-preparation-export/taches.md` |
 | `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/taches.md` |
 | `prep-raid` | Prep raid côté véhicule | `vehicule/04-preparation-raid/taches.md` |

@@ -1,6 +1,6 @@
 ---
 name: todo
-description: Gère les 5 listes de travail du projet 403 (pièces à acheter en France, tâches avant départ Maroc, restauration Maroc, prep raid véhicule, inscriptions raid). Utiliser quand l'utilisateur veut ajouter, retirer, cocher (marquer fait), décocher, ou consulter un item de l'une de ces listes.
+description: Gère les 5 listes de travail du projet 403 (pièces à acquérir avant départ — France ou atelier Maroc, tâches avant départ Maroc, restauration Maroc, prep raid véhicule, inscriptions raid). Utiliser quand l'utilisateur veut ajouter, retirer, cocher (marquer fait), décocher, ou consulter un item de l'une de ces listes.
 ---
 
 # /todo — listes de travail projet 403
@@ -9,7 +9,7 @@ description: Gère les 5 listes de travail du projet 403 (pièces à acheter en 
 
 | Code | Liste | Fichier |
 |---|---|---|
-| `pieces` | Pièces à acheter en France | `vehicule/02-preparation-export/pieces-a-acheter.md` |
+| `pieces` | Pièces à acquérir avant départ (France ou atelier Maroc) | `vehicule/02-preparation-export/pieces-a-acheter.md` |
 | `export` | Tâches avant départ Maroc | `vehicule/02-preparation-export/taches.md` |
 | `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/taches.md` |
 | `prep-raid` | Préparation raid — côté véhicule | `vehicule/04-preparation-raid/taches.md` |
@@ -24,12 +24,22 @@ Chaque liste est une checklist markdown sous un en-tête `## À faire` :
 - [x] Item fait
 ```
 
-Pas de sous-catégorisation. Les items cochés restent en place — ne pas les déplacer ni les supprimer automatiquement.
+**Catégories (optionnelles)** : sous-sections `### <Catégorie>` (ex : Sellerie, Mécanique, Carrosserie, Électricité, Administratif…). Quand une ou plusieurs catégories existent dans le fichier, tout nouvel item est placé sous une catégorie. Quand le fichier est plat (sans catégorie), les items vont directement sous `## À faire`.
+
+Les items cochés restent en place dans leur catégorie — ne pas les déplacer ni les supprimer automatiquement.
 
 ## Opérations
 
 ### Ajouter
-Append `- [ ] <item>` à la fin de la section `## À faire` de la liste cible. **Ne jamais inventer un item** ni le compléter au-delà de ce que l'utilisateur a dit (pas de marque, modèle, quantité, prix, fournisseur etc. sauf si fournis).
+Append `- [ ] <item>` dans la liste cible. **Ne jamais inventer un item** ni le compléter au-delà de ce que l'utilisateur a dit (pas de marque, modèle, quantité, prix, fournisseur etc. sauf si fournis).
+
+**Catégorie cible** :
+- Si l'utilisateur précise une catégorie (ex : `resto sellerie : ciel de toit`, `prep-raid mécanique : ...`), placer sous la sous-section `### <Catégorie>` (la créer si elle n'existe pas, à la fin du fichier).
+- Si le fichier a déjà des catégories et que l'utilisateur n'en précise pas une mais que le wording la rend évidente (ex : "joint de culasse" → Mécanique), placer dans la catégorie évidente.
+- Si le fichier a déjà des catégories et que l'intention est ambiguë, demander via AskUserQuestion (proposer les catégories existantes + "Nouvelle catégorie" + "Sans catégorie").
+- Si le fichier est plat (aucune catégorie), append directement sous `## À faire` — sauf si l'utilisateur introduit explicitement une catégorie (alors basculer le fichier en mode catégorisé : créer la sous-section et y placer l'item ; les items existants restent en flat sous `## À faire`, à moins que l'utilisateur ne demande de les reclasser).
+
+**Split** : si l'utilisateur formule plusieurs items dans un seul prompt (parenthèses listant des sous-éléments, virgules, etc.), demander s'il veut un item unique ou plusieurs items séparés — sauf si la formulation est sans ambiguïté.
 
 ### Retirer
 Supprimer la ligne entière correspondant à l'item (matching sur le texte). Si plusieurs lignes matchent, demander laquelle via AskUserQuestion.
@@ -41,11 +51,11 @@ Remplacer `- [ ]` par `- [x]` sur la ligne correspondante.
 Remplacer `- [x]` par `- [ ]` (item coché par erreur, ou à refaire).
 
 ### Consulter
-Afficher le contenu de la liste demandée — section `## À faire` uniquement.
+Afficher le contenu de la liste demandée — section `## À faire` (catégories incluses) uniquement.
 
 ## Identification de la liste cible
 
-- L'utilisateur peut utiliser le code (`pieces`, `export`, `resto`, `prep-raid`, `inscription`) ou une formulation libre ("pièces FR", "à acheter en France", "Maroc", "raid véhicule", "inscriptions", etc.).
+- L'utilisateur peut utiliser le code (`pieces`, `export`, `resto`, `prep-raid`, `inscription`) ou une formulation libre ("pièces", "à acheter", "à demander à l'atelier Maroc", "tâches Maroc", "raid véhicule", "inscriptions", etc.).
 - Si l'intention est claire d'après le contexte ou le wording, agir directement sans demander.
 - Si ambigu, utiliser AskUserQuestion pour choisir parmi les 5 listes.
 - **Sans argument** : afficher l'état compact des 5 listes (nb d'items ouverts / total par liste).
