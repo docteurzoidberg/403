@@ -5,3 +5,6 @@ Géré via le skill `/todo` (code : `export`).
 
 ## À faire
 
+- [ ] Contacter atelier Maroc — explication du projet
+- [ ] Prendre rendez-vous avec l'atelier
+- [ ] Fournir à l'atelier la liste des pièces recherchées
