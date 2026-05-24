@@ -20,3 +20,9 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] capot supplémentaire (conditionnel — uniquement si snorkel décidé en facultatives resto, pour ne pas modifier l'original)
 - [ ] manivelle de démarrage
 - [ ] bavettes avant/arriere
+
+### Stickers (à commander en France avant départ atelier)
+
+- [ ] sticker boiserie (pour le fun)
+- [ ] stickers vintage (selon dispo)
+- [ ] stickers rallye officiels (drapeau, noms pilotes, groupe sanguin)

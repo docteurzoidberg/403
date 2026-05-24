@@ -32,12 +32,13 @@ raid/
   01-inscription/                 → démarches d'inscription au Crazy Dust
     taches.md                     → inscriptions / admin raid
   02-sponsoring/                  → dossier sponsor (FR + EN)
+    taches.md                     → démarches sponsoring (contacts, dossiers, relances)
   03-photos-evenement/            → photos pendant le raid (futur)
 ```
 
 ## Listes de travail
 
-5 fichiers de listes recensent les items ouverts par phase. Format checklist markdown (`- [ ] item` / `- [x] item`) sous un en-tête `## À faire`, avec sous-sections optionnelles `### <Catégorie>` (Sellerie, Mécanique, Carrosserie, etc.) quand une liste s'y prête. Un item terminé est coché et reste dans la liste — il n'est pas automatiquement déplacé.
+6 fichiers de listes recensent les items ouverts par phase. Format checklist markdown (`- [ ] item` / `- [x] item`) sous un en-tête `## À faire`, avec sous-sections optionnelles `### <Catégorie>` (Sellerie, Mécanique, Carrosserie, etc.) quand une liste s'y prête. Un item terminé est coché et reste dans la liste — il n'est pas automatiquement déplacé.
 
 | Code | Liste | Fichier |
 |---|---|---|
@@ -46,6 +47,7 @@ raid/
 | `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/taches.md` |
 | `prep-raid` | Prep raid côté véhicule | `vehicule/04-preparation-raid/taches.md` |
 | `inscription` | Inscriptions / admin raid | `raid/01-inscription/taches.md` |
+| `sponsoring` | Sponsoring (contacts, dossiers, relances) | `raid/02-sponsoring/taches.md` |
 
 Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skills/todo/SKILL.md)) : add / remove / cocher / décocher / consulter.
 

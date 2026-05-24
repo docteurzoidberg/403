@@ -1,11 +1,11 @@
 ---
 name: todo
-description: Gère les 5 listes de travail du projet 403 (pièces à acquérir avant départ — France ou atelier Maroc, tâches avant départ Maroc, restauration Maroc, prep raid véhicule, inscriptions raid). Utiliser quand l'utilisateur veut ajouter, retirer, cocher (marquer fait), décocher, ou consulter un item de l'une de ces listes.
+description: Gère les 6 listes de travail du projet 403 (pièces à acquérir avant départ — France ou atelier Maroc, tâches avant départ Maroc, restauration Maroc, prep raid véhicule, inscriptions raid, sponsoring). Utiliser quand l'utilisateur veut ajouter, retirer, cocher (marquer fait), décocher, ou consulter un item de l'une de ces listes.
 ---
 
 # /todo — listes de travail projet 403
 
-## Les 5 listes
+## Les 6 listes
 
 | Code | Liste | Fichier |
 |---|---|---|
@@ -14,6 +14,7 @@ description: Gère les 5 listes de travail du projet 403 (pièces à acquérir a
 | `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/taches.md` |
 | `prep-raid` | Préparation raid — côté véhicule | `vehicule/04-preparation-raid/taches.md` |
 | `inscription` | Inscriptions / admin raid | `raid/01-inscription/taches.md` |
+| `sponsoring` | Sponsoring (contacts, dossiers, relances) | `raid/02-sponsoring/taches.md` |
 
 ## Format de fichier
 
@@ -55,10 +56,10 @@ Afficher le contenu de la liste demandée — section `## À faire` (catégories
 
 ## Identification de la liste cible
 
-- L'utilisateur peut utiliser le code (`pieces`, `export`, `resto`, `prep-raid`, `inscription`) ou une formulation libre ("pièces", "à acheter", "à demander à l'atelier Maroc", "tâches Maroc", "raid véhicule", "inscriptions", etc.).
+- L'utilisateur peut utiliser le code (`pieces`, `export`, `resto`, `prep-raid`, `inscription`, `sponsoring`) ou une formulation libre ("pièces", "à acheter", "à demander à l'atelier Maroc", "tâches Maroc", "raid véhicule", "inscriptions", "sponsors", etc.).
 - Si l'intention est claire d'après le contexte ou le wording, agir directement sans demander.
-- Si ambigu, utiliser AskUserQuestion pour choisir parmi les 5 listes.
-- **Sans argument** : afficher l'état compact des 5 listes (nb d'items ouverts / total par liste).
+- Si ambigu, utiliser AskUserQuestion pour choisir parmi les 6 listes.
+- **Sans argument** : afficher l'état compact des 6 listes (nb d'items ouverts / total par liste).
 
 ## Règles
 
