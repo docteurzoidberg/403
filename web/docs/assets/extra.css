@@ -91,6 +91,60 @@
 }
 
 /* =====================================================================
+   Header & navigation : logo plus gros, texte plus grand
+   ===================================================================== */
+
+/* Header plus haut pour laisser respirer le logo */
+.md-header {
+  height: 4rem;
+}
+
+/* Logo (image dans le bouton du header) */
+.md-header__button.md-logo {
+  margin: 0.2rem 0.4rem 0.2rem 0;
+  padding: 0.2rem;
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 3rem;
+  width: auto;
+}
+
+/* Titre du site dans le header */
+.md-header__title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Onglets de nav (top tabs) */
+.md-tabs__link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0.95;
+}
+.md-tabs__link--active {
+  font-weight: 600;
+}
+
+/* Nav latérale (sections, sous-sections) */
+.md-nav__title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.md-nav__link {
+  font-size: 0.82rem;
+}
+
+/* Sur écrans larges (sidebar visible), texte un poil plus généreux */
+@media (min-width: 1220px) {
+  .md-nav__link {
+    font-size: 0.84rem;
+  }
+}
+
+/* =====================================================================
    Hero d'accueil
    ===================================================================== */
 
