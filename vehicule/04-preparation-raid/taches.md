@@ -9,6 +9,7 @@ Géré via le skill `/todo` (code : `prep-raid`).
 - [ ] Batterie autonome type EcoFlow
 - [ ] Plaques de désensablage (à fixer sur galerie ou support dédié — décision sur place)
 - [ ] Pelle
+- [ ] Compresseur 12V
 
 ### Stickers
 
