@@ -12,6 +12,8 @@ site_dir: build
 theme:
   name: material
   language: fr
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
