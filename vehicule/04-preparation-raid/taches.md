@@ -1,9 +1,9 @@
 # Préparation raid — côté véhicule
 
-Tâches de préparation raid côté véhicule, une fois le véhicule sorti de l'atelier au Maroc (équipement, ajustements, achats matériels).  
+Préparation raid côté véhicule, une fois le véhicule sorti de l'atelier au Maroc (équipement, ajustements, achats matériels).  
 Géré via le skill `/todo` (code : `prep-raid`).
 
-## À faire
+## Matériel à acheter
 
 - [ ] Sangles de remorquage
 - [ ] Batterie autonome type EcoFlow
@@ -14,6 +14,11 @@ Géré via le skill `/todo` (code : `prep-raid`).
 
 - [ ] commander sticker numéro d'équipe (une fois attribué par l'orga)
 - [ ] commander sticker(s) sponsor Norauto (si dossier accepté)
+
+## Tâches
+
+### Stickers
+
 - [ ] pose sticker numéro d'équipe
 - [ ] pose sticker(s) sponsor(s)
 - [ ] pose stickers non posés à l'atelier (rattrapage si reçus trop tard)
@@ -23,4 +28,3 @@ Géré via le skill `/todo` (code : `prep-raid`).
 - [ ] Demander à l'orga Crazy Dust : déconseillent-ils fortement la Peugeot 403 break pour ce raid ?
 - [ ] Demander à l'orga Crazy Dust : CB fournie ou autorisation collective ANRT pour le convoi ?
 - [ ] Si à notre charge : déclaration ANRT du poste CB (mail autorisation@anrt.ma, ~10 €/poste, copie passeport)
-
