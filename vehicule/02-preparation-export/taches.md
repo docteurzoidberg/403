@@ -10,3 +10,4 @@ Géré via le skill `/todo` (code : `export`).
 - [ ] Fournir à l'atelier la liste des pièces recherchées
 - [ ] Billets ferry — aller + retour libre
 - [ ] Hébergement
+- [ ] Prévoir frais transport véhicule (plan B si incapacité de ramener au domicile après achat)
