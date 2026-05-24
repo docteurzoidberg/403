@@ -52,11 +52,11 @@
 
 ## Historique du véhicule
 
-Éléments connus, déclarés par le propriétaire actuel (source : texte de l'annonce, à confirmer lors de la prise en main).
+Éléments connus, déclarés par le propriétaire actuel (source : texte de l'annonce + échanges directs, à confirmer lors de la prise en main sauf mention contraire).
 
 ### Travaux réalisés par le propriétaire actuel
 
-- **Freinage entièrement refait** (pièces neuves installées et testées) :
+- **Freinage entièrement refait** — installation et test confirmés par le propriétaire après la publication de l'annonce :
   - Maître-cylindre neuf
   - 4 cylindres de roues neufs
   - Flexibles de frein neufs
