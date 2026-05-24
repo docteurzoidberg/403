@@ -1,13 +1,14 @@
 site_name: Projet 403 — Crazy Dust 2027
 site_description: Préparation d'une Peugeot 403 break pour le raid Crazy Dust 2027
 site_author: DrZoid
+site_url: https://docteurzoidberg.github.io/403/
+repo_url: https://github.com/docteurzoidberg/403
+repo_name: docteurzoidberg/403
 
 # docs_dir = web/docs/ : symlinks vers README.md, vehicule/, raid/ (contenu source à la racine)
 # site_dir = web/build/ : artefacts de build
 docs_dir: docs
 site_dir: build
-
-# repo_url: à activer en phase 2 (déploiement GitHub Pages)
 
 theme:
   name: material
