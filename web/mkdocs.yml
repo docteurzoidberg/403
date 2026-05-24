@@ -11,21 +11,25 @@ site_dir: build
 
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   logo: assets/logo.png
   favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Passer en mode clair
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep orange
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Passer en mode sombre
@@ -40,6 +44,9 @@ theme:
     - toc.follow
   icon:
     repo: fontawesome/brands/github
+
+extra_css:
+  - assets/extra.css
 
 plugins:
   - search
