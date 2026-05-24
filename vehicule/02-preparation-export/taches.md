@@ -8,3 +8,5 @@ Géré via le skill `/todo` (code : `export`).
 - [ ] Contacter atelier Maroc — explication du projet
 - [ ] Prendre rendez-vous avec l'atelier
 - [ ] Fournir à l'atelier la liste des pièces recherchées
+- [ ] Billets ferry — aller + retour libre
+- [ ] Hébergement
