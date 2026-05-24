@@ -5,3 +5,5 @@ Géré via le skill `/todo` (code : `prep-raid`).
 
 ## À faire
 
+- [ ] Sangles de remorquage
+
