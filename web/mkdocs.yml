@@ -1,0 +1,67 @@
+site_name: Projet 403 — Crazy Dust 2027
+site_description: Préparation d'une Peugeot 403 break pour le raid Crazy Dust 2027
+site_author: DrZoid
+
+# docs_dir = web/docs/ : symlinks vers README.md, vehicule/, raid/ (contenu source à la racine)
+# site_dir = web/build/ : artefacts de build
+docs_dir: docs
+site_dir: build
+
+# repo_url: à activer en phase 2 (déploiement GitHub Pages)
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode sombre
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.mark
+
+# Fichiers présents dans docs_dir mais qu'on ne publie pas
+exclude_docs: |
+  raid/02-sponsoring/sponsors/**
+  raid/02-sponsoring/dossier-en.md
+  raid/02-sponsoring/modele-orga/**
+
+# Navigation explicite — phase 1 : accueil seul, le reste est ajouté ensuite
+nav:
+  - Accueil: README.md
