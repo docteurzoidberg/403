@@ -34,6 +34,9 @@ raid/
   02-sponsoring/                  → dossier sponsor (FR + EN)
     taches.md                     → démarches sponsoring (contacts, dossiers, relances)
   03-photos-evenement/            → photos pendant le raid (futur)
+
+web/                              → site MkDocs Material (config, venv, build, scripts)
+                                    consomme vehicule/ et raid/ en lecture seule
 ```
 
 ## Listes de travail
@@ -50,6 +53,12 @@ raid/
 | `sponsoring` | Sponsoring (contacts, dossiers, relances) | `raid/02-sponsoring/taches.md` |
 
 Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skills/todo/SKILL.md)) : add / remove / cocher / décocher / consulter.
+
+## Site web
+
+Un site statique **MkDocs Material** publie le projet (suivi, listes, sponsoring). Tout ce qui touche au site est **isolé dans `web/`** : config (`mkdocs.yml`), dépendances (`requirements.txt`), venv (`.venv/`), build (`build/`), scripts. Le site consomme `vehicule/` et `raid/` **en lecture seule** — ne jamais déplacer ou réécrire ces fichiers pour les besoins du site.
+
+Brief d'implémentation phase 1 : [`WEB-PROMPT.md`](WEB-PROMPT.md). Phase 2 (déploiement GitHub Pages) à venir.
 
 ## Méthode de travail
 
