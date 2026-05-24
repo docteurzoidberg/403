@@ -15,7 +15,6 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 ## Préparation export (France → Maroc)
 
 - Date cible de départ du véhicule vers le Maroc
-- Modalités douanières / papiers d'export (carte grise, admission temporaire, etc.)
 - Confirmer avec l'atelier la dispo des pièces "si disponible au Maroc" (capot supplémentaire conditionnel, manivelle de démarrage, bavettes)
 - Hébergement sur place pendant la période atelier : où, combien de temps, budget
 - Budget global préparation export (transport véhicule + ferry + hébergement)
