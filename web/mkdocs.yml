@@ -12,7 +12,7 @@ site_dir: build
 theme:
   name: material
   language: fr
-  logo: assets/logo.svg
+  logo: assets/logo.png
   favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: dark)"
