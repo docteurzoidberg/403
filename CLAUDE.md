@@ -59,7 +59,7 @@ Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skill
 
 Un site statique **MkDocs Material** publie le projet (suivi, listes, sponsoring). Le sous-dossier `web/` regroupe ce qui concerne le site : config (`mkdocs.yml`), dépendances (`requirements.txt`), venv (`.venv/`), build (`build/`), scripts. Le site consomme `vehicule/` et `raid/` **en lecture seule** — ne jamais déplacer ou réécrire ces fichiers pour les besoins du site.
 
-Brief d'implémentation phase 1 : [`WEB-PROMPT.md`](WEB-PROMPT.md). Phase 2 (déploiement GitHub Pages) à venir.
+Brief d'implémentation phase 1 : [`web/PROMPT.md`](web/PROMPT.md). Phase 2 (déploiement GitHub Pages) à venir.
 
 ## Méthode de travail
 
