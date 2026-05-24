@@ -9,17 +9,17 @@ Mémoire utilisateur (préférences, statut) : `/home/drzoid/.claude/projects/-h
 Mettre en place un site statique **MkDocs Material** buildable en local, avec **automatisation au push (hook git)**.
 **Hors scope** : déploiement GitHub Pages, GitHub Actions, i18n EN active, domaine custom, analytics.
 
-## Séparation web vs contenu projet
-**Règle structurante** : tout ce qui touche au site web est **isolé dans `web/`**. Le contenu projet (`vehicule/`, `raid/`, `CLAUDE.md`, `README.md`, `questions-en-suspens.md`) **ne bouge pas** et reste à la racine. Le site consomme ces sources en lecture seule.
+## Emplacement du site dans le projet
+Le site vit dans un sous-dossier `web/` du projet. Les fichiers de contenu existants (`vehicule/`, `raid/`, `CLAUDE.md`, `README.md`, `questions-en-suspens.md`) restent à leur place et servent de source au site en lecture seule — on ne les modifie pas pour les besoins du rendu.
 
 ```
-/                                    ← racine projet (inchangée)
+403/                                 ← racine projet
 ├── CLAUDE.md
 ├── README.md
 ├── questions-en-suspens.md
-├── vehicule/                        ← source markdown (inchangée)
-├── raid/                            ← source markdown (inchangée)
-└── web/                             ← TOUT le projet web vit ici
+├── vehicule/
+├── raid/
+└── web/                             ← sous-dossier du projet, regroupe ce qui concerne le site
     ├── mkdocs.yml
     ├── requirements.txt
     ├── .venv/                       ← gitignored
@@ -51,7 +51,7 @@ Mettre en place un site statique **MkDocs Material** buildable en local, avec **
   - `raid/02-sponsoring/sponsors/**/*.md`
   - `CLAUDE.md`
   - `WEB-PROMPT.md`
-  - `web/**` (le dossier web lui-même ne doit pas se publier)
+  - `web/**` (le sous-dossier lui-même ne doit pas se publier comme contenu, sauf la page d'accueil référencée dans la nav)
   - `.claude/**`, `.git/**`
   - `README.md` (sauf si on en fait la home — à demander)
 
@@ -100,7 +100,7 @@ Fichier `web/home.md` (ou équivalent), référencé en `index.md` dans la nav. 
 - **Commits au fur et à mesure** sans demander confirmation à chaque commit
 - Les fichiers de contenu (`taches.md`, `suivi.md`, `pieces-a-acheter.md`, etc.) restent **la source de vérité** : ne pas les modifier pour les besoins du site (si un lien interne casse, ajuster intelligemment en privilégiant la non-modification)
 - Toute info manquante → **demander à l'utilisateur**, pas inventer
-- Aucun fichier web-related ne doit apparaître hors de `web/` (sauf `WEB-PROMPT.md` qui est le brief, et le `.gitignore` racine qui doit connaître `web/.venv` et `web/build`)
+- Les fichiers techniques du site (config, deps, build, scripts) vivent sous `web/`. Seules exceptions à la racine : `WEB-PROMPT.md` (ce brief) et l'ajout des entrées `web/.venv/` / `web/build/` dans `.gitignore`.
 
 ## Questions à poser à l'utilisateur avant de coder
 1. Contenu / squelette de la page d'accueil
