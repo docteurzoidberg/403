@@ -126,22 +126,93 @@
   font-weight: 600;
 }
 
-/* Nav latérale (sections, sous-sections) */
-.md-nav__title {
-  font-size: 0.85rem;
+/* ---------------------------------------------------------------------
+   Nav latérale : différencier nettement sections et liens.
+
+   Hiérarchie visible dans la sidebar (avec navigation.tabs + sections) :
+     • md-nav__title          → titre de section (Achat, Préparation…)
+     • md-nav__link            → lien vers une page (À faire, Journal…)
+
+   On distingue par : famille de fonte, taille, couleur, indent, filet.
+   --------------------------------------------------------------------- */
+
+/* Section : serif gras, cuir foncé, filet orange à gauche */
+.md-sidebar--primary .md-nav__title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-.md-nav__link {
-  font-size: 0.82rem;
+  color: var(--md-default-fg-color);
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0.9rem 0.6rem 0.35rem 0.7rem;
+  margin-top: 0.4rem;
+  border-left: 2px solid var(--md-primary-fg-color);
+  background: var(--md-default-bg-color--light);
 }
 
-/* Sur écrans larges (sidebar visible), texte un poil plus généreux */
-@media (min-width: 1220px) {
-  .md-nav__link {
-    font-size: 0.84rem;
-  }
+/* Première section (pas de gros écart au-dessus) */
+.md-sidebar--primary .md-nav > .md-nav__list > .md-nav__item--nested:first-child > nav > .md-nav__title {
+  margin-top: 0;
+}
+
+/* Lien de page : sans-serif petit, cuir clair, indenté, tiret mono devant */
+.md-sidebar--primary .md-nav__link {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+  padding: 0.28rem 0.6rem 0.28rem 1.1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.md-sidebar--primary .md-nav__item:not(.md-nav__item--nested) > .md-nav__link::before {
+  content: "—";
+  color: var(--md-default-fg-color--lighter);
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  font-size: 0.85em;
+  margin-right: 0.55em;
+  flex-shrink: 0;
+}
+
+/* Hover : orange brûlé */
+.md-sidebar--primary .md-nav__link:hover {
+  color: var(--md-primary-fg-color);
+}
+.md-sidebar--primary .md-nav__item:not(.md-nav__item--nested) > .md-nav__link:hover::before {
+  color: var(--md-primary-fg-color);
+}
+
+/* Lien actif : couleur primary + gras */
+.md-sidebar--primary .md-nav__link--active,
+.md-sidebar--primary .md-nav__item--active > .md-nav__link {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+.md-sidebar--primary .md-nav__item:not(.md-nav__item--nested) > .md-nav__link--active::before,
+.md-sidebar--primary .md-nav__item--active:not(.md-nav__item--nested) > .md-nav__link::before {
+  color: var(--md-primary-fg-color);
+  content: "▸";
+}
+
+/* TOC (sidebar secondaire) : un peu plus discret */
+.md-sidebar--secondary .md-nav__title {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--md-default-fg-color--light);
+  font-weight: 700;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  font-size: 0.76rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
 }
 
 /* =====================================================================
