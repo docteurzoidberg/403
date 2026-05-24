@@ -14,7 +14,8 @@ Une question résolue est cochée et reste en place (avec la réponse brève en 
 
 ## Préparation export (France → Maroc)
 
-- [ ] Atelier au Maroc : lequel ? Coordonnées, ville, contact
+- [x] Atelier au Maroc : lequel ? Coordonnées, ville, contact
+  - *El Hassan Tolerie, à Tiznit*
 - [ ] Date cible de départ du véhicule vers le Maroc
 - [ ] Modalités douanières / papiers d'export (carte grise, admission temporaire, etc.)
 - [ ] Confirmer avec l'atelier la dispo des pièces "si disponible au Maroc" (capot supplémentaire conditionnel, manivelle de démarrage, bavettes)
