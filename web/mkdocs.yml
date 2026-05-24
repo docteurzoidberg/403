@@ -39,6 +39,18 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -67,16 +79,20 @@ nav:
   - Véhicule:
     - Achat:
       - Journal: vehicule/01-achat/suivi.md
+      - Galerie: galeries/01-achat.md
     - Préparation export:
       - À faire: vehicule/02-preparation-export/taches.md
       - Pièces à acheter: vehicule/02-preparation-export/pieces-a-acheter.md
       - Journal: vehicule/02-preparation-export/suivi.md
+      - Galerie: galeries/02-preparation-export.md
     - Restauration Maroc:
       - À faire: vehicule/03-restauration-maroc/taches.md
       - Journal: vehicule/03-restauration-maroc/suivi.md
+      - Galerie: galeries/03-restauration-maroc.md
     - Préparation raid:
       - À faire: vehicule/04-preparation-raid/taches.md
       - Journal: vehicule/04-preparation-raid/suivi.md
+      - Galerie: galeries/04-preparation-raid.md
   - Raid:
     - Inscription:
       - À faire: raid/01-inscription/taches.md
