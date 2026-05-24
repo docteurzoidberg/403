@@ -39,11 +39,13 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Inscription Crazy Dust 2027
 
-- Dates exactes du raid 2027
-- Date d'ouverture des inscriptions
-- Coût d'inscription (équipage + véhicule)
+L'édition 2027 n'est pas encore publiée sur crazy-dust.com (au 2026-05-24). Réf. édition 2026 : 19-27 oct 2026, ~2990 €/équipage 2 pers + 1 véhicule, clôture inscriptions au 2026-08-10, "premier inscrit, premier sur la grille".
+
+- Dates exactes du raid 2027 (à surveiller sur crazy-dust.com)
+- Date d'ouverture des inscriptions 2027 (vraisemblablement compétitif sur ordre d'arrivée comme en 2026)
+- Coût d'inscription 2027 (référence 2026 : 2 990 € équipage 2 adultes + véhicule)
 - Composition de l'équipage (co-équipier(s) confirmé(s) ?)
-- Documents exigés par l'orga (assurance, passeport, permis, certificat médical ?)
+- Documents complémentaires éventuels exigés par l'orga 2027 (en 2026 : CT + assurance auto — règlement complet à lire pour permis / certif médical / visa)
 
 ## Sponsoring
 
