@@ -62,6 +62,18 @@ exclude_docs: |
   raid/02-sponsoring/dossier-en.md
   raid/02-sponsoring/modele-orga/**
 
-# Navigation explicite — phase 1 : accueil seul, le reste est ajouté ensuite
 nav:
   - Accueil: README.md
+  - Véhicule:
+    - Achat:
+      - Journal: vehicule/01-achat/suivi.md
+    - Préparation export:
+      - À faire: vehicule/02-preparation-export/taches.md
+      - Pièces à acheter: vehicule/02-preparation-export/pieces-a-acheter.md
+      - Journal: vehicule/02-preparation-export/suivi.md
+    - Restauration Maroc:
+      - À faire: vehicule/03-restauration-maroc/taches.md
+      - Journal: vehicule/03-restauration-maroc/suivi.md
+    - Préparation raid:
+      - À faire: vehicule/04-preparation-raid/taches.md
+      - Journal: vehicule/04-preparation-raid/suivi.md
