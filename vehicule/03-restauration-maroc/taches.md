@@ -31,3 +31,4 @@ Géré via le skill `/todo` (code : `resto`).
 - [ ] attelage sur mesure (si réalisé, l'anneau remorquage arrière y sera installé)
 - [ ] remplacement dynamo par alternateur ?
 - [ ] fiabilisation / amélioration ventilation du radiateur
+- [ ] Support pour plaques de désensablage (optionnel — décision sur place selon fixation galerie vs support dédié)

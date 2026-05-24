@@ -7,6 +7,7 @@ Géré via le skill `/todo` (code : `prep-raid`).
 
 - [ ] Sangles de remorquage
 - [ ] Batterie autonome type EcoFlow
+- [ ] Plaques de désensablage (à fixer sur galerie ou support dédié — décision sur place)
 
 ### Vérification organisateurs
 
