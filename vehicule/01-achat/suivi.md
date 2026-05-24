@@ -50,6 +50,27 @@
 
 ---
 
+## Historique du véhicule
+
+Éléments connus, déclarés par le propriétaire actuel (source : texte de l'annonce, à confirmer lors de la prise en main).
+
+### Travaux réalisés par le propriétaire actuel
+
+- **Freinage entièrement refait** (pièces neuves installées et testées) :
+  - Maître-cylindre neuf
+  - 4 cylindres de roues neufs
+  - Flexibles de frein neufs
+- **Préchauffage** : 4 bougies de préchauffage neuves
+- **Injection** : injecteurs tarés
+
+### État mécanique déclaré
+
+- Moteur Diesel : démarre et tourne très bien
+- Embrayage : OK
+- Boîte de vitesses : OK
+
+---
+
 ## Journal
 
 <!-- Les entrées sont ajoutées ici au fil de l'avancement, par ordre chronologique. -->
