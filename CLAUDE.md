@@ -27,6 +27,10 @@ vehicule/
     taches.md                     → tâches de restauration
   04-preparation-raid/            → préparation raid côté véhicule
     taches.md                     → tâches prep raid (post-atelier)
+  fiches/                         → fiches techniques par modification/transformation
+    <nom-modification>/           → un dossier par fiche
+      fiche.md                    → documentation technique (source, pièces, étapes, notes)
+      photos/                     → photos liées à cette modification
 
 raid/
   01-inscription/                 → démarches d'inscription au Crazy Dust
@@ -69,6 +73,7 @@ Brief d'implémentation phase 1 : [`web/PROMPT.md`](web/PROMPT.md). Phase 2 (dé
 - Les `taches.md` / `pieces-a-acheter.md` sont des listes vivantes — items cochés restent en place
 - Listes et journaux sont disjoints : ne pas écrire dans `suivi.md` automatiquement quand un item est coché
 - Les photos restent dans le sous-dossier `photos/` de la phase concernée
+- Les fiches techniques (`vehicule/fiches/<nom>/fiche.md`) documentent les modifications significatives : source, pièces, étapes, notes. Chaque fiche a son propre dossier avec un sous-dossier `photos/`. Le contenu des fiches provient exclusivement de sources réelles (retours d'expérience, forums, docs techniques) — ne rien inventer.
 
 ## Informations véhicule
 
