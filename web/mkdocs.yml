@@ -77,3 +77,10 @@ nav:
     - Préparation raid:
       - À faire: vehicule/04-preparation-raid/taches.md
       - Journal: vehicule/04-preparation-raid/suivi.md
+  - Raid:
+    - Inscription:
+      - À faire: raid/01-inscription/taches.md
+      - Journal: raid/01-inscription/suivi.md
+    - Sponsoring:
+      - Dossier: raid/02-sponsoring/dossier-fr.md
+      - À faire: raid/02-sponsoring/taches.md
