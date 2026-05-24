@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Vérifie que le site web build sans erreur avant tout push.
+# Échec ici = push refusé.
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+WEB_DIR="$REPO_ROOT/web"
+
+if [[ ! -d "$WEB_DIR" ]]; then
+  exit 0
+fi
+
+if [[ ! -x "$WEB_DIR/.venv/bin/mkdocs" ]]; then
+  echo "pre-push: venv MkDocs introuvable dans $WEB_DIR/.venv/" >&2
+  echo "          créer le venv : cd web && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt" >&2
+  exit 1
+fi
+
+echo "pre-push: build MkDocs (strict)..."
+cd "$WEB_DIR"
+.venv/bin/mkdocs build --strict --quiet
+echo "pre-push: build OK"
