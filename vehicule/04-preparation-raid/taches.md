@@ -8,3 +8,8 @@ Géré via le skill `/todo` (code : `prep-raid`).
 - [ ] Sangles de remorquage
 - [ ] Batterie autonome type EcoFlow
 
+### Vérification organisateurs
+
+- [ ] Demander à l'orga Crazy Dust : CB fournie ou autorisation collective ANRT pour le convoi ?
+- [ ] Si à notre charge : déclaration ANRT du poste CB (mail autorisation@anrt.ma, ~10 €/poste, copie passeport)
+
