@@ -84,11 +84,13 @@
 ### 2026-05-25 — Points à vérifier lors du rappel du 2026-05-26
 
 **Pièces manquantes à confirmer :**
+
 - Cabochon avant clignotant/feu de position (manquant)
 - Cabochon feu arrière droit (manquant)
 - Cabochon feu arrière gauche / trappe essence (manquant)
 - Rétroviseur gauche (manquant)
 
 **Questions spécifiques :**
+
 - La plaque de coffre (au niveau de la banquette rabattable) est-elle présente ?
 - La banquette arrière est-elle bien rabattable (mécanisme OK) ?
