@@ -30,3 +30,12 @@ restoration in Morocco, registration process, and sponsorship search.
 | Préparation raid / Rally prep | ⏳ À venir / Upcoming |
 | Inscription Crazy Dust | ⏳ À venir / Upcoming |
 | Sponsoring | ⏳ À venir / Upcoming |
+
+---
+
+## Pour les agents IA / For AI agents
+
+| Agent | Fichier |
+|---|---|
+| Claude Code | [`CLAUDE.md`](CLAUDE.md) |
+| GitHub Copilot | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) |
