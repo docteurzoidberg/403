@@ -80,3 +80,11 @@ Brief d'implémentation phase 1 : [`web/PROMPT.md`](web/PROMPT.md). Phase 2 (dé
 - **Modèle** : Peugeot 403 break
 - **Raid cible** : Crazy Dust 2027
 - **Restauration** : au Maroc
+
+## Fiche raid Crazy Dust
+
+Toutes les informations compilées sur le raid (concept, étapes, tarifs, équipements, inclus/non inclus) sont dans :
+
+→ [`raid/crazy-dust-fiche.md`](raid/crazy-dust-fiche.md)
+
+Source : crazy-dust.com + owaka.com (scraping 2026-05-25). Les sections marquées `⚠️ à compléter` contiennent des placeholders — ne pas inventer de contenu, attendre confirmation de DrZoid ou de l'organisateur.
