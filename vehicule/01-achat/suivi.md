@@ -95,3 +95,4 @@
 - La plaque de coffre (au niveau de la banquette rabattable) est-elle présente ?
 - La banquette arrière est-elle bien rabattable (mécanisme OK) ?
 - Roue de secours présente ?
+- Manivelle présente ?
