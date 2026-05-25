@@ -131,8 +131,8 @@ Esprit : aventure, déjanté, solidaire. Ouvert à tous, sans budget illimité, 
 | Pack équipage 2 pers + véhicule | **2 990 €** |
 | Engagement adulte (seul) | 1 145 € |
 | Engagement enfant (- de 12 ans) | 700 € |
-| Engagement véhicule | 700 € |
-| Supplément véhicule > 2,20 m de haut | + 100 € |
+| Engagement véhicule (- de 2,20 m de haut) | 700 € |
+| Engagement véhicule (+ de 2,20 m de haut) | 700 € |
 | Assurance annulation *(obligatoire)* | + 100 € |
 | Location GPS Garmin *(option)* | + 150 € |
 | Nuit supplémentaire Marrakech *(option)* | + 55 € / pers |
