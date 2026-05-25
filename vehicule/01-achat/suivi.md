@@ -96,3 +96,4 @@
 - La banquette arrière est-elle bien rabattable (mécanisme OK) ?
 - Roue de secours présente ?
 - Manivelle présente ?
+- Supports du ciel de toit présents ?
