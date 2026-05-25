@@ -23,6 +23,7 @@ Géré via le skill `/todo` (code : `resto`).
 ### Modifications impératives
 
 - [ ] 'ski' protection carter, sur mesure
+- [ ] protection réservoir (plaque sur mesure — à valider avec l'atelier selon exposition réelle)
 - [ ] anneaux remorquage avant et arrière
 
 ### Modifications facultatives
