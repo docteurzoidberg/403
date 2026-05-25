@@ -37,5 +37,5 @@ restoration in Morocco, registration process, and sponsorship search.
 
 | Agent | Fichier |
 |---|---|
-| Claude Code | `CLAUDE.md` |
-| GitHub Copilot | `.github/copilot-instructions.md` |
+| Claude Code | [`CLAUDE.md`](CLAUDE.md) |
+| GitHub Copilot | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) |
