@@ -85,7 +85,9 @@ Une question résolue est retirée de la liste. Ne pas ajouter de question sans 
 
 Un site statique **MkDocs Material** publie le projet (suivi, listes, sponsoring). Le sous-dossier `web/` regroupe ce qui concerne le site : config (`mkdocs.yml`), dépendances (`requirements.txt`), venv (`.venv/`), build (`build/`), scripts. Le site consomme `vehicule/` et `raid/` **en lecture seule** — ne jamais déplacer ou réécrire ces fichiers pour les besoins du site.
 
-Brief d'implémentation phase 1 : [`web/PROMPT.md`](web/PROMPT.md). Phase 2 (déploiement GitHub Pages) à venir.
+Brief d'implémentation phase 1 : [`prompts/0_MKDOCS_PLAN.md`](prompts/0_MKDOCS_PLAN.md). Phase 2 (déploiement GitHub Pages) à venir.
+
+Plan homepage hero page : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](prompts/1_MKDOCS_HOMEPAGE_PLAN.md).
 
 ## Méthode de travail
 

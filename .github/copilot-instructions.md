@@ -35,6 +35,10 @@ raid/
 
 web/                            → site MkDocs Material (lecture seule sur vehicule/ et raid/)
 
+prompts/
+  0_MKDOCS_PLAN.md             → brief d'implémentation MkDocs phase 1
+  1_MKDOCS_HOMEPAGE_PLAN.md    → plan homepage hero page (en cours de définition)
+
 questions-en-suspens.md         → décisions en attente, infos manquantes
 
 Journaux de suivi (`suivi.md`) :
