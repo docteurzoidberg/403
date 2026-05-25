@@ -21,3 +21,12 @@ la restauration au Maroc, les démarches d'inscription, et la recherche de spons
 | Préparation raid | ⏳ À venir |
 | Inscription Crazy Dust | ⏳ À venir |
 | Sponsoring | ⏳ À venir |
+
+---
+
+## Pour les agents IA
+
+| Agent | Fichier |
+|---|---|
+| Claude Code | [`CLAUDE.md`](CLAUDE.md) |
+| GitHub Copilot | [`.github/copilot-instructions.md`](.github/copilot-instructions.md) |
