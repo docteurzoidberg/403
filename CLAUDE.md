@@ -59,6 +59,20 @@ web/                              → sous-dossier du projet : site MkDocs Mater
 
 Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skills/todo/SKILL.md)) : add / remove / cocher / décocher / consulter.
 
+## Journaux de suivi
+
+5 fichiers `suivi.md` servent de journal chronologique par phase. Toujours ajouter en bas, jamais réécrire l'historique.
+
+Gestion via le skill `/journal` (cf. [`.claude/skills/journal/SKILL.md`](.claude/skills/journal/SKILL.md)) : ajouter, consulter, lister.
+
+## Questions en suspens
+
+Les décisions non encore prises, informations manquantes ou points à clarifier (toutes phases) sont centralisés dans :
+
+→ [`questions-en-suspens.md`](questions-en-suspens.md)
+
+Une question résolue est retirée de la liste. Ne pas ajouter de question sans instruction explicite de DrZoid.
+
 ## Site web
 
 Un site statique **MkDocs Material** publie le projet (suivi, listes, sponsoring). Le sous-dossier `web/` regroupe ce qui concerne le site : config (`mkdocs.yml`), dépendances (`requirements.txt`), venv (`.venv/`), build (`build/`), scripts. Le site consomme `vehicule/` et `raid/` **en lecture seule** — ne jamais déplacer ou réécrire ces fichiers pour les besoins du site.
