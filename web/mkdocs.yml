@@ -81,7 +81,6 @@ markdown_extensions:
 # Fichiers présents dans docs_dir mais qu'on ne publie pas
 exclude_docs: |
   raid/02-sponsoring/sponsors/**
-  raid/02-sponsoring/dossier-en.md
   raid/02-sponsoring/modele-orga/**
 
 nav:

@@ -70,7 +70,6 @@ web/
 
 Définies dans `mkdocs.yml` (clé `exclude_docs`) :
 - `raid/02-sponsoring/sponsors/**` — notes internes sponsors
-- `raid/02-sponsoring/dossier-en.md` — version EN, ajoutée en phase i18n
 - `raid/02-sponsoring/modele-orga/**` — modèles de référence
 
 Le contenu sensible (`questions-en-suspens.md`, etc.) reste à la racine du repo mais n'est pas exposé sur le site car il n'est pas dans `web/docs/`.

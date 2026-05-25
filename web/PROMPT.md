@@ -6,7 +6,7 @@ Tout le contexte projet, structure de dossiers et méthode de travail sont dans 
 
 ## Objectif phase 1
 Mettre en place un site statique **MkDocs Material** buildable en local, avec **automatisation au push (hook git)**.
-**Hors scope** : déploiement GitHub Pages, GitHub Actions, i18n EN active, domaine custom, analytics.
+**Hors scope** : déploiement GitHub Pages, GitHub Actions, domaine custom, analytics.
 
 ## Emplacement du site dans le projet
 Le site vit dans un sous-dossier `web/` du projet. Les fichiers de contenu existants (`vehicule/`, `raid/`, `CLAUDE.md`, `README.md`, `questions-en-suspens.md`) restent à leur place et servent de source au site en lecture seule — on ne les modifie pas pour les besoins du rendu.
@@ -35,7 +35,7 @@ Le site vit dans un sous-dossier `web/` du projet. Les fichiers de contenu exist
 - MkDocs + thème Material
 - Python via venv local dans `web/.venv/`
 - Plugins : `mkdocs-material`, `mkdocs-glightbox` (galeries photos), `mkdocs-awesome-pages-plugin` (nav fine)
-- Le plugin officiel `i18n` est installé et configuré pour FR seulement, mais la structure reste prête pour EN plus tard
+- Le site est en français uniquement
 
 ## Configuration site (`web/mkdocs.yml`)
 - `site_name`: "Projet 403 — Crazy Dust 2027"
@@ -63,7 +63,7 @@ Le site vit dans un sous-dossier `web/` du projet. Les fichiers de contenu exist
    - Préparation raid → `taches.md` + `suivi.md` + photos
 3. **Le raid**
    - Inscription → `raid/01-inscription/taches.md` + `suivi.md`
-   - Sponsoring → `raid/02-sponsoring/dossier-fr.md` + `taches.md` (le `dossier-en.md` est ignoré en v1)
+   - Sponsoring → `raid/02-sponsoring/dossier-fr.md` + `taches.md`
 
 Note : avec `docs_dir: ..`, MkDocs résoudra les liens internes des `.md` existants depuis la racine. Vérifier qu'aucun lien relatif ne casse, ajuster sinon (sans modifier la structure des fichiers source).
 
