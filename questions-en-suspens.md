@@ -21,7 +21,6 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Restauration Maroc
 
-- Snorkel : décision oui/non (conditionne l'achat d'un capot supplémentaire en France)
 - Attelage sur mesure : décision oui/non (conditionne l'emplacement de l'anneau de remorquage arrière)
 - Remplacement dynamo → alternateur : décision oui/non
 - Couleur de peinture

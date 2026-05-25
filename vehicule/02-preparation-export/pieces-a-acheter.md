@@ -14,6 +14,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)
 - [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté)
 - [ ] plaques de désensablage
+- [ ] séparateur cyclonique (filtration air moteur)
 
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
 
