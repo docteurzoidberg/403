@@ -23,11 +23,13 @@ Géré via le skill `/todo` (code : `resto`).
 ### Modifications impératives
 
 - [ ] 'ski' protection carter, sur mesure
+- [ ] protection réservoir (plaque sur mesure — à valider avec l'atelier selon exposition réelle)
 - [ ] anneaux remorquage avant et arrière
 
 ### Modifications facultatives
 
-- [ ] installation snorkel — uniquement si complètement démontable / réversible (nécessite achat d'un capot supplémentaire en France pour ne pas modifier l'original)
+- ~~[ ] installation snorkel — uniquement si complètement démontable / réversible (nécessite achat d'un capot supplémentaire en France pour ne pas modifier l'original)~~ → séparateur cyclonique retenu
+- [ ] installation séparateur cyclonique (filtration air moteur)
 - [ ] attelage sur mesure (si réalisé, l'anneau remorquage arrière y sera installé)
 - [ ] remplacement dynamo par alternateur ?
 - [ ] fiabilisation / amélioration ventilation du radiateur
