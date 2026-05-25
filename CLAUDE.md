@@ -63,6 +63,14 @@ Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skill
 
 5 fichiers `suivi.md` servent de journal chronologique par phase. Toujours ajouter en bas, jamais réécrire l'historique.
 
+| Code | Journal | Fichier |
+|---|---|---|
+| `achat` | Achat du véhicule | `vehicule/01-achat/suivi.md` |
+| `export` | Préparation export / transport Maroc | `vehicule/02-preparation-export/suivi.md` |
+| `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/suivi.md` |
+| `prep-raid` | Préparation raid — côté véhicule | `vehicule/04-preparation-raid/suivi.md` |
+| `inscription` | Inscriptions / admin raid | `raid/01-inscription/suivi.md` |
+
 Gestion via le skill `/journal` (cf. [`.claude/skills/journal/SKILL.md`](.claude/skills/journal/SKILL.md)) : ajouter, consulter, lister.
 
 ## Questions en suspens

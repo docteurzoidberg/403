@@ -28,7 +28,7 @@ vehicule/
       photos/
 
 raid/
-  01-inscription/               → tâches + journal inscription
+  01-inscription/               → tâches + journal inscription (`suivi.md`)
   02-sponsoring/                → tâches sponsoring
   03-photos-evenement/          → photos pendant le raid (futur)
   crazy-dust-fiche.md           → toutes les infos compilées sur le raid
@@ -36,6 +36,16 @@ raid/
 web/                            → site MkDocs Material (lecture seule sur vehicule/ et raid/)
 
 questions-en-suspens.md         → décisions en attente, infos manquantes
+
+Journaux de suivi (`suivi.md`) :
+
+| Code | Fichier |
+|---|---|
+| `achat` | `vehicule/01-achat/suivi.md` |
+| `export` | `vehicule/02-preparation-export/suivi.md` |
+| `resto` | `vehicule/03-restauration-maroc/suivi.md` |
+| `prep-raid` | `vehicule/04-preparation-raid/suivi.md` |
+| `inscription` | `raid/01-inscription/suivi.md` |
 ```
 
 ---
