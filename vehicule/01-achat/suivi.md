@@ -80,3 +80,15 @@
 - Le propriétaire indique que la vente n'est pas pressée de son côté.
 - Discussion sur le montage des pneus et sur le transport du véhicule.
 - Il demande à être rappelé **mardi prochain (2026-05-26)**.
+
+### 2026-05-25 — Points à vérifier lors du rappel du 2026-05-26
+
+**Pièces manquantes à confirmer :**
+- Cabochon avant clignotant/feu de position (manquant)
+- Cabochon feu arrière droit (manquant)
+- Cabochon feu arrière gauche / trappe essence (manquant)
+- Rétroviseur gauche (manquant)
+
+**Questions spécifiques :**
+- La plaque de coffre (au niveau de la banquette rabattable) est-elle présente ?
+- La banquette arrière est-elle bien rabattable (mécanisme OK) ?
