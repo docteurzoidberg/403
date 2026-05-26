@@ -88,7 +88,7 @@
   - **Plaque de coffre** : présente ✅
   - **Roue de secours** : présente ✅
   - **Manivelle** : présente ✅
-  - **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — montage prévu avant le contrôle technique ✅
+  - **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — il les monte lui-même avant la prise en main pour que le véhicule soit rôulant ✅
 
 ---
 
