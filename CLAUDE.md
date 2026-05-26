@@ -61,7 +61,7 @@ Gestion via le skill `/todo` (cf. [`.claude/skills/todo/SKILL.md`](.claude/skill
 
 ## Journaux de suivi
 
-5 fichiers `suivi.md` servent de journal chronologique par phase. Toujours ajouter en bas, jamais réécrire l'historique.
+5 fichiers `suivi.md` servent de journal chronologique par phase. Toujours ajouter **en haut** (entrée la plus récente en premier), jamais réécrire l'historique.
 
 | Code | Journal | Fichier |
 |---|---|---|
@@ -93,7 +93,7 @@ Plan homepage hero page : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](prompts/1_MKDOCS
 
 - L'utilisateur dicte le rythme et le contenu : **ne jamais inventer d'étapes, de jalons ou de tâches**
 - Le contenu est ajouté au fil de l'avancement réel du projet
-- Les `suivi.md` sont des journaux de bord chronologiques — toujours ajouter en bas, sans réécrire l'historique
+- Les `suivi.md` sont des journaux de bord — **entrée la plus récente en haut**, sans réécrire l'historique
 - Les `taches.md` / `pieces-a-acheter.md` sont des listes vivantes — items cochés restent en place
 - Listes et journaux sont disjoints : ne pas écrire dans `suivi.md` automatiquement quand un item est coché
 - Les photos restent dans le sous-dossier `photos/` de la phase concernée

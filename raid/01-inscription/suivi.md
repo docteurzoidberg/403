@@ -6,4 +6,4 @@
 
 ## Journal
 
-<!-- Les entrées sont ajoutées ici au fil de l'avancement, par ordre chronologique. -->
+<!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->

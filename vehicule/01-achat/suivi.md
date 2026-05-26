@@ -73,13 +73,7 @@
 
 ## Journal
 
-<!-- Les entrées sont ajoutées ici au fil de l'avancement, par ordre chronologique. -->
-
-### 2026-05-24 — Conversation téléphonique avec le propriétaire
-
-- Le propriétaire indique que la vente n'est pas pressée de son côté.
-- Discussion sur le montage des pneus et sur le transport du véhicule.
-- Il demande à être rappelé **mardi prochain (2026-05-26)**.
+<!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
 ### 2026-05-26 — Appel du vendeur (rappel du 2026-05-24)
 
@@ -120,3 +114,11 @@
 - Roue de secours présente ?
 - Manivelle présente ?
 - Supports du ciel de toit présents ?
+
+---
+
+### 2026-05-24 — Conversation téléphonique avec le propriétaire
+
+- Le propriétaire indique que la vente n'est pas pressée de son côté.
+- Discussion sur le montage des pneus et sur le transport du véhicule.
+- Il demande à être rappelé **mardi prochain (2026-05-26)**.
