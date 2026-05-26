@@ -16,6 +16,12 @@ Liste des gadgets (déco, tech, et autres) pour le raid Crazy Dust 2027.
 - [ ] **2 haut-parleurs horn** — montage sur barre sono de toit
 - [ ] **Ampli Bluetooth** — petit ampli pour alimenter les HP de la barre sono
 
+### Pneumatique
+
+- [ ] **Compresseur** — pour alimenter les trompettes
+- [ ] **Raccord rapide** — pour soufflette et gonfleur
+- [ ] **Tuyau pneumatique 3m**
+
 ### Éclairage
 
 - [ ] **Barre LED** — avec supports magnétiques pour toit
