@@ -81,6 +81,17 @@
 - Discussion sur le montage des pneus et sur le transport du véhicule.
 - Il demande à être rappelé **mardi prochain (2026-05-26)**.
 
+### 2026-05-26 — Appel du vendeur (rappel du 2026-05-24)
+
+- Le vendeur a appelé le matin, rappel non effectué dans la journée.
+- Confirmations obtenues :
+  - **Plaque de coffre** : présente ✅
+  - **Roue de secours** : présente ✅
+  - **Manivelle** : présente ✅
+  - **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — montage prévu avant le contrôle technique ✅
+
+---
+
 ### 2026-05-25 — Points à vérifier lors du rappel du 2026-05-26
 
 **Pièces manquantes à confirmer :**
