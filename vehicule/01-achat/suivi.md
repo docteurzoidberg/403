@@ -84,12 +84,20 @@
 ### 2026-05-26 — Appel du vendeur (rappel du 2026-05-24)
 
 - Le vendeur a appelé le matin, rappel non effectué dans la journée.
-- Le vendeur propose de faire sabler les jantes et les faire peindre en époxy par un ami à lui.
-- Confirmations obtenues :
-  - **Plaque de coffre** : présente ✅
-  - **Roue de secours** : présente ✅
-  - **Manivelle** : présente ✅
-  - **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — il les monte lui-même avant la prise en main pour que le véhicule soit rôulant ✅
+
+**Confirmations obtenues :**
+- **Plaque de coffre** : présente ✅
+- **Roue de secours** : présente ✅
+- **Manivelle** : présente ✅
+- **Réservoir** : nettoyé, propre, utilisable ✅
+- **Ciel de toit** : à reprendre mais présent, avec les supports ✅
+- **Banquette arrière rabattable** : fonctionnelle ✅
+- **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — il les monte lui-même avant la prise en main ✅
+- **Jantes** : les jantes actuelles sont du provisoire (ce qu'il avait sous la main) — il va trouver 4 jantes identiques + 2 de secours
+- **Cabochons (AV/AR)** : manquants, confirmés absents ❌
+
+**Proposition du vendeur :**
+- Faire sabler les jantes et les peindre en époxy via un ami — en attente de décision DrZoid
 
 ---
 
