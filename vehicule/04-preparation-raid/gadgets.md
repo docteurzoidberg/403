@@ -25,6 +25,7 @@ Liste des gadgets (déco, tech, et autres) pour le raid Crazy Dust 2027.
 ### Éclairage
 
 - [ ] **Barre LED** — avec supports magnétiques pour toit
+- [ ] **2 phares antibrouillard LED** — fixation sur pare-chocs
 
 ### Instrumentation
 
