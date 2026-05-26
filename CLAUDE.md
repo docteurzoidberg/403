@@ -54,6 +54,7 @@ web/                              → sous-dossier du projet : site MkDocs Mater
 | `export` | Tâches avant départ Maroc | `vehicule/02-preparation-export/taches.md` |
 | `resto` | Restauration au Maroc | `vehicule/03-restauration-maroc/taches.md` |
 | `prep-raid` | Prep raid côté véhicule | `vehicule/04-preparation-raid/taches.md` |
+| `gadgets` | Gadgets raid (déco, tech, autres) | `vehicule/04-preparation-raid/gadgets.md` |
 | `inscription` | Inscriptions / admin raid | `raid/01-inscription/taches.md` |
 | `sponsoring` | Sponsoring (contacts, dossiers, relances) | `raid/02-sponsoring/taches.md` |
 
