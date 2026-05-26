@@ -4,7 +4,7 @@ Liste des gadgets (déco, tech, et autres) pour le raid Crazy Dust 2027.
 
 ## Déco
 
-<!-- ex: stickers vintage, déco carrosserie, habillage intérieur, accessoires extérieurs... -->
+- [ ] **Klaxon trompettes** — 2x double trompettes (= 4 trompettes au total), montage sur barre sono de toit — [AliExpress](https://fr.aliexpress.com/item/1005006820945042.html)
 
 ## Tech
 
