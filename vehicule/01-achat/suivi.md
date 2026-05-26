@@ -80,6 +80,7 @@
 - Le vendeur a appelé le matin, rappel non effectué dans la journée.
 
 **Confirmations obtenues :**
+
 - **Plaque de coffre** : présente ✅
 - **Roue de secours** : présente ✅
 - **Manivelle** : présente ✅
@@ -91,9 +92,11 @@
 - **Cabochons (AV/AR)** : manquants, confirmés absents ❌
 
 **À clarifier (message à envoyer au vendeur) :**
+
 - **Rétroviseur gauche** : présent ou manquant ? (oublié pendant l'appel)
 
 **Proposition du vendeur :**
+
 - Faire sabler les jantes et les peindre en époxy via un ami — en attente de décision DrZoid
 
 ---
