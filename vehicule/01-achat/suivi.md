@@ -96,6 +96,9 @@
 - **Jantes** : les jantes actuelles sont du provisoire (ce qu'il avait sous la main) — il va trouver 4 jantes identiques + 2 de secours
 - **Cabochons (AV/AR)** : manquants, confirmés absents ❌
 
+**À clarifier (message à envoyer au vendeur) :**
+- **Rétroviseur gauche** : présent ou manquant ? (oublié pendant l'appel)
+
 **Proposition du vendeur :**
 - Faire sabler les jantes et les peindre en époxy via un ami — en attente de décision DrZoid
 
