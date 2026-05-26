@@ -84,6 +84,7 @@
 ### 2026-05-26 — Appel du vendeur (rappel du 2026-05-24)
 
 - Le vendeur a appelé le matin, rappel non effectué dans la journée.
+- Le vendeur propose de faire sabler les jantes et les faire peindre en époxy par un ami à lui.
 - Confirmations obtenues :
   - **Plaque de coffre** : présente ✅
   - **Roue de secours** : présente ✅
