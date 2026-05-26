@@ -48,6 +48,23 @@
 - `annonce-02.jpg` — arrière, dans le garage du vendeur (404 cabriolet à côté)
 - `annonce-03.jpg` — 3/4 arrière droit avec galerie de toit
 
+### Photos envoyées par le vendeur (2026-05-26)
+
+10 photos reçues via Discord — voir [`photos/`](photos/) :
+
+- `vendeur-01.jpg` — coffre ouvert vu de l'arrière, roue de secours et banquettes déposées visibles
+- `vendeur-02.jpg` — profil droit extérieur, carrosserie complète, capot fermé
+- `vendeur-03.jpg` — 3/4 avant droit, capot ouvert, dans le garage
+- `vendeur-04.jpg` — face avant, capot ouvert, plaque 73 F BB 09 visible
+- `vendeur-05.jpg` — compartiment moteur diesel (injecteurs, batterie, filtre carburant)
+- `vendeur-06.jpg` — 3/4 avant gauche, capot ouvert, plaque 73 F BB 09
+- `vendeur-07.jpg` — profil gauche complet, capot ouvert, galerie de toit visible, sur pont élévateur
+- `vendeur-08.jpg` — profil droit arrière, galerie de toit, hayon ouvert, plaque 207 BB 09
+- `vendeur-09.jpg` — vue de l'arrière, banquettes et garnitures posées au sol
+- `vendeur-10.jpg` — banquette arrière démontée, ressorts apparents
+
+> Note : 11 photos annoncées, 10 reçues (doublon possible lors du transfert).
+
 ---
 
 ## Historique du véhicule
@@ -74,6 +91,12 @@
 ## Journal
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
+
+### 2026-05-26 — Envoi de photos par le vendeur
+
+- Le vendeur a envoyé des photos du véhicule.
+
+---
 
 ### 2026-05-26 — Appel du vendeur (rappel du 2026-05-24)
 
