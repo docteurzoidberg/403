@@ -18,7 +18,7 @@ Liste des gadgets (déco, tech, et autres) pour le raid Crazy Dust 2027.
 
 ### Pneumatique
 
-- [ ] **Compresseur** — pour alimenter les trompettes
+- [ ] **Compresseur VEVOR YD-127-6L** — 12V, 6.35 CFM, 150 PSI, cuve 6L, 12.75 kg — pour alimenter les trompettes + gonflage pneus — montage zone milieu galerie (483×150×390 mm)
 - [ ] **Raccord rapide** — pour soufflette et gonfleur
 - [ ] **Tuyau pneumatique 3m**
 
