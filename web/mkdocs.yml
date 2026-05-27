@@ -49,6 +49,9 @@ theme:
 extra_css:
   - assets/extra.css
 
+extra:
+  generator: false
+
 plugins:
   - search
   - glightbox:
