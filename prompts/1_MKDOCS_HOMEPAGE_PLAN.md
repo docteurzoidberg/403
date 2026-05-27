@@ -1,7 +1,7 @@
 # Plan — Homepage MkDocs Material (Hero Page)
 
 ## Statut
-`in-progress` — analyse complète, questions ouvertes regroupées en fin de document (au 2026-05-27)
+`ready-to-implement` — toutes les décisions tranchées (au 2026-05-27)
 
 ---
 
@@ -22,7 +22,7 @@ La hero page est une couche visuelle au-dessus, rendue via template dédié.
 - Variables CSS custom définies dans `web/docs/assets/extra.css`
 - Surcharge thème dans `web/overrides/main.html`
 
-### Hero existant (main.html — provisoire)
+### Hero existant (main.html — à remplacer)
 Un bloc hero minimal est déjà injecté sur la homepage via `main.html` :
 ```
 Eyebrow  : "Crazy Dust · 2027"       (JetBrains Mono, uppercase, letterspacing 0.28em)
@@ -37,7 +37,7 @@ Ce hero **sera remplacé** par le template dédié `home.html`.
 |---|---|---|
 | `vehicule/01-achat/photos/annonce-01..03.jpg` | Photos annonce vendeur (403 en France) | Possible |
 | `vehicule/01-achat/photos/vendeur-01..10.jpg` | Photos vendeur (403 en France) | Possible |
-| `vehicule/04-preparation-raid/photos/ia-concept-01.png` | Concept IA (1448×1086, RGBA) — 403 ambiance raid/désert | Candidat principal hero |
+| `vehicule/04-preparation-raid/photos/ia-concept-01.png` | Concept IA (1448×1086, RGBA) — 403 ambiance raid/désert | **✅ Choisi comme photo hero** |
 | `web/docs/assets/logo.png` | Logo projet | Header uniquement |
 
 Dossiers photos export / restauration / raid : **vides pour l'instant**.
@@ -63,9 +63,11 @@ Dossiers photos export / restauration / raid : **vides pour l'instant**.
 | Fichier | Action | Rôle |
 |---|---|---|
 | `web/overrides/home.html` | **Créer** | Template dédié hero page (extends `main.html`) |
-| `web/docs/index.md` | **Créer** | Front matter `template: home.html` + données YAML pour les sections |
+| `web/docs/index.md` | **Créer** | Front matter `template: home.html` |
 | `web/docs/assets/extra.css` | **Modifier** | Ajouter CSS sections hero scrollable |
+| `web/docs/assets/ia-concept-01.png` | **Copier** | Photo hero (depuis `vehicule/04-preparation-raid/photos/`) |
 | `web/overrides/main.html` | **Modifier** | Supprimer le bloc hero provisoire |
+| `web/mkdocs.yml` | **Modifier** | Nav `Accueil: index.md` au lieu de `README.md` |
 
 ### Mécanisme MkDocs
 ```yaml
@@ -76,51 +78,63 @@ title: Accueil
 ---
 ```
 Le template `home.html` extend `main.html` (qui extend `base.html`) et surcharge `{% block content %}`.
-Les données de contenu des sections peuvent être passées via front matter YAML ou codées en dur dans le template.
 
 ### Navigation `mkdocs.yml`
-La nav actuelle pointe `Accueil: README.md` — à changer en `Accueil: index.md` une fois le template créé.
+```yaml
+nav:
+  - Accueil: index.md   # ← était README.md
+  - ...
+```
 
 ---
 
-## Structure de la hero page (sections)
+## Contenu des sections — décisions validées
 
-### Section 1 — Hero principal (plein écran ou demi-écran)
+### Section 1 — Hero principal
+
+| Élément | Décision |
+|---|---|
+| Photo de fond | `ia-concept-01.png` (concept IA 403, ambiance désert) |
+| Hauteur | `100vh` |
+| Eyebrow | `Crazy Dust · 2027` |
+| Titre | **`Crazy 403,`** |
+| Rule | Ligne décorative (style existant) |
+| Tagline | *"Carnet de bord — du garage français aux pistes marocaines."* |
+| Compteur de jours | ❌ Non |
+
+**CSS :** `min-height: 100vh`, `background-image` avec overlay gradient sombre/sable cohérent avec la palette, texte centré.
+
+---
+
+### Section 2 — Le projet en bref
+
+**Texte de présentation :**
+> Sortir une 403 de 1962 d'un garage français, la restaurer au Maroc, et la lancer sur les pistes du Crazy Dust. Deux pilotes, zéro garantie, beaucoup de cambouis.
+
+**Chiffres clés (grille 4 colonnes) :**
+| Chiffre | Libellé |
+|---|---|
+| `2 700 km` | parcours total |
+| `410 km` | dont piste |
+| `9 jours` | durée du raid |
+| `1962` | année de la 403 |
+
+**Rendu :** grand nombre Cormorant Garamond + libellé Inter sous chaque chiffre, fond légèrement contrasté.
+
+---
+
+### Section 3 — Pilotes
 
 **Contenu :**
-- Photo de fond (pleine largeur, overlay sombre/sable)
-- Eyebrow : `Crazy Dust · 2027` (style existant)
-- Titre principal : **à décider** (voir Questions)
-- Tagline : **à décider** (voir Questions)
-- Éventuellement : compteur de jours avant le départ (JS léger)
-
-**CSS à écrire :**
-- `min-height: 70vh` ou `100vh` selon préférence
-- `background-image` sur la photo choisie + overlay gradient (cohérent avec skin)
-- Titre en blanc / sable sur fond sombre
-
-**Contrainte photo :** la photo hero doit être commitée dans le repo sous `web/docs/assets/` (pas dans `vehicule/` — MkDocs doit y accéder directement).
+- DrZoid + Zill
+- Placeholder photo circulaire pour chaque pilote (pour futures versions stylisées de profil)
+- Pas de photos réelles pour l'instant — placeholder générique (initiales ou icône)
 
 ---
 
-### Section 2 — Chiffres clés / Le projet en bref
+### Section 4 — Avancement / Timeline
 
-**Données disponibles et réelles :**
-```
-2 700 km    — parcours total
-410 km      — dont piste
-9 jours     — durée du raid
-1962        — année de la 403
-```
-**À décider :** quels chiffres afficher, dans quel ordre, avec quel libellé (voir Questions).
-
-**Rendu envisagé :** grille 3 ou 4 colonnes, grand nombre Cormorant Garamond + libellé Inter, sur fond légèrement contrasté.
-
----
-
-### Section 3 — Avancement / Timeline
-
-**Phases actuelles (source `README.md`) :**
+**Phases :**
 1. Achat — 🔄 En cours
 2. Préparation export — ⏳ À venir
 3. Restauration Maroc — ⏳ À venir
@@ -128,21 +142,19 @@ La nav actuelle pointe `Accueil: README.md` — à changer en `Accueil: index.md
 5. Inscription Crazy Dust — ⏳ À venir
 6. Sponsoring — ⏳ À venir
 
-**Format envisagé :** timeline horizontale (desktop) / verticale (mobile), badges colorés par statut.
-**Statique** (hard-codé dans le template) — plus robuste, pas de dépendance aux fichiers source.
-Mise à jour manuelle au fil du projet.
+**Format :** timeline horizontale (desktop) / verticale (mobile), badges colorés par statut, **statique** (hard-codé dans le template).
 
 ---
 
-### Section 4 — Liens rapides
+### Section 5 — Liens rapides
 
-**Cibles logiques (à valider) :**
-- → Suivre l'avancement (tableau de bord)
-- → Le raid Crazy Dust (fiche raid)
-- → Dossier sponsoring
-- → Galerie photos
+**4 liens (placeholders, à revoir plus tard) :**
+1. Suivre l'avancement
+2. Le raid Crazy Dust
+3. Dossier sponsoring
+4. Galerie photos
 
-**Rendu envisagé :** 4 boutons/cards, icônes Material, style cohérent avec la palette.
+**Rendu :** 4 cards/boutons, icônes Material, palette cohérente.
 
 ---
 
@@ -172,31 +184,22 @@ Mise à jour manuelle au fil du projet.
 - Ne pas modifier les fichiers source existants (`vehicule/`, `raid/`, `README.md`)
 - Pas de contenu inventé — uniquement ce qui est réel et validé par DrZoid
 - Compatible MkDocs Material (version installée : cf. `web/requirements.txt`)
-- Photo hero : copier dans `web/docs/assets/` si issue de `vehicule/`
-- JS si compteur : fichier dédié `web/docs/assets/countdown.js`, chargé via `extra_javascript` dans `mkdocs.yml`
+- Photo hero copiée dans `web/docs/assets/` (MkDocs doit y accéder directement)
+- Pas de JS (pas de compteur)
 
 ---
 
-## Questions à trancher avant implémentation
+## Questions — toutes tranchées ✅
 
-### Photo hero (Section 1)
-- [ ] **Q1** — Utiliser le concept IA (`ia-concept-01.png`) comme photo hero, ou attendre d'avoir une vraie photo de la 403 ? (ou autre source ?)
-- [ ] **Q2** — La photo hero doit-elle occuper tout l'écran (`100vh`) ou juste une bannière haute (`60-70vh`) ?
-
-### Textes (Section 1)
-- [ ] **Q3** — Titre hero : garder `"Peugeot 403 break"` ou quelque chose de plus court/punchier (ex. `"403"`, `"Projet 403"`, autre) ?
-- [ ] **Q4** — Tagline : garder `"Carnet de bord — du garage français aux pistes marocaines."` ou proposer une nouvelle version ?
-
-### Compteur de jours (Section 1)
-- [ ] **Q5** — Afficher un compteur JS "X jours avant le départ" ? Si oui, date cible : édition 2026 (19 oct 2026) ou 2027 ?
-
-### Chiffres clés (Section 2)
-- [ ] **Q6** — Quels chiffres afficher parmi : `2 700 km` / `410 km piste` / `9 jours` / `1962` / autre ?
-- [ ] **Q7** — Mentionner le nombre de pilotes (DrZoid + Zill = 2) ? Et leurs noms / pseudos ?
-
-### Liens rapides (Section 4)
-- [ ] **Q8** — Valider les 4 cibles proposées : Avancement · Crazy Dust · Sponsoring · Galerie ? Autres boutons souhaités ?
-
-### Contenu général
-- [ ] **Q9** — La section "Pour les agents IA" du README actuel doit-elle rester visible sur la homepage, ou être retirée du rendu public ?
-- [ ] **Q10** — Un court texte de présentation du projet dans la Section 2 (en plus des chiffres) ? Si oui, valider le wording avant implémentation.
+| # | Question | Réponse |
+|---|---|---|
+| Q1 | Photo hero | `ia-concept-01.png` (concept IA) |
+| Q2 | Hauteur hero | `100vh` |
+| Q3 | Titre hero | `Crazy 403,` |
+| Q4 | Tagline | Garder l'actuelle |
+| Q5 | Compteur de jours | Non |
+| Q6 | Chiffres clés | 2 700 km · 410 km piste · 9 jours · 1962 |
+| Q7 | Pilotes | DrZoid + Zill, placeholder photo circulaire |
+| Q8 | Liens rapides | 4 placeholders (avancement · raid · sponsoring · galerie) |
+| Q9 | Section "Pour les agents IA" | Retirée du rendu public |
+| Q10 | Texte Section 2 | Option B validée |
