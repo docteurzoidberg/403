@@ -360,3 +360,482 @@
 .md-footer a {
   border-bottom: none;
 }
+
+/* =====================================================================
+   Home page — Hero scrollable (template home.html)
+   ===================================================================== */
+
+/* Sortir du conteneur Material (qui limite à ~50rem et ajoute du padding) */
+.md-content:has(.home-403) {
+  max-width: 100%;
+}
+.md-content:has(.home-403) .md-content__inner {
+  margin: 0;
+  padding: 0;
+}
+.md-content:has(.home-403) .md-content__inner::before {
+  display: none;
+}
+
+/* Pas de border-bottom dotted sur les liens dans la home */
+.home-403 a {
+  border-bottom: none !important;
+}
+
+.home-403 {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--md-default-fg-color);
+}
+
+/* ----- Eyebrow réutilisable ----- */
+.home-403__eyebrow {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--md-primary-fg-color);
+  margin: 0 0 1rem;
+}
+
+/* ----- Rule décorative ----- */
+.home-403__rule {
+  width: 60px;
+  height: 1px;
+  background: var(--md-primary-fg-color);
+  margin: 1.4rem auto;
+  opacity: 0.8;
+}
+
+/* ----- Conteneur centré pour sections texte ----- */
+.home-403__container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ----- Titre de section ----- */
+.home-403__section-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  margin: 0 0 2.5rem;
+  color: var(--md-default-fg-color);
+}
+
+/* =====================================================================
+   Section 1 — Hero principal
+   ===================================================================== */
+
+.home-403__hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.home-403__hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(28, 22, 18, 0.35) 0%,
+      rgba(28, 22, 18, 0.45) 60%,
+      rgba(28, 22, 18, 0.75) 100%),
+    linear-gradient(135deg,
+      rgba(178, 90, 44, 0.18),
+      rgba(46, 34, 26, 0.30) 70%);
+}
+
+[data-md-color-scheme="default"] .home-403__hero-overlay {
+  background:
+    linear-gradient(180deg,
+      rgba(46, 34, 26, 0.25) 0%,
+      rgba(46, 34, 26, 0.35) 60%,
+      rgba(46, 34, 26, 0.65) 100%),
+    linear-gradient(135deg,
+      rgba(178, 90, 44, 0.15),
+      rgba(46, 34, 26, 0.25) 70%);
+}
+
+.home-403__hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 2rem 1.5rem;
+}
+
+.home-403__hero .home-403__eyebrow {
+  color: #f3e9d2;
+  opacity: 0.95;
+}
+
+.home-403__hero-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 1;
+  margin: 0;
+  color: #f3e9d2;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home-403__hero .home-403__rule {
+  background: #d9a06b;
+  opacity: 0.9;
+  width: 80px;
+}
+
+.home-403__hero-tagline {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #ece1c5;
+  margin: 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* =====================================================================
+   Section générique (entre sections, padding vertical)
+   ===================================================================== */
+
+.home-403__section {
+  padding: 5rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* =====================================================================
+   Section 2 — Le projet en bref + chiffres clés
+   ===================================================================== */
+
+.home-403__intro {
+  background: var(--md-default-bg-color--lighter);
+  text-align: center;
+}
+
+.home-403__intro-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.45;
+  color: var(--md-default-fg-color);
+  max-width: 760px;
+  margin: 0 auto 3.5rem;
+  font-style: italic;
+}
+
+.home-403__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.home-403__stat {
+  padding: 1.5rem 0.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.home-403__stat-value {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.4rem;
+}
+
+.home-403__stat-unit {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.1em;
+}
+
+.home-403__stat-label {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* =====================================================================
+   Section 3 — Pilotes
+   ===================================================================== */
+
+.home-403__pilots {
+  text-align: center;
+}
+
+.home-403__pilots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.home-403__pilot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-403__pilot-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 25%, rgba(217, 160, 107, 0.30), transparent 60%),
+    linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 18px rgba(46, 34, 26, 0.18);
+  border: 2px solid var(--md-default-bg-color);
+}
+
+.home-403__pilot-initials {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f3e9d2;
+  letter-spacing: 0.04em;
+}
+
+.home-403__pilot-name {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--md-default-fg-color);
+}
+
+/* =====================================================================
+   Section 4 — Avancement / Timeline
+   ===================================================================== */
+
+.home-403__timeline-section {
+  background: var(--md-default-bg-color--lighter);
+  text-align: center;
+}
+
+.home-403__timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0;
+  position: relative;
+  counter-reset: step;
+}
+
+/* Ligne horizontale qui traverse les markers (desktop) */
+.home-403__timeline::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 8.33%;
+  right: 8.33%;
+  height: 1px;
+  background: var(--md-default-fg-color--lightest);
+  z-index: 0;
+}
+
+.home-403__step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.4rem;
+  z-index: 1;
+}
+
+.home-403__step-marker {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--md-default-bg-color);
+  border: 2px solid var(--md-default-fg-color--lighter);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.home-403__step--in-progress .home-403__step-marker {
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 4px var(--md-accent-fg-color--transparent);
+}
+
+.home-403__step--done .home-403__step-marker {
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.home-403__step-body {
+  text-align: center;
+}
+
+.home-403__step-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.2;
+  margin-bottom: 0.35rem;
+}
+
+.home-403__step-status {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.62rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.home-403__step--in-progress .home-403__step-status {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+/* =====================================================================
+   Section 5 — Liens rapides
+   ===================================================================== */
+
+.home-403__links-section {
+  text-align: center;
+}
+
+.home-403__links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.home-403__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.8rem 1rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.home-403__link:hover {
+  transform: translateY(-2px);
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 6px 22px rgba(46, 34, 26, 0.10);
+  color: var(--md-default-fg-color);
+}
+
+.home-403__link-icon {
+  font-size: 1.7rem;
+  margin-bottom: 0.8rem;
+  line-height: 1;
+}
+
+.home-403__link-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+  color: var(--md-default-fg-color);
+}
+
+.home-403__link-desc {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.4;
+}
+
+/* =====================================================================
+   Responsive — tablet & mobile
+   ===================================================================== */
+
+@media (max-width: 960px) {
+  .home-403__hero-title {
+    font-size: 4rem;
+  }
+  .home-403__intro-text {
+    font-size: 1.4rem;
+  }
+  .home-403__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-403__stat-value {
+    font-size: 2.2rem;
+  }
+  .home-403__timeline {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .home-403__timeline::before {
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: auto;
+    width: 1px;
+    height: auto;
+  }
+  .home-403__step {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0.6rem 0;
+    gap: 1rem;
+  }
+  .home-403__step-marker {
+    flex-shrink: 0;
+    margin-bottom: 0;
+    margin-top: 0.1rem;
+  }
+  .home-403__step-body {
+    text-align: left;
+  }
+  .home-403__links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-403__section {
+    padding: 3.5rem 0;
+  }
+  .home-403__hero-title {
+    font-size: 3rem;
+  }
+  .home-403__hero-tagline {
+    font-size: 1rem;
+  }
+  .home-403__eyebrow {
+    font-size: 0.66rem;
+    letter-spacing: 0.22em;
+  }
+  .home-403__section-title {
+    font-size: 1.9rem;
+  }
+  .home-403__intro-text {
+    font-size: 1.2rem;
+  }
+  .home-403__stats {
+    grid-template-columns: 1fr;
+  }
+  .home-403__links {
+    grid-template-columns: 1fr;
+  }
+}
