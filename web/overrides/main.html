@@ -2,19 +2,6 @@
 
 {#
   Skin 403 — surcharge minimale du thème Material.
-  Injecte un bandeau « hero » uniquement sur la page d'accueil.
+  Le hero d'accueil est dans un template dédié (overrides/home.html)
+  activé via front matter `template: home.html` sur web/docs/index.md.
 #}
-
-{% block content %}
-  {% if page and page.is_homepage %}
-  <section class="hero-403">
-    <div class="hero-403__inner">
-      <p class="hero-403__eyebrow">Crazy Dust · 2027</p>
-      <h1 class="hero-403__title">Peugeot 403 break</h1>
-      <div class="hero-403__rule"></div>
-      <p class="hero-403__tagline">Carnet de bord — du garage français aux pistes marocaines.</p>
-    </div>
-  </section>
-  {% endif %}
-  {{ super() }}
-{% endblock %}

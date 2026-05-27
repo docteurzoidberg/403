@@ -88,7 +88,7 @@ exclude_docs: |
   raid/02-sponsoring/modele-orga/**
 
 nav:
-  - Accueil: README.md
+  - Accueil: index.md
   - Véhicule:
     - Achat:
       - Journal: vehicule/01-achat/suivi.md
