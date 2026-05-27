@@ -86,9 +86,24 @@ Une question résolue est retirée de la liste. Ne pas ajouter de question sans 
 
 Un site statique **MkDocs Material** publie le projet (suivi, listes, sponsoring). Le sous-dossier `web/` regroupe ce qui concerne le site : config (`mkdocs.yml`), dépendances (`requirements.txt`), venv (`.venv/`), build (`build/`), scripts. Le site consomme `vehicule/` et `raid/` **en lecture seule** — ne jamais déplacer ou réécrire ces fichiers pour les besoins du site.
 
+### Hero page d'accueil (différente du reste du site)
+
+L'**accueil du site** (`web/docs/index.md`) n'est pas une page Markdown classique : c'est une **hero page scrollable** rendue via un template HTML dédié `web/overrides/home.html`.
+
+- Activation : `index.md` n'a qu'un front matter (`template: home.html`, `hide: navigation, toc`) — pas de contenu Markdown.
+- Le template `home.html` **surcharge `{% block header %}` et `{% block tabs %}`** → le header Material et ses tabs **ne sont PAS rendus** sur l'accueil. Un `.home-403-header` custom (fixed, transparent → orange opaque au scroll, logo en silhouette monochrome) prend leur place.
+- Toutes les autres pages mkdocs conservent le header Material par défaut.
+- Le contenu hero est en 5 sections (Hero photo / Projet en bref + chiffres clés / Pilotes / Timeline / Liens rapides), entièrement hard-codé dans `home.html`.
+- Style et interactions dans `web/docs/assets/extra.css` (préfixe `.home-403*` et `.home-403-header*`) + un `<script>` inline en bas de `home.html` (parallaxe photo, toggle scroll, IntersectionObserver pour reveals).
+- Photo hero : `web/docs/assets/ia-concept-01.png` (copie de `vehicule/04-preparation-raid/photos/ia-concept-01.png`).
+
+**À garder en tête en éditant** : modifier le contenu de la hero = éditer `home.html` (pas `index.md`). Pour les autres pages doc, comportement Material standard inchangé.
+
+### Plans et briefs
+
 Brief d'implémentation phase 1 : [`prompts/0_MKDOCS_PLAN.md`](prompts/0_MKDOCS_PLAN.md). Phase 2 (déploiement GitHub Pages) à venir.
 
-Plan homepage hero page : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](prompts/1_MKDOCS_HOMEPAGE_PLAN.md).
+Plan homepage hero page (implémenté) : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](prompts/1_MKDOCS_HOMEPAGE_PLAN.md).
 
 ## Méthode de travail
 

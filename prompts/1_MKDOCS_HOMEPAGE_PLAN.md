@@ -1,7 +1,23 @@
 # Plan — Homepage MkDocs Material (Hero Page)
 
 ## Statut
-`ready-to-implement` — toutes les décisions tranchées (au 2026-05-27)
+`implemented` — hero page en production sur `web/docs/index.md` (au 2026-05-27)
+
+Le plan est conservé pour référence et historique. La hero page a fait l'objet
+d'itérations qui s'écartent du plan initial — la source de vérité est désormais
+le code (`web/overrides/home.html`, `web/docs/assets/extra.css`, `web/docs/index.md`).
+
+Principaux écarts vs plan initial :
+- Header Material **entièrement remplacé** par un `.home-403-header` custom (fixed,
+  transparent → opaque/blur au scroll, logo monochrome en silhouette via mask-image,
+  texte clair sur la photo) — les blocs `header` + `tabs` sont surchargés à vide
+  dans `home.html`.
+- Effets de scroll : parallaxe de la photo et reveals sont en JS (cross-browser)
+  plutôt qu'en CSS scroll-driven (limité à Chromium).
+- Hauteurs variables par section (intro 100vh, pilotes 70vh, etc.) au lieu de
+  uniformes.
+- README.md (ancien accueil) supprimé du dossier docs — index.md est le seul
+  accueil mkdocs désormais.
 
 ---
 

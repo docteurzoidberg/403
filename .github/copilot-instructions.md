@@ -34,10 +34,13 @@ raid/
   crazy-dust-fiche.md           → toutes les infos compilées sur le raid
 
 web/                            → site MkDocs Material (lecture seule sur vehicule/ et raid/)
+  docs/index.md                 → accueil = HERO PAGE (front matter only, template: home.html)
+  overrides/home.html           → template hero (5 sections, header custom, JS scroll)
+  overrides/main.html           → surcharges Material pour les autres pages doc
 
 prompts/
   0_MKDOCS_PLAN.md             → brief d'implémentation MkDocs phase 1
-  1_MKDOCS_HOMEPAGE_PLAN.md    → plan homepage hero page (en cours de définition)
+  1_MKDOCS_HOMEPAGE_PLAN.md    → plan homepage hero page (implémenté)
 
 questions-en-suspens.md         → décisions en attente, infos manquantes
 
@@ -62,6 +65,7 @@ Journaux de suivi (`suivi.md`) :
 - Ne pas écrire dans `suivi.md` automatiquement quand un item est coché
 - Fiches techniques (`vehicule/fiches/`) : contenu issu exclusivement de sources réelles
 - Les sections `⚠️ à compléter` dans les fichiers sont des placeholders — ne pas les remplir sans instruction explicite
+- **Accueil du site = hero page custom** : `web/docs/index.md` est un front matter only (`template: home.html`). Le contenu hero est dans `web/overrides/home.html` (template Jinja). Le header Material est désactivé sur cette page uniquement (blocs `header` + `tabs` surchargés à vide → header custom `.home-403-header` à la place). Les autres pages doc gardent le header Material standard. Pour modifier l'accueil, éditer `home.html` (pas `index.md`).
 
 ---
 
