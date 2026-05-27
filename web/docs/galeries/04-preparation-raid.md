@@ -8,6 +8,12 @@
 
 > Esquisse du plan d'aménagement de la galerie de toit. Largeur totale 175 cm. De gauche à droite : batterie sono + enceintes (~45 cm), compresseur (~50 cm), jerrycan 20L + 2 roues de secours (~80 cm).
 
+### galerie-toit-plan-02 — Vue de côté de la galerie
+
+![Plan galerie de toit — vue de côté](../vehicule/04-preparation-raid/photos/galerie-toit-plan-02.jpg)
+
+> Vue latérale de la 403 break avec galerie de toit. Dimensions : 175 cm de large, 72 cm de long.
+
 ## Concept IA
 
 ### ia-concept-01 — Visualisation IA du 403 au Crazy Dust
