@@ -92,6 +92,13 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-05-27 — Cabochons de feux arrière retrouvés
+
+- Le vendeur a retrouvé les cabochons de feux arrière (droit + gauche/trappe essence) ✅
+- Les cabochons AV restent à traiter.
+
+---
+
 ### 2026-05-26 — Envoi de photos par le vendeur
 
 - Le vendeur a envoyé des photos du véhicule.
@@ -112,7 +119,8 @@
 - **Banquette arrière rabattable** : fonctionnelle ✅
 - **Pneus** : le vendeur a trouvé des pneus route neufs pas trop chers — il les monte lui-même avant la prise en main ✅
 - **Jantes** : les jantes actuelles sont du provisoire (ce qu'il avait sous la main) — il va trouver 4 jantes identiques + 2 de secours
-- **Cabochons (AV/AR)** : manquants, confirmés absents ❌
+- **Cabochons (AR)** : ~~manquants, confirmés absents~~ — trouvés par le vendeur ✅
+- **Cabochon (AV)** : manquant ❌
 
 **À clarifier (message à envoyer au vendeur) :**
 
@@ -129,8 +137,8 @@
 **Pièces manquantes à confirmer :**
 
 - Cabochon avant clignotant/feu de position (manquant)
-- Cabochon feu arrière droit (manquant)
-- Cabochon feu arrière gauche / trappe essence (manquant)
+- ~~Cabochon feu arrière droit (manquant)~~ — trouvé par le vendeur ✅
+- ~~Cabochon feu arrière gauche / trappe essence (manquant)~~ — trouvé par le vendeur ✅
 - Rétroviseur gauche (manquant)
 
 **Questions spécifiques :**

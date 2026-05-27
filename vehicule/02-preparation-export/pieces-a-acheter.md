@@ -12,7 +12,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184)
 - [ ] 6 pneus identiques camionette renforcés / tout terrain (4 véhicule + 2 roues de secours)
 - [ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)
-- [ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)
+- ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
 - [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté)
 - [ ] plaques de désensablage
 - [ ] séparateur cyclonique (filtration air moteur)

@@ -30,6 +30,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Préparation raid (véhicule)
 
+- Idée : trouver une poule vivante au Maroc (souk ou paysan) pour l'embarquer comme mascotte pendant le raid — l'offrir après la dernière étape
 - CB radio : fournie par l'orga Crazy Dust ou à la charge du participant ?
 - Si à notre charge : démarche ANRT (mail autorisation@anrt.ma) — à faire à quelle date ?
 - Plaques de désensablage : fixation sur galerie ou support dédié (décision finale sur place)
