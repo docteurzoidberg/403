@@ -383,14 +383,6 @@ html:has(.home-403) {
   scroll-padding-top: 4rem; /* hauteur du header Material */
 }
 
-/* Sur la hero page uniquement : tabs sticky sous le header (Material n'a pas
-   navigation.tabs.sticky activé globalement → on l'applique par page via CSS) */
-body:has(.home-403) .md-tabs {
-  position: sticky;
-  top: 4rem; /* hauteur du header Material */
-  z-index: 3;
-}
-
 /* Pas de border-bottom dotted sur les liens dans la home */
 .home-403 a {
   border-bottom: none !important;
