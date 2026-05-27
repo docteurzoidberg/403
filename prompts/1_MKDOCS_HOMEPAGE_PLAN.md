@@ -208,6 +208,21 @@ nav:
 
 ---
 
+## Étape finale — Migration preview → home (après validation)
+
+Une fois que DrZoid a validé le rendu sur `/preview/` :
+
+1. **Renommer** `web/docs/preview.md` → `web/docs/index.md`
+2. **Mettre à jour la nav** dans `web/mkdocs.yml` : `Accueil: index.md` (était `README.md`)
+3. **Supprimer le bloc hero provisoire** dans `web/overrides/main.html` (le `{% if page.is_homepage %}` + section `.hero-403` injectée)
+4. **Nettoyer le CSS** dans `extra.css` : supprimer les règles `.hero-403` provisoires devenues inutiles
+5. **Commit** : `web: hero page — mise en production (preview → index)`
+6. **Vérifier** `mkdocs build --strict` passe sans erreur ni warning
+
+> ⚠️ Ne pas exécuter cette étape sans validation explicite de DrZoid.
+
+---
+
 ## Questions — toutes tranchées ✅
 
 | # | Question | Réponse |
