@@ -687,11 +687,10 @@ body:has(.home-403) .md-top {
 }
 
 /* Couche image dédiée — cadrée sur le hero (pas sur la fenêtre).
-   Inset négatif important (top -30%, bottom -10%) → bg = 140% du hero,
-   donne assez de marge pour une parallaxe franche (~50% de vitesse). */
+   Inset symétrique -10% pour ne pas couper le sujet de la photo. */
 .home-403__hero-bg {
   position: absolute;
-  inset: -30% 0 -10% 0;
+  inset: -10% 0 -10% 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
