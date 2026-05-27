@@ -116,47 +116,6 @@
   font-weight: 600;
 }
 
-/* Garder le titre du site visible en permanence — pas de swap vers le titre de page */
-.md-header__topic:first-child,
-.md-header--shadow .md-header__topic:first-child,
-.md-header--lifted .md-header__topic:first-child {
-  opacity: 1 !important;
-  transform: none !important;
-  z-index: 1;
-  pointer-events: auto;
-}
-
-/* Masquer le titre de la page (second topic) — le H1 reste dans le contenu */
-.md-header__topic + .md-header__topic {
-  display: none !important;
-}
-
-/* ---------------------------------------------------------------------
-   Tabs en hover-reveal : visibles au repos, masquées quand on scrolle,
-   réapparaissent au survol du header (ou des tabs).
-   --------------------------------------------------------------------- */
-
-.md-tabs {
-  transition: transform 0.3s ease, opacity 0.25s ease;
-  will-change: transform;
-}
-
-/* Quand le header passe en mode "scrolled" (--shadow ou --lifted),
-   les tabs remontent derrière le header mais laissent un liseré de 4px
-   visible sous le header — signal pour l'utilisateur qu'il y a un menu */
-body:has(.md-header--shadow) .md-tabs,
-body:has(.md-header--lifted) .md-tabs {
-  transform: translateY(calc(-100% + 4px));
-  pointer-events: none;
-}
-
-/* Au survol du header ou des tabs : les tabs descendent complètement */
-body:has(.md-header--shadow:hover) .md-tabs,
-body:has(.md-header--lifted:hover) .md-tabs {
-  transform: translateY(0);
-  pointer-events: auto;
-}
-
 /* Onglets de nav (top tabs) */
 .md-tabs__link {
   font-size: 0.85rem;
@@ -422,6 +381,14 @@ body:has(.md-header--lifted:hover) .md-tabs {
 html:has(.home-403) {
   scroll-snap-type: y proximity;
   scroll-padding-top: 4rem; /* hauteur du header Material */
+}
+
+/* Sur la hero page uniquement : tabs sticky sous le header (Material n'a pas
+   navigation.tabs.sticky activé globalement → on l'applique par page via CSS) */
+body:has(.home-403) .md-tabs {
+  position: sticky;
+  top: 4rem; /* hauteur du header Material */
+  z-index: 3;
 }
 
 /* Pas de border-bottom dotted sur les liens dans la home */
