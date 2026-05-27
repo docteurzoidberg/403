@@ -116,12 +116,6 @@
   font-weight: 600;
 }
 
-/* Bouton "retour en haut" : pousser sous le header + tabs sticky
-   (header 4rem + tabs ~2.4rem ≈ 6.4rem, on laisse 0.4rem de marge) */
-.md-top {
-  top: 6.8rem;
-}
-
 /* Onglets de nav (top tabs) */
 .md-tabs__link {
   font-size: 0.85rem;

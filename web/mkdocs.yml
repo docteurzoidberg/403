@@ -36,7 +36,6 @@ theme:
         name: Passer en mode sombre
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.top
