@@ -405,9 +405,108 @@ html:has(.home-403) {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.4rem;
-  background: var(--md-primary-fg-color);
+  /* Fallback : header opaque (utilisé quand animation-timeline n'est pas supporté) */
+  background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Effet "glass" au scroll : transparent au-dessus de la photo hero,
+   passe en orange semi-opaque + backdrop-filter blur quand on scrolle.
+   Sur navigateurs sans support, le header reste opaque (fallback ci-dessus). */
+@supports (animation-timeline: scroll()) {
+  .home-403-header {
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    box-shadow: 0 0 0 transparent;
+  }
+  [data-md-color-scheme="default"] .home-403-header {
+    animation: hero-header-scroll-light linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 240px;
+  }
+  [data-md-color-scheme="slate"] .home-403-header {
+    animation: hero-header-scroll-dark linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 240px;
+  }
+  /* Light mode : #b25a2c → rgba(178,90,44,...) */
+  @keyframes hero-header-scroll-light {
+    from {
+      background-color: rgba(178, 90, 44, 0);
+      backdrop-filter: blur(0px);
+      -webkit-backdrop-filter: blur(0px);
+      box-shadow: 0 0 0 transparent;
+    }
+    to {
+      background-color: rgba(178, 90, 44, 0.88);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.15);
+    }
+  }
+  /* Dark mode : #c46a3a → rgba(196,106,58,...) */
+  @keyframes hero-header-scroll-dark {
+    from {
+      background-color: rgba(196, 106, 58, 0);
+      backdrop-filter: blur(0px);
+      -webkit-backdrop-filter: blur(0px);
+      box-shadow: 0 0 0 transparent;
+    }
+    to {
+      background-color: rgba(196, 106, 58, 0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.30);
+    }
+  }
+
+  /* Text-shadow sur le titre, sous-titre et liens — fort en haut (sur la
+     photo) puis disparaît quand le header devient opaque */
+  .home-403-header__title,
+  .home-403-header__subtitle,
+  .home-403-header__link {
+    animation: hero-header-text linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 240px;
+  }
+  @keyframes hero-header-text {
+    from {
+      text-shadow:
+        0 1px 8px rgba(0, 0, 0, 0.55),
+        0 2px 18px rgba(0, 0, 0, 0.35);
+    }
+    to {
+      text-shadow: 0 0 0 transparent;
+    }
+  }
+
+  /* Ombre du logo qui suit le même schéma (forte en haut, discrète en bas) */
+  .home-403-header__logo {
+    animation: hero-header-logo linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 240px;
+  }
+  @keyframes hero-header-logo {
+    from { filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55)); }
+    to   { filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15)); }
+  }
+}
+
+/* Respect du prefers-reduced-motion : header opaque dès le départ, pas d'animation */
+@media (prefers-reduced-motion: reduce) {
+  .home-403-header {
+    animation: none !important;
+    background-color: var(--md-primary-fg-color) !important;
+    backdrop-filter: none !important;
+  }
+  .home-403-header__title,
+  .home-403-header__subtitle,
+  .home-403-header__link,
+  .home-403-header__logo {
+    animation: none !important;
+  }
 }
 
 .home-403-header__brand {
