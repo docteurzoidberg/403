@@ -4,7 +4,30 @@
   Hero page — Projet 403 / Crazy Dust 2027
   Page d'accueil scrollable en 5 sections.
   Activée via front matter `template: home.html` sur la page concernée.
+
+  Cette page utilise un header custom et masque le header + tabs Material
+  — les autres pages mkdocs conservent leur header par défaut.
 #}
+
+{# ------------------------------------------------------------------
+   Header dédié à la hero — remplace celui de Material.
+   ------------------------------------------------------------------ #}
+{% block header %}
+<header class="home-403-header" data-md-component="header">
+  <a href="{{ '' | url }}" class="home-403-header__brand" title="{{ config.site_name }}">
+    <img src="{{ 'assets/logo.png' | url }}" alt="" class="home-403-header__logo">
+    <span class="home-403-header__title">Projet 403</span>
+  </a>
+  <nav class="home-403-header__nav" aria-label="Navigation principale">
+    <a href="{{ '' | url }}" class="home-403-header__link home-403-header__link--active">Accueil</a>
+    <a href="{{ 'vehicule/01-achat/suivi/' | url }}" class="home-403-header__link">Véhicule</a>
+    <a href="{{ 'raid/01-inscription/taches/' | url }}" class="home-403-header__link">Raid</a>
+  </nav>
+</header>
+{% endblock %}
+
+{# Pas de tabs Material sur la hero — la nav est dans le header custom #}
+{% block tabs %}{% endblock %}
 
 {# Désactive le hero provisoire de main.html sur cette page #}
 {% block content %}

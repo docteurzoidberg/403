@@ -386,7 +386,127 @@
 /* Scroll-snap doux uniquement sur la home — l'utilisateur garde le contrôle */
 html:has(.home-403) {
   scroll-snap-type: y proximity;
-  scroll-padding-top: 4rem; /* hauteur du header Material */
+  scroll-padding-top: 3rem; /* hauteur du header custom hero */
+}
+
+/* =====================================================================
+   Header custom — uniquement sur la hero page (.home-403-header)
+   Remplace le header Material (qui n'est pas rendu sur cette page).
+   ===================================================================== */
+
+.home-403-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.home-403-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none !important;
+  flex-shrink: 0;
+}
+
+.home-403-header__logo {
+  height: 2rem;
+  width: auto;
+  display: block;
+}
+
+.home-403-header__title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.home-403-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.home-403-header__link {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none !important;
+  opacity: 0.92;
+  padding: 0.35rem 0;
+  position: relative;
+  transition: opacity 0.15s ease;
+}
+
+.home-403-header__link:hover {
+  opacity: 1;
+  color: inherit;
+}
+
+.home-403-header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+
+.home-403-header__link:hover::after,
+.home-403-header__link--active::after {
+  transform: scaleX(1);
+}
+
+.home-403-header__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Bouton "retour en haut" : repositionné sous le header custom (3rem)
+   uniquement sur la hero page */
+body:has(.home-403) .md-top {
+  top: 3.4rem;
+}
+
+@media (max-width: 600px) {
+  .home-403-header {
+    padding: 0 0.8rem;
+    height: 2.8rem;
+  }
+  .home-403-header__title {
+    font-size: 1rem;
+  }
+  .home-403-header__nav {
+    gap: 1rem;
+  }
+  .home-403-header__link {
+    font-size: 0.65rem;
+    letter-spacing: 0.14em;
+  }
+  body:has(.home-403) .md-top {
+    top: 3.2rem;
+  }
 }
 
 /* Pas de border-bottom dotted sur les liens dans la home */
