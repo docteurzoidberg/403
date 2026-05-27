@@ -14,12 +14,15 @@
    ------------------------------------------------------------------ #}
 {% block header %}
 <header class="home-403-header" data-md-component="header">
-  <a href="{{ '' | url }}" class="home-403-header__brand" title="{{ config.site_name }}">
+  <div class="home-403-header__brand">
     <img src="{{ 'assets/logo.png' | url }}" alt="" class="home-403-header__logo">
-    <span class="home-403-header__title">Projet 403</span>
-  </a>
+    <div class="home-403-header__title-block">
+      <span class="home-403-header__title">Projet 403</span>
+      <span class="home-403-header__subtitle">Crazy Dust · 2027</span>
+    </div>
+  </div>
   <nav class="home-403-header__nav" aria-label="Navigation principale">
-    <a href="{{ '' | url }}" class="home-403-header__link home-403-header__link--active">Accueil</a>
+    <span class="home-403-header__link home-403-header__link--active">Accueil</span>
     <a href="{{ 'vehicule/01-achat/suivi/' | url }}" class="home-403-header__link">Véhicule</a>
     <a href="{{ 'raid/01-inscription/taches/' | url }}" class="home-403-header__link">Raid</a>
   </nav>
