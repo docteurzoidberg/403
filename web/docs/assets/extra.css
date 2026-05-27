@@ -499,7 +499,7 @@ html:has(.home-403) {
   height: 3.4rem;
   width: auto;
   display: block;
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+  /* filter géré plus haut (état top : invert + drop-shadow / scrolled : drop-shadow seul) */
 }
 
 .home-403-header__title-block {
