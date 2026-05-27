@@ -108,6 +108,8 @@ nav:
       - Galerie: galeries/04-preparation-raid.md
     - Fiches techniques:
       - Dynamo → Alternateur: vehicule/fiches/dynamo-alternateur/fiche.md
+      - Galerie de toit: vehicule/fiches/galerie-toit/fiche.md
+      - Faisceau accessoires: vehicule/fiches/faisceau-accessoires/fiche.md
   - Raid:
     - Inscription:
       - À faire: raid/01-inscription/taches.md
