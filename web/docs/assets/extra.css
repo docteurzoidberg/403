@@ -377,6 +377,12 @@
   display: none;
 }
 
+/* Scroll-snap doux uniquement sur la home — l'utilisateur garde le contrôle */
+html:has(.home-403) {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 4rem; /* hauteur du header Material */
+}
+
 /* Pas de border-bottom dotted sur les liens dans la home */
 .home-403 a {
   border-bottom: none !important;
@@ -437,7 +443,50 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* parallaxe : la photo reste fixe au scroll */
   overflow: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+/* iOS Safari ne gère pas bien background-attachment: fixed → on retombe sur normal */
+@supports (-webkit-touch-callout: none) {
+  .home-403__hero {
+    background-attachment: scroll;
+  }
+}
+
+/* Indicateur "scroll" en bas du hero */
+.home-403__hero-scroll-hint {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: #ece1c5;
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.65rem;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  animation: home-403-bounce 2.4s ease-in-out infinite;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.home-403__hero-scroll-hint::after {
+  content: "";
+  width: 1px;
+  height: 32px;
+  background: linear-gradient(to bottom, #d9a06b, transparent);
+}
+
+@keyframes home-403-bounce {
+  0%, 100% { transform: translate(-50%, 0); opacity: 0.85; }
+  50%       { transform: translate(-50%, 6px); opacity: 1; }
 }
 
 .home-403__hero-overlay {
@@ -507,8 +556,45 @@
    ===================================================================== */
 
 .home-403__section {
-  padding: 5rem 0;
+  padding: 6rem 0;
   border-top: 1px solid var(--md-default-fg-color--lightest);
+  scroll-snap-align: start;
+  scroll-margin-top: 4rem; /* offset pour le header sticky */
+  position: relative;
+  background: var(--md-default-bg-color); /* opaque pour passer devant le hero fixed */
+}
+
+/* Reveal au scroll — view timeline API (Chrome/Edge récents).
+   Sur navigateurs non compatibles, le contenu reste visible normalement. */
+@supports (animation-timeline: view()) {
+  .home-403__section > .home-403__container {
+    animation: home-403-reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 5% cover 30%;
+  }
+  @keyframes home-403-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Respect des préférences utilisateur */
+@media (prefers-reduced-motion: reduce) {
+  html:has(.home-403) {
+    scroll-snap-type: none;
+  }
+  .home-403__hero-scroll-hint {
+    animation: none;
+  }
+  .home-403__section > .home-403__container {
+    animation: none;
+  }
 }
 
 /* =====================================================================
