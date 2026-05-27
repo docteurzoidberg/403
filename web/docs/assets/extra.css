@@ -462,14 +462,23 @@ html:has(.home-403) {
   text-shadow: 0 0 0 transparent;
 }
 
-/* Logo : blanc (filter invert) sur la photo, couleurs d'origine au scroll.
-   brightness(0) invert(1) force le logo noir à apparaître blanc.
-   Opacity 0.85 sur la photo : moins éclatant, laisse percevoir le décor.
-   Drop-shadow ajoute la profondeur sur la photo, plus discrète au scroll. */
+/* Logo en silhouette monochrome via mask-image + background-color: currentColor.
+   → le logo prend exactement la couleur du texte du header (sable clair au top,
+   couleur Material au scroll).
+   Drop-shadow + opacity gèrent la profondeur et l'éclat selon l'état. */
 .home-403-header__logo {
-  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
-  opacity: 0.85;
-  transition: filter 0.28s ease, opacity 0.28s ease;
+  background-color: currentColor;
+  -webkit-mask-image: url('logo.png');
+  mask-image: url('logo.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
+  opacity: 0.9;
+  transition: filter 0.28s ease, opacity 0.28s ease, background-color 0.28s ease;
 }
 .home-403-header--scrolled .home-403-header__logo {
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
@@ -499,10 +508,10 @@ html:has(.home-403) {
 }
 
 .home-403-header__logo {
+  /* span avec mask-image → width explicite indispensable (3:2 logo) */
   height: 3.4rem;
-  width: auto;
+  width: 5.1rem;
   display: block;
-  /* filter géré plus haut (état top : invert + drop-shadow / scrolled : drop-shadow seul) */
 }
 
 .home-403-header__title-block {
@@ -592,6 +601,7 @@ body:has(.home-403) .md-top {
   }
   .home-403-header__logo {
     height: 2.6rem;
+    width: 3.9rem;
   }
   .home-403-header__title {
     font-size: 1.3rem;
