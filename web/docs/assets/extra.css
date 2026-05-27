@@ -395,10 +395,11 @@ body:has(.home-403) .md-main__inner {
   width: 100%;
 }
 
-/* Scroll-snap doux uniquement sur la home — l'utilisateur garde le contrôle */
+/* Sur la home, scroll-padding-top pour compenser le header fixe lors des
+   navigations par ancre (pas de scroll-snap : les transitions de section
+   sont gérées par les reveal-on-scroll en JS, plus fluide qu'un snap). */
 html:has(.home-403) {
-  scroll-snap-type: y proximity;
-  scroll-padding-top: 4.4rem; /* hauteur du header custom hero */
+  scroll-padding-top: 4.4rem;
 }
 
 /* =====================================================================
@@ -680,8 +681,6 @@ body:has(.home-403) .md-top {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  scroll-snap-align: start;
-  scroll-snap-stop: normal;
   isolation: isolate;
 }
 
@@ -697,19 +696,9 @@ body:has(.home-403) .md-top {
   will-change: transform;
 }
 
-/* Parallaxe via scroll-driven animation (Chrome/Edge récents).
-   Sur navigateurs non compatibles : image fixée dans le hero, sans déplacement. */
-@supports (animation-timeline: scroll()) {
-  .home-403__hero-bg {
-    animation: home-403-parallax linear both;
-    animation-timeline: scroll(root);
-    animation-range: 0 100vh;
-  }
-  @keyframes home-403-parallax {
-    from { transform: translateY(0); }
-    to   { transform: translateY(15%); }
-  }
-}
+/* Parallaxe : pilotée par JS (transform inline sur .home-403__hero-bg),
+   pour fonctionner sur Firefox/Safari (animation-timeline: scroll() est
+   limité à Chromium). Voir le <script> dans home.html. */
 
 /* Indicateur "scroll" en bas du hero */
 .home-403__hero-scroll-hint {
@@ -814,44 +803,33 @@ body:has(.home-403) .md-top {
 .home-403__section {
   padding: 6rem 0;
   border-top: 1px solid var(--md-default-fg-color--lightest);
-  scroll-snap-align: start;
-  scroll-margin-top: 4rem; /* offset pour le header sticky */
   position: relative;
   background: var(--md-default-bg-color); /* opaque pour passer devant le hero fixed */
 }
 
-/* Reveal au scroll — view timeline API (Chrome/Edge récents).
-   Sur navigateurs non compatibles, le contenu reste visible normalement.
-   La fenêtre d'animation se limite à la phase entry pour garantir que
-   l'état final (translateY 0) soit atteint avant que le scroll-snap ne
-   verrouille la section. */
-@supports (animation-timeline: view()) {
-  .home-403__section > .home-403__container {
-    animation: home-403-reveal linear both;
-    animation-timeline: view();
-    animation-range: entry 0% entry 80%;
-  }
-  @keyframes home-403-reveal {
-    from {
-      opacity: 0;
-      transform: translateY(40px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+/* Reveal au scroll — pilotée par IntersectionObserver en JS (cross-browser).
+   La classe --reveal est ajoutée par JS au chargement (état caché), puis
+   --visible déclenche l'animation quand la section entre dans le viewport.
+   Si JS échoue/désactivé, les sections restent visibles normalement. */
+.home-403__section--reveal > .home-403__container {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.home-403__section--reveal.home-403__section--visible > .home-403__container {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Respect des préférences utilisateur */
 @media (prefers-reduced-motion: reduce) {
-  html:has(.home-403) {
-    scroll-snap-type: none;
-  }
-  .home-403__hero-scroll-hint,
-  .home-403__hero-bg,
-  .home-403__section > .home-403__container {
+  .home-403__hero-scroll-hint {
     animation: none;
+  }
+  .home-403__section--reveal > .home-403__container {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
