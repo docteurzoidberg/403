@@ -395,10 +395,11 @@ body:has(.home-403) .md-main__inner {
   width: 100%;
 }
 
-/* Sur la home, scroll-padding-top pour compenser le header fixe lors des
-   navigations par ancre (pas de scroll-snap : les transitions de section
-   sont gérées par les reveal-on-scroll en JS, plus fluide qu'un snap). */
+/* Scroll-snap proximity sur la home : le scroll snape gentiment aux
+   débuts de section quand l'utilisateur ralentit, sans bloquer.
+   scroll-padding-top compense le header fixe. */
 html:has(.home-403) {
+  scroll-snap-type: y proximity;
   scroll-padding-top: 4.4rem;
 }
 
@@ -682,13 +683,15 @@ body:has(.home-403) .md-top {
   text-align: center;
   overflow: hidden;
   isolation: isolate;
+  scroll-snap-align: start;
 }
 
-/* Couche image dédiée — cadrée sur le hero (pas sur la fenêtre),
-   légèrement plus haute pour laisser de la marge à la translation parallaxe */
+/* Couche image dédiée — cadrée sur le hero (pas sur la fenêtre).
+   Inset négatif important (top -30%, bottom -10%) → bg = 140% du hero,
+   donne assez de marge pour une parallaxe franche (~50% de vitesse). */
 .home-403__hero-bg {
   position: absolute;
-  inset: -10% 0 -10% 0;
+  inset: -30% 0 -10% 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -805,7 +808,18 @@ body:has(.home-403) .md-top {
   border-top: 1px solid var(--md-default-fg-color--lightest);
   position: relative;
   background: var(--md-default-bg-color); /* opaque pour passer devant le hero fixed */
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+/* Hauteurs variables pour donner du rythme au scroll
+   (les 4 sections doivent pouvoir respirer chacune dans le viewport) */
+.home-403__intro          { min-height: 100vh; }   /* projet + chiffres : impactant */
+.home-403__pilots         { min-height: 70vh;  }   /* compact, simple */
+.home-403__timeline-section { min-height: 100vh; } /* timeline : laisse de l'espace */
+.home-403__links-section  { min-height: 60vh;  }   /* fermeture, plus court */
 
 /* Reveal au scroll — pilotée par IntersectionObserver en JS (cross-browser).
    La classe --reveal est ajoutée par JS au chargement (état caché), puis
