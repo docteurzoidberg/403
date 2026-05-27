@@ -395,7 +395,8 @@ html:has(.home-403) {
    ===================================================================== */
 
 .home-403-header {
-  position: sticky;
+  /* fixed (et pas sticky) → sorti du flux, peut superposer la photo hero */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -409,6 +410,12 @@ html:has(.home-403) {
   background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Le header est fixed → on doit annuler le padding-top que Material met
+   sur .md-main__inner pour que la photo hero parte à y=0 (sous le header) */
+body:has(.home-403) .md-main__inner {
+  padding-top: 0;
 }
 
 /* Effet "glass" au scroll : transparent au-dessus de la photo hero,
