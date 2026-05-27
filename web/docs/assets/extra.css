@@ -464,13 +464,16 @@ html:has(.home-403) {
 
 /* Logo : blanc (filter invert) sur la photo, couleurs d'origine au scroll.
    brightness(0) invert(1) force le logo noir à apparaître blanc.
+   Opacity 0.85 sur la photo : moins éclatant, laisse percevoir le décor.
    Drop-shadow ajoute la profondeur sur la photo, plus discrète au scroll. */
 .home-403-header__logo {
   filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
-  transition: filter 0.28s ease;
+  opacity: 0.85;
+  transition: filter 0.28s ease, opacity 0.28s ease;
 }
 .home-403-header--scrolled .home-403-header__logo {
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+  opacity: 1;
 }
 
 
