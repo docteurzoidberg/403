@@ -12,7 +12,7 @@
 
 ![Plan galerie de toit — vue de côté](../vehicule/04-preparation-raid/photos/galerie-toit-plan-02.jpg)
 
-> Vue latérale de la 403 break avec galerie de toit. Dimensions : 175 cm de large, 72 cm de long.
+> Vue latérale de la 403 break avec galerie de toit. Largeur galerie : 175 cm. La roue de secours fait 72 cm de diamètre max.
 
 ## Concept IA
 
