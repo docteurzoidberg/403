@@ -116,6 +116,48 @@
   font-weight: 600;
 }
 
+/* Garder le titre du site visible en permanence — pas de swap vers le titre de page */
+.md-header__topic:first-child,
+.md-header--shadow .md-header__topic:first-child,
+.md-header--lifted .md-header__topic:first-child {
+  opacity: 1 !important;
+  transform: none !important;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+/* Masquer le titre de la page (second topic) — le H1 reste dans le contenu */
+.md-header__topic + .md-header__topic {
+  display: none !important;
+}
+
+/* ---------------------------------------------------------------------
+   Tabs en hover-reveal : visibles au repos, masquées quand on scrolle,
+   réapparaissent au survol du header (ou des tabs).
+   --------------------------------------------------------------------- */
+
+.md-tabs {
+  transition: transform 0.3s ease, opacity 0.25s ease;
+  will-change: transform;
+}
+
+/* Quand le header passe en mode "scrolled" (--shadow ou --lifted), masquer les tabs */
+body:has(.md-header--shadow) .md-tabs,
+body:has(.md-header--lifted) .md-tabs {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Au survol du header ou des tabs : les ramener */
+body:has(.md-header--shadow:hover) .md-tabs,
+body:has(.md-header--lifted:hover) .md-tabs,
+body:has(.md-tabs:hover) .md-tabs {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* Onglets de nav (top tabs) */
 .md-tabs__link {
   font-size: 0.85rem;
