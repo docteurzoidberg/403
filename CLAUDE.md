@@ -115,6 +115,14 @@ Plan homepage hero page (implémenté) : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](p
 - Les photos restent dans le sous-dossier `photos/` de la phase concernée
 - Les fiches techniques (`vehicule/fiches/<nom>/fiche.md`) documentent les modifications significatives : source, pièces, étapes, notes. Chaque fiche a son propre dossier avec un sous-dossier `photos/`. Le contenu des fiches provient exclusivement de sources réelles (retours d'expérience, forums, docs techniques) — ne rien inventer.
 
+### Fiches existantes
+
+| Fiche | Fichier | État |
+|---|---|---|
+| Remplacement dynamo → alternateur | `vehicule/fiches/dynamo-alternateur/fiche.md` | Complète |
+| Aménagement galerie de toit | `vehicule/fiches/galerie-toit/fiche.md` | Vide — à compléter |
+| Faisceau accessoires / gadgets | `vehicule/fiches/faisceau-accessoires/fiche.md` | Vide — à compléter |
+
 ## Informations véhicule
 
 - **Modèle** : Peugeot 403 break
