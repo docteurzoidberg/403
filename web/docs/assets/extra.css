@@ -141,20 +141,19 @@
   will-change: transform;
 }
 
-/* Quand le header passe en mode "scrolled" (--shadow ou --lifted), masquer les tabs */
+/* Quand le header passe en mode "scrolled" (--shadow ou --lifted),
+   les tabs remontent derrière le header mais laissent un liseré de 4px
+   visible sous le header — signal pour l'utilisateur qu'il y a un menu */
 body:has(.md-header--shadow) .md-tabs,
 body:has(.md-header--lifted) .md-tabs {
-  transform: translateY(-100%);
-  opacity: 0;
+  transform: translateY(calc(-100% + 4px));
   pointer-events: none;
 }
 
-/* Au survol du header ou des tabs : les ramener */
+/* Au survol du header ou des tabs : les tabs descendent complètement */
 body:has(.md-header--shadow:hover) .md-tabs,
-body:has(.md-header--lifted:hover) .md-tabs,
-body:has(.md-tabs:hover) .md-tabs {
+body:has(.md-header--lifted:hover) .md-tabs {
   transform: translateY(0);
-  opacity: 1;
   pointer-events: auto;
 }
 
