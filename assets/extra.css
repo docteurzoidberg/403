@@ -116,6 +116,12 @@
   font-weight: 600;
 }
 
+/* Bouton "retour en haut" : pousser sous le header + tabs sticky
+   (header 4rem + tabs ~2.4rem ≈ 6.4rem, on laisse 0.4rem de marge) */
+.md-top {
+  top: 6.8rem;
+}
+
 /* Onglets de nav (top tabs) */
 .md-tabs__link {
   font-size: 0.85rem;
@@ -216,80 +222,6 @@
 }
 
 /* =====================================================================
-   Hero d'accueil
-   ===================================================================== */
-
-.hero-403 {
-  margin: -1.5rem -0.8rem 2.2rem;
-  padding: 4rem 1.5rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  background:
-    linear-gradient(135deg, rgba(178, 90, 44, 0.10), rgba(139, 79, 44, 0.04)),
-    radial-gradient(circle at 25% 15%, rgba(178, 90, 44, 0.18), transparent 60%),
-    repeating-linear-gradient(45deg, transparent 0 9px, rgba(46, 34, 26, 0.02) 9px 10px);
-}
-
-[data-md-color-scheme="slate"] .hero-403 {
-  background:
-    linear-gradient(135deg, rgba(196, 106, 58, 0.20), rgba(217, 160, 107, 0.06)),
-    radial-gradient(circle at 25% 15%, rgba(196, 106, 58, 0.22), transparent 60%),
-    repeating-linear-gradient(45deg, transparent 0 9px, rgba(236, 225, 197, 0.025) 9px 10px);
-}
-
-.hero-403__inner {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-.hero-403__eyebrow {
-  font-family: "JetBrains Mono", "Roboto Mono", monospace;
-  text-transform: uppercase;
-  letter-spacing: 0.28em;
-  font-size: 0.72rem;
-  color: var(--md-primary-fg-color);
-  margin: 0 0 0.9rem;
-}
-
-.hero-403__title {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 700;
-  font-size: 3.4rem;
-  line-height: 1.05;
-  margin: 0 0 0.5rem;
-  color: var(--md-default-fg-color);
-}
-
-.hero-403__tagline {
-  font-family: "Inter", system-ui, sans-serif;
-  font-size: 1.05rem;
-  font-style: italic;
-  color: var(--md-default-fg-color--light);
-  margin: 0;
-}
-
-.hero-403__rule {
-  width: 60px;
-  height: 1px;
-  background: var(--md-primary-fg-color);
-  margin: 1.4rem auto;
-  opacity: 0.7;
-}
-
-@media (max-width: 600px) {
-  .hero-403 {
-    padding: 2.6rem 1rem 2rem;
-  }
-  .hero-403__title {
-    font-size: 2.3rem;
-  }
-  .hero-403__eyebrow {
-    font-size: 0.66rem;
-    letter-spacing: 0.22em;
-  }
-}
-
-/* =====================================================================
    Tableaux : style fiche technique
    ===================================================================== */
 
@@ -359,4 +291,799 @@
 .md-tabs a,
 .md-footer a {
   border-bottom: none;
+}
+
+/* =====================================================================
+   Home page — Hero scrollable (template home.html)
+   ===================================================================== */
+
+/* Sortir des conteneurs Material : md-main__inner.md-grid (max-width 61rem
+   + padding 1.5rem 0) contraignait la hero, et .md-content avait un
+   max-width hérité. Sur la page hero on libère tout pour que la photo et
+   les sections s'étalent en 100% viewport. */
+body:has(.home-403) .md-main__inner {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.md-content:has(.home-403) {
+  max-width: 100%;
+}
+.md-content:has(.home-403) .md-content__inner {
+  margin: 0;
+  padding: 0;
+}
+.md-content:has(.home-403) .md-content__inner::before {
+  display: none;
+}
+.home-403 {
+  width: 100%;
+}
+
+/* Scroll-snap proximity sur la home : le scroll snape gentiment aux
+   débuts de section quand l'utilisateur ralentit, sans bloquer.
+   scroll-padding-top compense le header fixe. */
+html:has(.home-403) {
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 4.4rem;
+}
+
+/* =====================================================================
+   Header custom — uniquement sur la hero page (.home-403-header)
+   Remplace le header Material (qui n'est pas rendu sur cette page).
+   ===================================================================== */
+
+.home-403-header {
+  /* fixed (et pas sticky) → sorti du flux, peut superposer la photo hero */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  height: 4.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.4rem;
+  /* État initial (au-dessus de la photo) : transparent + texte clair */
+  background-color: transparent;
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0);
+  box-shadow: 0 0 0 transparent;
+  color: #f3e9d2; /* sable clair, lisible sur la photo (les 2 modes) */
+  transition:
+    background-color 0.28s ease,
+    backdrop-filter 0.28s ease,
+    -webkit-backdrop-filter 0.28s ease,
+    box-shadow 0.28s ease,
+    color 0.28s ease;
+}
+
+/* État scrolled : orange semi-opaque + blur + couleur de texte d'origine */
+.home-403-header--scrolled {
+  background-color: rgba(178, 90, 44, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.15);
+  color: var(--md-primary-bg-color); /* Material convention sur l'orange */
+}
+[data-md-color-scheme="slate"] .home-403-header--scrolled {
+  background-color: rgba(196, 106, 58, 0.85);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.30);
+}
+
+/* Text-shadow sur le titre, sous-titre et liens — fort par défaut (texte
+   sur la photo hero), disparaît quand le header devient opaque */
+.home-403-header__title,
+.home-403-header__subtitle,
+.home-403-header__link {
+  text-shadow:
+    0 1px 8px rgba(0, 0, 0, 0.55),
+    0 2px 18px rgba(0, 0, 0, 0.35);
+  transition: text-shadow 0.28s ease;
+}
+
+.home-403-header--scrolled .home-403-header__title,
+.home-403-header--scrolled .home-403-header__subtitle,
+.home-403-header--scrolled .home-403-header__link {
+  text-shadow: 0 0 0 transparent;
+}
+
+/* Logo en silhouette monochrome via mask-image + background-color: currentColor.
+   → le logo prend exactement la couleur du texte du header (sable clair au top,
+   couleur Material au scroll).
+   Drop-shadow + opacity gèrent la profondeur et l'éclat selon l'état. */
+.home-403-header__logo {
+  background-color: currentColor;
+  -webkit-mask-image: url('logo.png');
+  mask-image: url('logo.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
+  opacity: 0.9;
+  transition: filter 0.28s ease, opacity 0.28s ease, background-color 0.28s ease;
+}
+.home-403-header--scrolled .home-403-header__logo {
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.15));
+  opacity: 1;
+}
+
+
+/* Respect du prefers-reduced-motion : suppression des transitions */
+@media (prefers-reduced-motion: reduce) {
+  .home-403-header,
+  .home-403-header__title,
+  .home-403-header__subtitle,
+  .home-403-header__link,
+  .home-403-header__logo {
+    transition: none;
+  }
+}
+
+.home-403-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none !important;
+  flex-shrink: 0;
+}
+
+.home-403-header__logo {
+  /* span avec mask-image → width explicite indispensable (3:2 logo) */
+  height: 3.4rem;
+  width: 5.1rem;
+  display: block;
+}
+
+.home-403-header__title-block {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.home-403-header__title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.home-403-header__subtitle {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-top: 0.35rem;
+  opacity: 0.85;
+}
+
+.home-403-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.home-403-header__link {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: none !important;
+  opacity: 0.92;
+  padding: 0.35rem 0;
+  position: relative;
+  transition: opacity 0.15s ease;
+}
+
+.home-403-header__link:hover {
+  opacity: 1;
+  color: inherit;
+}
+
+.home-403-header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+
+.home-403-header__link:hover::after,
+.home-403-header__link--active::after {
+  transform: scaleX(1);
+}
+
+.home-403-header__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* Bouton "retour en haut" : repositionné sous le header custom (4.4rem)
+   uniquement sur la hero page */
+body:has(.home-403) .md-top {
+  top: 4.8rem;
+}
+
+@media (max-width: 600px) {
+  .home-403-header {
+    padding: 0 0.9rem;
+    height: 3.6rem;
+  }
+  .home-403-header__logo {
+    height: 2.6rem;
+    width: 3.9rem;
+  }
+  .home-403-header__title {
+    font-size: 1.3rem;
+  }
+  .home-403-header__subtitle {
+    font-size: 0.55rem;
+    letter-spacing: 0.18em;
+  }
+  .home-403-header__nav {
+    gap: 1rem;
+  }
+  .home-403-header__link {
+    font-size: 0.65rem;
+    letter-spacing: 0.14em;
+  }
+  body:has(.home-403) .md-top {
+    top: 4rem;
+  }
+}
+
+/* Pas de border-bottom dotted sur les liens dans la home */
+.home-403 a {
+  border-bottom: none !important;
+}
+
+.home-403 {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--md-default-fg-color);
+}
+
+/* ----- Eyebrow réutilisable ----- */
+.home-403__eyebrow {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.72rem;
+  color: var(--md-primary-fg-color);
+  margin: 0 0 1rem;
+}
+
+/* ----- Rule décorative ----- */
+.home-403__rule {
+  width: 60px;
+  height: 1px;
+  background: var(--md-primary-fg-color);
+  margin: 1.4rem auto;
+  opacity: 0.8;
+}
+
+/* ----- Conteneur centré pour sections texte ----- */
+.home-403__container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ----- Titre de section ----- */
+.home-403__section-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  margin: 0 0 2.5rem;
+  color: var(--md-default-fg-color);
+}
+
+/* =====================================================================
+   Section 1 — Hero principal
+   ===================================================================== */
+
+.home-403__hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+  scroll-snap-align: start;
+}
+
+/* Couche image dédiée — cadrée sur le hero (pas sur la fenêtre).
+   Inset symétrique -10% pour ne pas couper le sujet de la photo. */
+.home-403__hero-bg {
+  position: absolute;
+  inset: -10% 0 -10% 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  will-change: transform;
+}
+
+/* Parallaxe : pilotée par JS (transform inline sur .home-403__hero-bg),
+   pour fonctionner sur Firefox/Safari (animation-timeline: scroll() est
+   limité à Chromium). Voir le <script> dans home.html. */
+
+/* Indicateur "scroll" en bas du hero */
+.home-403__hero-scroll-hint {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: #ece1c5;
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.65rem;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  animation: home-403-bounce 2.4s ease-in-out infinite;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.home-403__hero-scroll-hint::after {
+  content: "";
+  width: 1px;
+  height: 32px;
+  background: linear-gradient(to bottom, #d9a06b, transparent);
+}
+
+@keyframes home-403-bounce {
+  0%, 100% { transform: translate(-50%, 0); opacity: 0.85; }
+  50%       { transform: translate(-50%, 6px); opacity: 1; }
+}
+
+.home-403__hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(28, 22, 18, 0.35) 0%,
+      rgba(28, 22, 18, 0.45) 60%,
+      rgba(28, 22, 18, 0.75) 100%),
+    linear-gradient(135deg,
+      rgba(178, 90, 44, 0.18),
+      rgba(46, 34, 26, 0.30) 70%);
+}
+
+[data-md-color-scheme="default"] .home-403__hero-overlay {
+  background:
+    linear-gradient(180deg,
+      rgba(46, 34, 26, 0.25) 0%,
+      rgba(46, 34, 26, 0.35) 60%,
+      rgba(46, 34, 26, 0.65) 100%),
+    linear-gradient(135deg,
+      rgba(178, 90, 44, 0.15),
+      rgba(46, 34, 26, 0.25) 70%);
+}
+
+.home-403__hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 2rem 1.5rem;
+}
+
+.home-403__hero .home-403__eyebrow {
+  color: #f3e9d2;
+  opacity: 0.95;
+}
+
+.home-403__hero-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 1;
+  margin: 0;
+  color: #f3e9d2;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+}
+
+.home-403__hero .home-403__rule {
+  background: #d9a06b;
+  opacity: 0.9;
+  width: 80px;
+}
+
+.home-403__hero-tagline {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #ece1c5;
+  margin: 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* =====================================================================
+   Section générique (entre sections, padding vertical)
+   ===================================================================== */
+
+.home-403__section {
+  padding: 6rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  position: relative;
+  background: var(--md-default-bg-color); /* opaque pour passer devant le hero fixed */
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Hauteurs variables pour donner du rythme au scroll
+   (les 4 sections doivent pouvoir respirer chacune dans le viewport) */
+.home-403__intro          { min-height: 100vh; }   /* projet + chiffres : impactant */
+.home-403__pilots         { min-height: 70vh;  }   /* compact, simple */
+.home-403__timeline-section { min-height: 100vh; } /* timeline : laisse de l'espace */
+.home-403__links-section  { min-height: 60vh;  }   /* fermeture, plus court */
+
+/* Reveal au scroll — pilotée par IntersectionObserver en JS (cross-browser).
+   La classe --reveal est ajoutée par JS au chargement (état caché), puis
+   --visible déclenche l'animation quand la section entre dans le viewport.
+   Si JS échoue/désactivé, les sections restent visibles normalement. */
+.home-403__section--reveal > .home-403__container {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.home-403__section--reveal.home-403__section--visible > .home-403__container {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Respect des préférences utilisateur */
+@media (prefers-reduced-motion: reduce) {
+  .home-403__hero-scroll-hint {
+    animation: none;
+  }
+  .home-403__section--reveal > .home-403__container {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* =====================================================================
+   Section 2 — Le projet en bref + chiffres clés
+   ===================================================================== */
+
+.home-403__intro {
+  background: var(--md-default-bg-color--lighter);
+  text-align: center;
+}
+
+.home-403__intro-text {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.45;
+  color: var(--md-default-fg-color);
+  max-width: 760px;
+  margin: 0 auto 3.5rem;
+  font-style: italic;
+}
+
+.home-403__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.home-403__stat {
+  padding: 1.5rem 0.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.home-403__stat-value {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 0.4rem;
+}
+
+.home-403__stat-unit {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.1em;
+}
+
+.home-403__stat-label {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* =====================================================================
+   Section 3 — Pilotes
+   ===================================================================== */
+
+.home-403__pilots {
+  text-align: center;
+}
+
+.home-403__pilots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.home-403__pilot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-403__pilot-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 25%, rgba(217, 160, 107, 0.30), transparent 60%),
+    linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 18px rgba(46, 34, 26, 0.18);
+  border: 2px solid var(--md-default-bg-color);
+}
+
+.home-403__pilot-initials {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f3e9d2;
+  letter-spacing: 0.04em;
+}
+
+.home-403__pilot-name {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--md-default-fg-color);
+}
+
+/* =====================================================================
+   Section 4 — Avancement / Timeline
+   ===================================================================== */
+
+.home-403__timeline-section {
+  background: var(--md-default-bg-color--lighter);
+  text-align: center;
+}
+
+/* Conteneur de timeline centré et largeur contenue */
+.home-403__timeline {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 560px;
+  position: relative;
+  text-align: left;
+}
+
+/* Ligne verticale qui descend derrière les markers */
+.home-403__timeline::before {
+  content: "";
+  position: absolute;
+  top: 0.6rem;
+  bottom: 0.6rem;
+  left: 13px;
+  width: 2px;
+  background: var(--md-default-fg-color--lightest);
+  z-index: 0;
+}
+
+.home-403__step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.9rem 0;
+  z-index: 1;
+}
+
+.home-403__step-marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--md-default-bg-color);
+  border: 2px solid var(--md-default-fg-color--lighter);
+  margin-left: 4px;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-403__step--in-progress .home-403__step-marker {
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 5px var(--md-accent-fg-color--transparent);
+  transform: scale(1.15);
+}
+
+.home-403__step--done .home-403__step-marker {
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.home-403__step-body {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.home-403__step-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.2;
+}
+
+.home-403__step-status {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.home-403__step--in-progress .home-403__step-status {
+  color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+.home-403__step--done .home-403__step-status {
+  color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* =====================================================================
+   Section 5 — Liens rapides
+   ===================================================================== */
+
+.home-403__links-section {
+  text-align: center;
+}
+
+.home-403__links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.home-403__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.8rem 1rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.home-403__link:hover {
+  transform: translateY(-2px);
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 6px 22px rgba(46, 34, 26, 0.10);
+  color: var(--md-default-fg-color);
+}
+
+.home-403__link-icon {
+  font-size: 1.7rem;
+  margin-bottom: 0.8rem;
+  line-height: 1;
+}
+
+.home-403__link-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+  color: var(--md-default-fg-color);
+}
+
+.home-403__link-desc {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.4;
+}
+
+/* =====================================================================
+   Responsive — tablet & mobile
+   ===================================================================== */
+
+@media (max-width: 960px) {
+  .home-403__hero-title {
+    font-size: 4rem;
+  }
+  .home-403__intro-text {
+    font-size: 1.4rem;
+  }
+  .home-403__stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-403__stat-value {
+    font-size: 2.2rem;
+  }
+  .home-403__links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-403__section {
+    padding: 3.5rem 0;
+  }
+  .home-403__hero-title {
+    font-size: 3rem;
+  }
+  .home-403__hero-tagline {
+    font-size: 1rem;
+  }
+  .home-403__eyebrow {
+    font-size: 0.66rem;
+    letter-spacing: 0.22em;
+  }
+  .home-403__section-title {
+    font-size: 1.9rem;
+  }
+  .home-403__intro-text {
+    font-size: 1.2rem;
+  }
+  .home-403__stats {
+    grid-template-columns: 1fr;
+  }
+  .home-403__links {
+    grid-template-columns: 1fr;
+  }
 }
