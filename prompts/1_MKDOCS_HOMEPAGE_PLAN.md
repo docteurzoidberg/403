@@ -57,21 +57,40 @@ Dossiers photos export / restauration / raid : **vides pour l'instant**.
 
 ---
 
+## Stratégie de développement — page preview
+
+Pour ne pas toucher à l'index actuel pendant le développement :
+
+1. **Créer `web/docs/preview.md`** avec front matter `template: home.html` — page de prévisualisation isolée
+2. **Développer et itérer** sur `home.html` + CSS en visant `/preview/`
+3. **L'index actuel** (`README.md`) reste intact et fonctionnel pendant toute la phase de dev
+4. **Validation** → quand la preview est approuvée par DrZoid :
+   - Renommer `preview.md` → `index.md`
+   - Mettre à jour nav `mkdocs.yml` : `Accueil: index.md`
+   - Supprimer le bloc hero provisoire dans `main.html`
+   - Supprimer `preview.md`
+
+URL preview en local : `http://192.168.77.203:8000/403/preview/`
+La page preview peut figurer discrètement en bas de nav ou être absente de la nav (accès URL direct uniquement).
+
+---
+
 ## Implémentation technique
 
 ### Fichiers à créer / modifier
 | Fichier | Action | Rôle |
 |---|---|---|
 | `web/overrides/home.html` | **Créer** | Template dédié hero page (extends `main.html`) |
-| `web/docs/index.md` | **Créer** | Front matter `template: home.html` |
+| `web/docs/preview.md` | **Créer** | Page preview — front matter `template: home.html` |
+| `web/docs/index.md` | **Créer** (après validation) | Remplace `preview.md` en production |
 | `web/docs/assets/extra.css` | **Modifier** | Ajouter CSS sections hero scrollable |
 | `web/docs/assets/ia-concept-01.png` | **Copier** | Photo hero (depuis `vehicule/04-preparation-raid/photos/`) |
-| `web/overrides/main.html` | **Modifier** | Supprimer le bloc hero provisoire |
-| `web/mkdocs.yml` | **Modifier** | Nav `Accueil: index.md` au lieu de `README.md` |
+| `web/overrides/main.html` | **Modifier** (après validation) | Supprimer le bloc hero provisoire |
+| `web/mkdocs.yml` | **Modifier** (après validation) | Nav `Accueil: index.md` au lieu de `README.md` |
 
 ### Mécanisme MkDocs
 ```yaml
-# web/docs/index.md
+# web/docs/preview.md  (puis index.md après validation)
 ---
 template: home.html
 title: Accueil
@@ -79,7 +98,7 @@ title: Accueil
 ```
 Le template `home.html` extend `main.html` (qui extend `base.html`) et surcharge `{% block content %}`.
 
-### Navigation `mkdocs.yml`
+### Navigation `mkdocs.yml` — état final (après validation)
 ```yaml
 nav:
   - Accueil: index.md   # ← était README.md
