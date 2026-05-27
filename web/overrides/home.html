@@ -189,4 +189,26 @@
   </section>
 
 </div>
+
+<script>
+  // Toggle .home-403-header--scrolled selon la position de scroll.
+  // CSS gère la transition transparent ↔ opaque + blur via la classe.
+  (function () {
+    var header = document.querySelector('.home-403-header');
+    if (!header) return;
+    var threshold = 80;
+    var ticking = false;
+    function update() {
+      header.classList.toggle('home-403-header--scrolled', window.scrollY > threshold);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  })();
+</script>
 {% endblock %}
