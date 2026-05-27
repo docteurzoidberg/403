@@ -418,25 +418,27 @@ html:has(.home-403) {
   align-items: center;
   justify-content: space-between;
   padding: 0 1.4rem;
-  /* État initial : transparent (au-dessus de la photo hero) */
+  /* État initial (au-dessus de la photo) : transparent + texte clair */
   background-color: transparent;
   backdrop-filter: blur(0);
   -webkit-backdrop-filter: blur(0);
   box-shadow: 0 0 0 transparent;
-  color: var(--md-primary-bg-color);
+  color: #f3e9d2; /* sable clair, lisible sur la photo (les 2 modes) */
   transition:
     background-color 0.28s ease,
     backdrop-filter 0.28s ease,
     -webkit-backdrop-filter 0.28s ease,
-    box-shadow 0.28s ease;
+    box-shadow 0.28s ease,
+    color 0.28s ease;
 }
 
-/* État scrolled : orange semi-opaque + backdrop-filter blur — toggle par JS */
+/* État scrolled : orange semi-opaque + blur + couleur de texte d'origine */
 .home-403-header--scrolled {
   background-color: rgba(178, 90, 44, 0.88);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.15);
+  color: var(--md-primary-bg-color); /* Material convention sur l'orange */
 }
 [data-md-color-scheme="slate"] .home-403-header--scrolled {
   background-color: rgba(196, 106, 58, 0.85);
@@ -460,9 +462,11 @@ html:has(.home-403) {
   text-shadow: 0 0 0 transparent;
 }
 
-/* Ombre du logo — forte sur la photo, discrète une fois le header opaque */
+/* Logo : blanc (filter invert) sur la photo, couleurs d'origine au scroll.
+   brightness(0) invert(1) force le logo noir à apparaître blanc.
+   Drop-shadow ajoute la profondeur sur la photo, plus discrète au scroll. */
 .home-403-header__logo {
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
+  filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
   transition: filter 0.28s ease;
 }
 .home-403-header--scrolled .home-403-header__logo {
