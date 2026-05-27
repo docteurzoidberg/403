@@ -1,0 +1,162 @@
+{% extends "main.html" %}
+
+{#
+  Hero page — Projet 403 / Crazy Dust 2027
+  Page d'accueil scrollable en 5 sections.
+  Activée via front matter `template: home.html` sur la page concernée.
+#}
+
+{# Désactive le hero provisoire de main.html sur cette page #}
+{% block content %}
+<div class="home-403">
+
+  {# ---------- Section 1 : Hero principal ---------- #}
+  <section class="home-403__hero" style="background-image: url('{{ 'assets/ia-concept-01.png' | url }}');">
+    <div class="home-403__hero-overlay"></div>
+    <div class="home-403__hero-inner">
+      <p class="home-403__eyebrow">Crazy Dust · 2027</p>
+      <h1 class="home-403__hero-title">Crazy 403,</h1>
+      <div class="home-403__rule"></div>
+      <p class="home-403__hero-tagline">Carnet de bord — du garage français aux pistes marocaines.</p>
+    </div>
+  </section>
+
+  {# ---------- Section 2 : Projet en bref + chiffres clés ---------- #}
+  <section class="home-403__section home-403__intro">
+    <div class="home-403__container">
+      <p class="home-403__eyebrow">Le projet en bref</p>
+      <p class="home-403__intro-text">
+        Sortir une 403 de 1962 d'un garage français, la restaurer au Maroc, et la lancer
+        sur les pistes du Crazy Dust. Deux pilotes, zéro garantie, beaucoup de cambouis.
+      </p>
+
+      <div class="home-403__stats">
+        <div class="home-403__stat">
+          <div class="home-403__stat-value">2 700 <span class="home-403__stat-unit">km</span></div>
+          <div class="home-403__stat-label">parcours total</div>
+        </div>
+        <div class="home-403__stat">
+          <div class="home-403__stat-value">410 <span class="home-403__stat-unit">km</span></div>
+          <div class="home-403__stat-label">dont piste</div>
+        </div>
+        <div class="home-403__stat">
+          <div class="home-403__stat-value">9 <span class="home-403__stat-unit">jours</span></div>
+          <div class="home-403__stat-label">durée du raid</div>
+        </div>
+        <div class="home-403__stat">
+          <div class="home-403__stat-value">1962</div>
+          <div class="home-403__stat-label">année de la 403</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# ---------- Section 3 : Pilotes ---------- #}
+  <section class="home-403__section home-403__pilots">
+    <div class="home-403__container">
+      <p class="home-403__eyebrow">Pilotes</p>
+      <h2 class="home-403__section-title">Deux à bord</h2>
+
+      <div class="home-403__pilots-grid">
+        <div class="home-403__pilot">
+          <div class="home-403__pilot-photo" aria-hidden="true">
+            <span class="home-403__pilot-initials">DZ</span>
+          </div>
+          <div class="home-403__pilot-name">DrZoid</div>
+        </div>
+        <div class="home-403__pilot">
+          <div class="home-403__pilot-photo" aria-hidden="true">
+            <span class="home-403__pilot-initials">Z</span>
+          </div>
+          <div class="home-403__pilot-name">Zill</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# ---------- Section 4 : Avancement / Timeline ---------- #}
+  <section class="home-403__section home-403__timeline-section">
+    <div class="home-403__container">
+      <p class="home-403__eyebrow">Avancement</p>
+      <h2 class="home-403__section-title">Du garage au désert</h2>
+
+      <ol class="home-403__timeline">
+        <li class="home-403__step home-403__step--in-progress">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Achat</div>
+            <div class="home-403__step-status">En cours</div>
+          </div>
+        </li>
+        <li class="home-403__step home-403__step--pending">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Préparation export</div>
+            <div class="home-403__step-status">À venir</div>
+          </div>
+        </li>
+        <li class="home-403__step home-403__step--pending">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Restauration Maroc</div>
+            <div class="home-403__step-status">À venir</div>
+          </div>
+        </li>
+        <li class="home-403__step home-403__step--pending">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Préparation raid</div>
+            <div class="home-403__step-status">À venir</div>
+          </div>
+        </li>
+        <li class="home-403__step home-403__step--pending">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Inscription Crazy Dust</div>
+            <div class="home-403__step-status">À venir</div>
+          </div>
+        </li>
+        <li class="home-403__step home-403__step--pending">
+          <div class="home-403__step-marker"></div>
+          <div class="home-403__step-body">
+            <div class="home-403__step-title">Sponsoring</div>
+            <div class="home-403__step-status">À venir</div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  {# ---------- Section 5 : Liens rapides ---------- #}
+  <section class="home-403__section home-403__links-section">
+    <div class="home-403__container">
+      <p class="home-403__eyebrow">Liens rapides</p>
+      <h2 class="home-403__section-title">Explorer le carnet</h2>
+
+      <div class="home-403__links">
+        <a class="home-403__link" href="{{ 'vehicule/01-achat/suivi/' | url }}">
+          <span class="home-403__link-icon">🛠️</span>
+          <span class="home-403__link-title">Suivre l'avancement</span>
+          <span class="home-403__link-desc">Journaux et tâches par phase</span>
+        </a>
+        <a class="home-403__link" href="{{ 'raid/01-inscription/taches/' | url }}">
+          <span class="home-403__link-icon">🏜️</span>
+          <span class="home-403__link-title">Le raid Crazy Dust</span>
+          <span class="home-403__link-desc">Inscription et préparation</span>
+        </a>
+        <a class="home-403__link" href="{{ 'raid/02-sponsoring/dossier-fr/' | url }}">
+          <span class="home-403__link-icon">🤝</span>
+          <span class="home-403__link-title">Dossier sponsoring</span>
+          <span class="home-403__link-desc">Présentation aux partenaires</span>
+        </a>
+        <a class="home-403__link" href="{{ 'galeries/01-achat/' | url }}">
+          <span class="home-403__link-icon">📷</span>
+          <span class="home-403__link-title">Galerie photos</span>
+          <span class="home-403__link-desc">Photos du véhicule</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
+{% endblock %}
