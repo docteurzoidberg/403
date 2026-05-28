@@ -14,6 +14,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
 - [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté)
+- [ ] phares LED style rétromod (modèle à choisir) — [AliExpress - option 1](https://fr.aliexpress.com/item/1005004800260632.html)
 - [ ] plaques de désensablage
 - [ ] séparateur cyclonique (filtration air moteur)
 
