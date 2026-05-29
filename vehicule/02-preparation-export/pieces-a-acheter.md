@@ -22,7 +22,7 @@ Géré via le skill `/todo` (code : `pieces`).
 
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
 
-- [ ] capot supplémentaire (conditionnel — uniquement si snorkel décidé en facultatives resto, pour ne pas modifier l'original)
+- ~~[ ] capot supplémentaire~~ — snorkel non retenu ✅
 - ~~[ ] manivelle de démarrage~~ — présente sur le véhicule ✅
 - [ ] bavettes avant/arriere
 
