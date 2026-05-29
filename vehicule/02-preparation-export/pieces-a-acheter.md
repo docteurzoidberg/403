@@ -9,8 +9,9 @@ Géré via le skill `/todo` (code : `pieces`).
 
 - [ ] joint de feux arriere
 - [ ] 3 jantes classiques / fourgonette sans fixation enjoliveur, identiques aux 3 déjà présentes sur le véhicule (1 pour remplacer la jante avec fixation + 2 pour les roues de secours)
-- [ ] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184)
-- [ ] 6 pneus identiques camionette renforcés / tout terrain (4 véhicule + 2 roues de secours)
+- [x] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184) ✅ commandés 2026-05-29
+- [x] 2 pneus tout terrain pour roues de secours — **General Grabber AT3 195/80R15** ✅ commandés 2026-05-29
+- [ ] 4 pneus tout terrain raid (pour les 4 roues du véhicule) — **General Grabber AT3 195/80R15** (à commander avant départ)
 - [ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
 - [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté)
