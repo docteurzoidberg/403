@@ -8,7 +8,7 @@ Géré via le skill `/todo` (code : `pieces`).
 ### À acheter en France
 
 - [ ] joint de feux arriere
-- [ ] 1 jante classique / fourgonnette sans fixation enjoliveur, identique aux autres (vendeur a retrouvé les 2 autres) — pour remplacer la jante avec fixation enjoliveur
+- [x] 1 jante classique / fourgonnette sans fixation enjoliveur, identique aux autres (vendeur a retrouvé les 2 autres) — pour remplacer la jante avec fixation enjoliveur ✅ commandée 2026-05-29
 - [x] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184) ✅ commandés 2026-05-29
 - [x] 2 pneus tout terrain pour roues de secours — **General Grabber AT3 195/80R15** ✅ commandés 2026-05-29
 - [ ] 4 pneus tout terrain raid (pour les 4 roues du véhicule) — **General Grabber AT3 195/80R15** (à commander avant départ)
