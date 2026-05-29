@@ -92,6 +92,13 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-05-29 — Commande pneus
+
+- **4 × Nankang Econex NA-1 165/80R15 87T** — pneus route provisoires (CT + roulage en attendant les pneus raid)
+- **2 × General Grabber AT3 195/80R15** — pneus tout terrain pour les roues de secours
+
+---
+
 ### 2026-05-29 — Appel vendeur — confirmation jantes + commande pneus
 
 **Confirmations obtenues :**
