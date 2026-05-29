@@ -36,4 +36,6 @@ Géré via le skill `/todo` (code : `pieces`).
   - [Goodyear old school](https://fr.aliexpress.com/item/1005012214949306.html)
   - [Castrol old school](https://fr.aliexpress.com/item/1005005722643701.html)
   - [SEV Marchal](https://fr.aliexpress.com/item/1005011683286168.html)
+  - [Danger — ne pas me dire comment conduire](https://fr.aliexpress.com/item/1005010227787606.html)
+  - [NOS](https://fr.aliexpress.com/item/1005007096885772.html)
 - [ ] stickers rallye officiels (drapeau, noms pilotes, groupe sanguin)
