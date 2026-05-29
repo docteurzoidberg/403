@@ -29,5 +29,11 @@ Géré via le skill `/todo` (code : `pieces`).
 ### Stickers (à commander en France avant départ atelier)
 
 - [ ] sticker boiserie (pour le fun)
-- [ ] stickers vintage (selon dispo)
+- [ ] stickers vintage (selon dispo) — options repérées :
+  - [Gulf](https://fr.aliexpress.com/item/1005003188255120.html)
+  - [Peugeot 3D](https://fr.aliexpress.com/item/1005009490038151.html)
+  - [Camel Trophy](https://fr.aliexpress.com/item/1005010415740821.html)
+  - [Goodyear old school](https://fr.aliexpress.com/item/1005012214949306.html)
+  - [Castrol old school](https://fr.aliexpress.com/item/1005005722643701.html)
+  - [SEV Marchal](https://fr.aliexpress.com/item/1005011683286168.html)
 - [ ] stickers rallye officiels (drapeau, noms pilotes, groupe sanguin)
