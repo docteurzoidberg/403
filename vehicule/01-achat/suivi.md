@@ -92,6 +92,20 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-05-29 — Appel vendeur — confirmation jantes + commande pneus
+
+**Confirmations obtenues :**
+
+- **Jantes** : 15 pouces × 5 pouces (14 cm de large) confirmés par le vendeur ✅
+- **Montage pneus tout terrain** : possible jusqu'au 205/80R15 confirmé ✅
+
+**Commandes passées aujourd'hui :**
+
+- 4 pneus route (contrôle technique + roulage)
+- 2 pneus tout terrain pour les roues de secours
+
+---
+
 ### 2026-05-27 — Cabochons de feux arrière retrouvés
 
 - Le vendeur a retrouvé les cabochons de feux arrière (droit + gauche/trappe essence) ✅
