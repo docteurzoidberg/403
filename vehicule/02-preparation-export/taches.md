@@ -5,6 +5,12 @@ Géré via le skill `/todo` (code : `export`).
 
 ## À faire
 
+### Travaux à effectuer en France avant départ
+
+- [ ] Installation prise USB dans l'habitacle (avec fusible en amont)
+
+### Logistique
+
 - [ ] Prévoir frais transport véhicule (plan B si incapacité de ramener au domicile après achat)
 - [ ] Contacter atelier Maroc — explication du projet
 - [ ] Prendre rendez-vous avec l'atelier
