@@ -7,7 +7,9 @@ Géré via le skill `/todo` (code : `export`).
 
 ### Travaux à effectuer en France avant départ
 
-- [ ] Fabrication support pour platine USB
+- [x] Fabrication support pour platine USB ✅ — à tester
+
+    ![Support platine USB v1](photos/support-platine-usb-v1.png)
 - [ ] Installation platine USB dans l'habitacle (avec fusible en amont)
 
 ### Logistique
