@@ -7,7 +7,7 @@ Géré via le skill `/todo` (code : `pieces`).
 
 ### À acheter en France
 
-- [ ] platine USB encastrable (pour installation habitacle)
+- [ ] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3)
 - [ ] prise allume-cigare (12V, avec fusible intégré ou en amont)
 - [ ] joint de feux arriere
 - [x] 1 jante classique / fourgonnette sans fixation enjoliveur, identique aux autres (vendeur a retrouvé les 2 autres) — pour remplacer la jante avec fixation enjoliveur ✅ commandée 2026-05-29
