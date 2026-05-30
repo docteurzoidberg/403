@@ -7,6 +7,8 @@ Géré via le skill `/todo` (code : `pieces`).
 
 ### À acheter en France
 
+- [ ] platine USB encastrable (pour installation habitacle)
+- [ ] prise allume-cigare (12V, avec fusible intégré ou en amont)
 - [ ] joint de feux arriere
 - [x] 1 jante classique / fourgonnette sans fixation enjoliveur, identique aux autres (vendeur a retrouvé les 2 autres) — pour remplacer la jante avec fixation enjoliveur ✅ commandée 2026-05-29
 - [x] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184) ✅ commandés 2026-05-29
