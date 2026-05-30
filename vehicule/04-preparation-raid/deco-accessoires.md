@@ -46,4 +46,4 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé
 
 ### Esthétiques
 
-*(à compléter)*
+- 💡 **Volant style Mad Max** — idée non décidée, à l'étude
