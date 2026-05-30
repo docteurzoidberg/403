@@ -58,9 +58,10 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 - [ ] **Dé de rétroviseur** — déco rétro
 - [ ] **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
-- 💡 **Extincteur peint en bleu + sticker NOS** — positionné sur le passage d'arbre (tunnel de transmission)
+- 💡 **Extincteur NOS Nitro bleu personnalisable** — positionné sur le passage d'arbre (tunnel de transmission) — existe déjà tout fait (~79 €)
 
-    ![Référence intérieur — position extincteur sur tunnel](photos/deco/extincteur-nos-tunnel.png)
+    ![Intérieur — position sur tunnel](photos/deco/extincteur-nos-tunnel.png)
+    ![Extincteur NOS Nitro — produit](photos/deco/extincteur-nos-produit.png)
 
 ---
 
