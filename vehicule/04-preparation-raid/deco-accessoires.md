@@ -58,6 +58,9 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 - [ ] **Dé de rétroviseur** — déco rétro
 - [ ] **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
+- 💡 **Extincteur peint en bleu + sticker NOS** — positionné sur le passage d'arbre (tunnel de transmission)
+
+    ![Référence intérieur — position extincteur sur tunnel](photos/deco/extincteur-nos-tunnel.png)
 
 ---
 
