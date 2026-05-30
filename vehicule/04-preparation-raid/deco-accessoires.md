@@ -15,6 +15,7 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé
 ### Jantes
 
 - ✅ **Jantes peintes époxy beige** — couleur assortie à la carrosserie
+- 💡 **Enjoliveurs custom style cache-moyeux noirs** — à fabriquer, pour le raid
 
   ![Rendu roue AT sur jante beige](photos/deco/rendu-roue-at-jante-beige.png)
 
