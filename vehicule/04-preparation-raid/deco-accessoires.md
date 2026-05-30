@@ -22,21 +22,36 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 ### Stickers & autocollants
 
 - 🛒 [Gulf](https://fr.aliexpress.com/item/1005003188255120.html)
-  ![Gulf](photos/deco/stickers/gulf.png)
+
+    ![Gulf](photos/deco/stickers/gulf.png)
+
 - 🛒 [Peugeot 3D](https://fr.aliexpress.com/item/1005009490038151.html)
-  ![Peugeot 3D](photos/deco/stickers/peugeot-3d.png)
+
+    ![Peugeot 3D](photos/deco/stickers/peugeot-3d.png)
+
 - 🛒 [Camel Trophy](https://fr.aliexpress.com/item/1005010415740821.html) — plusieurs modèles dispo
-  ![Camel Trophy](photos/deco/stickers/camel-trophy.png)
+
+    ![Camel Trophy](photos/deco/stickers/camel-trophy.png)
+
 - 🛒 [Goodyear old school](https://fr.aliexpress.com/item/1005012214949306.html)
-  ![Goodyear](photos/deco/stickers/goodyear.png)
+
+    ![Goodyear](photos/deco/stickers/goodyear.png)
+
 - 🛒 [Castrol old school](https://fr.aliexpress.com/item/1005005722643701.html)
-  ![Castrol](photos/deco/stickers/castrol.png)
+
+    ![Castrol](photos/deco/stickers/castrol.png)
+
 - 🛒 [SEV Marchal](https://fr.aliexpress.com/item/1005011683286168.html)
-  ![SEV Marchal](photos/deco/stickers/sev-marchal.png)
+
+    ![SEV Marchal](photos/deco/stickers/sev-marchal.png)
+
 - 🛒 [Danger — ne pas me dire comment conduire](https://fr.aliexpress.com/item/1005010227787606.html)
-  ![Attention Danger](photos/deco/stickers/attention-danger.png)
+
+    ![Attention Danger](photos/deco/stickers/attention-danger.png)
+
 - 🛒 [NOS](https://fr.aliexpress.com/item/1005007096885772.html)
-  ![NOS](photos/deco/stickers/nos.png)
+
+    ![NOS](photos/deco/stickers/nos.png)
 
 ### Déco intérieure
 
