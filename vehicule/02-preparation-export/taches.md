@@ -7,7 +7,8 @@ Géré via le skill `/todo` (code : `export`).
 
 ### Travaux à effectuer en France avant départ
 
-- [ ] Installation prise USB dans l'habitacle (avec fusible en amont)
+- [ ] Fabrication support pour platine USB
+- [ ] Installation platine USB dans l'habitacle (avec fusible en amont)
 
 ### Logistique
 
