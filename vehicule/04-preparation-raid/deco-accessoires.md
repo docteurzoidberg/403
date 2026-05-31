@@ -55,6 +55,7 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 
 ### Déco intérieure
 
+- 💡 **Panneau de switchs déco style course** — switches qui ne servent à rien, pour l'effet — [AliExpress](https://fr.aliexpress.com/item/1005006888977837.html)
 - [ ] **Dé de rétroviseur** — déco rétro
 - [ ] **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
