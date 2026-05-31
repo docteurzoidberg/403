@@ -55,7 +55,8 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 
 ### Déco intérieure
 
-- 💡 **Panneau de switchs déco style course** — switches qui ne servent à rien, pour l'effet — [AliExpress](https://fr.aliexpress.com/item/1005006888977837.html)
+- 💡 **Panneau de switchs déco style course** — 3 switchs + 1 bouton start, ne servent à rien — [AliExpress](https://fr.aliexpress.com/item/1005006888977837.html)
+  Libellés suggérés : **BOOST** / **WARP** / **EJECT** + bouton **START**
 
     ![Panneau switchs déco course](photos/deco/panneau-switchs-course.png)
 - [ ] **Dé de rétroviseur** — déco rétro
