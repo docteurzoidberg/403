@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-01 — Jante LBC payée et expédiée
+
+- Jante classique fourgonnette (sans fixation enjoliveur) commandée sur Le Bon Coin — payée et envoyée par le vendeur aujourd'hui ✅
+
+---
+
 ### 2026-05-29 — Commande pneus
 
 - **4 × Nankang Econex NA-1 165/80R15 87T** — pneus route provisoires (CT + roulage en attendant les pneus raid)
