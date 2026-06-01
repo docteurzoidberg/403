@@ -9,13 +9,14 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Date prévisionnelle de prise en main / livraison
 - Mode de récupération du véhicule depuis Varilhes (conduire vs faire transporter — cf. plan B "frais transport" dans `export`)
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
-- Montage des pneus évoqué au téléphone le 2026-05-24 — décisions prises (qui monte, quels pneus, où) ?
 - Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
+- Rétroviseur côté conducteur — présent ou manquant ? (à demander au vendeur)
+- Attelage — le vendeur peut-il en trouver un ? (question posée 2026-06-01)
 
 ## Préparation export (France → Maroc)
 
 - Date cible de départ du véhicule vers le Maroc
-- Confirmer avec l'atelier la dispo des pièces "si disponible au Maroc" (capot supplémentaire conditionnel, manivelle de démarrage, bavettes)
+- Confirmer avec l'atelier la dispo des bavettes avant/arrière (sinon à acheter en France avant départ)
 - Hébergement sur place pendant la période atelier : où, combien de temps, budget
 - Budget global préparation export (transport véhicule + ferry + hébergement)
 
