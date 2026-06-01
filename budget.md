@@ -40,7 +40,7 @@ Suivi des dépenses par phase.
 | — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : 463.40 €  
+**Sous-total réel engagé** : —  
 **Prévisionnel partiel** : 465.20 € *(reste à compléter)*
 
 ---
@@ -93,17 +93,13 @@ Suivi des dépenses par phase.
 | — | Réparations mécaniques éventuelles | — | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel engagé** : —  
-**Prévisionnel** : *(à renseigner)*
-
----
-
-## Récapitulatif global
+**Prévisionnel partiel** : 3 000 € *(reste à compléter)* global
 
 | Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
 |---|---|---|---|
 | 1 — Achat véhicule | 790 | — | 2 950 |
-| 2 — Préparation export | — | 463.40 | 465.20 *(partiel)* |
+| 2 — Préparation export | — | — | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | — | *(à renseigner)* |
 | 4 — Préparation raid | — | — | *(à renseigner)* |
-| 5 — Raid | — | — | *(à renseigner)* |
-| **TOTAL** | **790 €** | **463.40 €** | **3 415.20 € +** |
+| 5 — Raid | — | — | 3 000 *(partiel)* |
+| **TOTAL** | **790 €** | **463.40 €** | **6 415.20 € +** |
