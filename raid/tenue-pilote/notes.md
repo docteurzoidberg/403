@@ -16,7 +16,11 @@ Concept de tenue pilote pour le raid : combinaison + écusson brodé.
 - `photos/ecusson-concept-ia-v1.png` — rendu IA du concept (référence visuelle pour le brodeur)
 
 ### Combinaison
-_(à compléter)_
+- Modèle : Qualitex Combinaison Rallye
+- Amazon : https://www.amazon.fr/Qualitex-Combinaison-Rallye-Plusieurs-couleurs/dp/B007MS9SUG
+- Option bleue : http://tppt.eu/u/rGbj7u.png
+- Option blanche : http://tppt.eu/u/7G1aJE.png
+- Couleur : à choisir
 
 ## À faire
 
