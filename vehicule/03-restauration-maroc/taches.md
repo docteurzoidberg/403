@@ -26,6 +26,10 @@ Géré via le skill `/todo` (code : `resto`).
 - [ ] protection réservoir (plaque sur mesure — à valider avec l'atelier selon exposition réelle)
 - [ ] anneaux remorquage avant et arrière
 
+### Aménagement intérieur
+
+- [ ] Fabrication galerie de tableau de bord
+
 ### Modifications facultatives
 
 - ~~[ ] installation snorkel — uniquement si complètement démontable / réversible (nécessite achat d'un capot supplémentaire en France pour ne pas modifier l'original)~~ → séparateur cyclonique retenu
