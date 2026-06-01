@@ -9,16 +9,13 @@ Modèle : **Qualitex Combinaison Rallye**
 - [Voir sur Amazon](https://www.amazon.fr/Qualitex-Combinaison-Rallye-Plusieurs-couleurs/dp/B007MS9SUG)
 - Coloris disponibles — **à choisir avec Zill**
 
-<div style="display:flex;gap:1rem;flex-wrap:wrap">
-  <figure style="margin:0;text-align:center">
-    <img src="photos/combinaison-bleu.png" alt="Combinaison bleue" style="height:300px">
-    <figcaption>Bleue</figcaption>
-  </figure>
-  <figure style="margin:0;text-align:center">
-    <img src="photos/combinaison-blanc.png" alt="Combinaison blanche" style="height:300px">
-    <figcaption>Blanche</figcaption>
-  </figure>
-</div>
+**Bleue**
+
+![Combinaison bleue](photos/combinaison-bleu.png)
+
+**Blanche**
+
+![Combinaison blanche](photos/combinaison-blanc.png)
 
 ## Écusson brodé
 
