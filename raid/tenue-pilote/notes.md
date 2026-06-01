@@ -1,6 +1,6 @@
-# Ecusson pilote — Crazy 403
+# Tenue pilote — Crazy 403
 
-Idée : écusson à faire broder au Maroc pour les tenues de pilote.
+Concept de tenue pilote pour le raid : combinaison + écusson brodé.
 
 ## Concept
 
@@ -12,7 +12,11 @@ Idée : écusson à faire broder au Maroc pour les tenues de pilote.
 
 ## Fichiers
 
+### Écusson
 - `photos/ecusson-concept-ia-v1.png` — rendu IA du concept (référence visuelle pour le brodeur)
+
+### Combinaison
+_(à compléter)_
 
 ## À faire
 
