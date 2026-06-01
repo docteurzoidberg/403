@@ -10,14 +10,14 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| 2026-05-?? | Peugeot 403 Break (prix annonce : 3 250 €) | *(à confirmer)* | Réel | *(à confirmer)* |
-| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 228 | Réel | 🛒 Commandé |
-| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | *(montant à renseigner)* | Réel | 🛒 Commandé |
-| 2026-06-01 | 1 jante 5R15 Michelin ajourée (LBC) | *(montant à renseigner)* | Réel | ✅ Payé |
-| — | 4 chambres à air neuves (via vendeur) | *(montant à renseigner)* | Réel | 🛒 Commandé |
+| — | Peugeot 403 Break — prix total estimé | 3 500 | Prévisionnel | 💭 Estimation |
+| 2026-05-?? | Avance achat véhicule | 550 | Réel | ✅ Payé |
+| 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
+| 2026-06-01 | Jante 5R15 Michelin ajourée (LBC) + expédition | 40 | Réel | ✅ Payé |
+| — | 4 chambres à air neuves (via vendeur) | *(à renseigner)* | Réel | 🛒 Commandé |
 
-**Sous-total réel engagé** : *(à compléter)*  
-**Sous-total prévisionnel** : —
+**Sous-total réel payé** : 790 €  
+**Solde véhicule restant (prévisionnel)** : ~2 950 € *(3 500 − 550)*
 
 ---
 
@@ -25,6 +25,9 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
+| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | 🛒 Commandé |
+| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | 🛒 Commandé |
+| — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 Estimation |
 | — | Extincteur (obligatoire raid) | ~20-30 | Prévisionnel | 💭 Estimation |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | ~25 | Prévisionnel | 💭 Estimation |
 | — | 1 rétroviseur côté conducteur | *(à estimer)* | Prévisionnel | 💭 Estimation |
@@ -33,12 +36,11 @@ Suivi des dépenses par phase.
 | — | Séparateur cyclonique | ~30-60 | Prévisionnel | 💭 Estimation |
 | — | Joint de feux arrière | *(à estimer)* | Prévisionnel | 💭 Estimation |
 | — | Stickers (Gulf, Camel, Goodyear…) | ~30-50 | Prévisionnel | 💭 Estimation |
-| — | 4 pneus AT raid General Grabber AT3 195/80R15 | ~420 (4×105€) | Prévisionnel | 💭 Estimation |
 | — | Transport véhicule (plan B) | *(selon besoin)* | Prévisionnel | 💭 Estimation |
 | — | Ferry aller (Algésiras → Tanger Med) | ~inclus raid* | Prévisionnel | 💭 Estimation |
 
-**Sous-total réel engagé** : —  
-**Sous-total prévisionnel** : ~625-845 € *(hors transport, hors ferry si inclus raid)*
+**Sous-total réel engagé** : 463.40 €  
+**Sous-total prévisionnel** : ~1 090-1 200 € *(hors transport, hors ferry si inclus raid)*
 
 ---
 
@@ -97,13 +99,13 @@ Suivi des dépenses par phase.
 
 ## Récapitulatif global
 
-| Phase | Réel engagé (€) | Prévisionnel (€) |
-|---|---|---|
-| 1 — Achat véhicule | *(à compléter)* | — |
-| 2 — Préparation export | — | ~625-845 |
-| 3 — Restauration Maroc | — | *(en attente devis)* |
-| 4 — Préparation raid | — | ~530-760 |
-| 5 — Raid | — | ~3 100 |
-| **TOTAL** | *(à compléter)* | **~4 255-4 705 €** *(partiel)* |
+| Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
+|---|---|---|---|
+| 1 — Achat véhicule | 790 | — | ~2 950 *(solde véhicule)* |
+| 2 — Préparation export | — | 463.40 | ~1 090-1 200 |
+| 3 — Restauration Maroc | — | — | *(en attente devis)* |
+| 4 — Préparation raid | — | — | ~530-760 |
+| 5 — Raid | — | — | ~3 100 |
+| **TOTAL** | **790 €** | **463.40 €** | **~7 670-8 010 €** *(partiel)* |
 
-> Les phases 2 et 4 n'incluent pas tous les postes (devis manquants). Le total prévisionnel est sous-estimé.
+> Le total prévisionnel est partiel : phases 3 et 4 incomplètes, phase 5 hors carburant/repas/réparations.
