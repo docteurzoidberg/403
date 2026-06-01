@@ -36,6 +36,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Si à notre charge : démarche ANRT (mail autorisation@anrt.ma) — à faire à quelle date ?
 - Plaques de désensablage : fixation sur galerie ou support dédié (décision finale sur place)
 - Modèle exact de batterie autonome EcoFlow (capacité, budget)
+- Compresseur DIY : volume de la cuve (contenance extincteur), pression de consigne, référence compresseur de base, implantation sur le véhicule
 
 ## Inscription Crazy Dust 2027
 
