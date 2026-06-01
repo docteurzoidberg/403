@@ -7,7 +7,18 @@ Concept de tenue pilote pour le raid Crazy Dust 2027.
 Modèle : **Qualitex Combinaison Rallye**
 
 - [Voir sur Amazon](https://www.amazon.fr/Qualitex-Combinaison-Rallye-Plusieurs-couleurs/dp/B007MS9SUG)
-- Coloris disponibles : bleu ou blanc — **à choisir avec Zill**
+- Coloris disponibles — **à choisir avec Zill**
+
+<div style="display:flex;gap:1rem;flex-wrap:wrap">
+  <figure style="margin:0;text-align:center">
+    <img src="photos/combinaison-bleu.png" alt="Combinaison bleue" style="height:300px">
+    <figcaption>Bleue</figcaption>
+  </figure>
+  <figure style="margin:0;text-align:center">
+    <img src="photos/combinaison-blanc.png" alt="Combinaison blanche" style="height:300px">
+    <figcaption>Blanche</figcaption>
+  </figure>
+</div>
 
 ## Écusson brodé
 
