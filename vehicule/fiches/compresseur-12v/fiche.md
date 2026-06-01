@@ -33,7 +33,7 @@ Compresseur du commerce (gonfleur 12V à pinces batterie, sans réservoir) coupl
 |---|---|---|
 | 1 | Purge / vidange air directe | Vanne simple |
 | 2 | Utilisation générale (gonflage pneus, soufflette…) | Raccord rapide européen standard |
-| 3 | Réseau d'air trompettes | Raccord tuyau PTFE pneumatique |
+| 3 | Réseau d'air trompettes | Régulateur de pression réglable + raccord tuyau PTFE pneumatique |
 
 ---
 
