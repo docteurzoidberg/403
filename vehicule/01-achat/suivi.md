@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-01 — Attelage
+
+- Demander au vendeur s'il peut mettre la main sur un attelage pour la 403.
+
+---
+
 ### 2026-06-01 — Jante LBC payée et expédiée
 
 - Jante classique fourgonnette **avec fixation enjoliveur**, **5R15 Michelin** — commandée sur Le Bon Coin — payée et envoyée par le vendeur aujourd'hui ✅
