@@ -28,10 +28,7 @@ Géré via le skill `/todo` (code : `resto`).
 
 ### Aménagement intérieur
 
-- [ ] Fabrication galerie de tableau de bord — accessoires d'époque
-
-    ![Référence galerie tableau de bord 1](photos/galerie-tdb-ref-01.jpg)
-    ![Référence galerie tableau de bord 2](photos/galerie-tdb-ref-02.png)
+- [ ] Fabrication galerie de tableau de bord — accessoires d'époque → [fiche technique](../../fiches/galerie-tableau-de-bord/fiche.md)
 
 ### Modifications facultatives
 
