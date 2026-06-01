@@ -94,7 +94,7 @@
 
 ### 2026-06-01 — Jante LBC payée et expédiée
 
-- Jante classique fourgonnette (sans fixation enjoliveur) commandée sur Le Bon Coin — payée et envoyée par le vendeur aujourd'hui ✅
+- Jante classique fourgonnette **avec fixation enjoliveur**, **5R15 Michelin** — commandée sur Le Bon Coin — payée et envoyée par le vendeur aujourd'hui ✅
 
 ---
 
