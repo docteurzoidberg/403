@@ -20,7 +20,7 @@ Compresseur du commerce (gonfleur 12V à pinces batterie, sans réservoir) coupl
 
 ### Cuve
 
-- **Corps** : extincteur recyclé **3 à 6L** (eau/mousse ou poudre — éviter CO2)
+- **Corps** : extincteur recyclé **3L** (eau/mousse ou poudre — éviter CO2)
 - **Équipements montés sur la cuve :**
   - Soupape de sécurité (pression max)
   - Vanne de vidange — en partie basse (purge eau + dépressurisation)
@@ -77,7 +77,7 @@ Compresseur du commerce (gonfleur 12V à pinces batterie, sans réservoir) coupl
 
 ## Points à définir
 
-- Volume de la cuve : extincteur 3 à 6L ✅ — contenance exacte à choisir selon encombrement
+- Volume de la cuve : extincteur **3L** ✅ — suffisant pour trompettes + soufflette filtre à air (usage gonflage pneus assuré par le compresseur en continu, pas la cuve)
 - Pression de consigne du pressostat (en bar)
 - Pression max admissible de la cuve (à vérifier sur l'extincteur)
 - Référence du compresseur de base
