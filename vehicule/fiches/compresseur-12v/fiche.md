@@ -44,6 +44,8 @@ Compresseur du commerce (gonfleur 12V à pinces batterie, sans réservoir) coupl
 | 1 | **Compresseur de base** | VIAIR 400P (150 PSI, 2.54 CFM, 12A) — référence overland | ~150-180 € |
 | | *Alternative budget* | Gonfleur double cylindre 12V 150 PSI (AliExpress) | ~20-40 € |
 | 2 | **Pressostat 12V** | Pressostat mécanique universel type "train horn" 120-150 PSI — [Amazon B07RBJZPNN](https://www.amazon.fr/dp/B07RBJZPNN) | ~10-15 € |
+| | *Alternative à étudier* | KEUPOK pressostat multi-ports intégré (ports + soupape de décharge inclus) — **220V natif**, à utiliser via relai 12V — [Amazon B0GVV9QKKT](https://www.amazon.fr/dp/B0GVV9QKKT) — vérifier si variante 12V dispo | ~26 € |
+| | | ![KEUPOK pressostat](photos/keupok-pressostat.jpg) | |
 | 3 | **Adaptateur tête extincteur** | M30×2 → 1/4" BSP (filetage à confirmer sur l'extincteur) | ~5-10 € |
 | 4 | **Soupape de sécurité** | 10 bar, filetage 1/4" BSP | ~10-20 € |
 | 5 | **Manomètre** | Glycérine 0-16 bar, Ø50mm, 1/4" BSP | ~10-15 € |
