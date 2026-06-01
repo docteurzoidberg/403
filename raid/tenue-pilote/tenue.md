@@ -10,11 +10,16 @@ Modèle : **Qualitex Combinaison Rallye**
 - Coloris disponibles — **à choisir avec Zill**
 
 <div class="grid" markdown>
-![Combinaison bleue](photos/combinaison-bleu.png){ width="300" }
-**Bleue**
+<div markdown>
+![Combinaison bleue](photos/combinaison-bleu.png)
 
-![Combinaison blanche](photos/combinaison-blanc.png){ width="300" }
+**Bleue**
+</div>
+<div markdown>
+![Combinaison blanche](photos/combinaison-blanc.png)
+
 **Blanche**
+</div>
 </div>
 
 ## Écusson brodé
