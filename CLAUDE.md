@@ -123,6 +123,17 @@ Plan homepage hero page (implémenté) : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](p
 | Aménagement galerie de toit | `vehicule/fiches/galerie-toit/fiche.md` | Vide — à compléter |
 | Faisceau accessoires / gadgets | `vehicule/fiches/faisceau-accessoires/fiche.md` | Vide — à compléter |
 
+## Édition du budget
+
+- Fichier source : **`budget.md`** (racine du repo)
+- `web/docs/budget.md` est un **symlink** vers `budget.md` — ne jamais l'éditer directement
+- Après chaque modification, **recalculer obligatoirement** :
+  - Les sous-totaux de la phase concernée (réel payé / réel commandé / prévisionnel)
+  - Le récapitulatif global en bas de fichier (toutes phases + ligne TOTAL)
+- Format montants : séparateur milliers = espace (`3 000`), décimales = point (`230.80`), inconnu = `—`
+- Statuts : ✅ Payé · 🛒 Commandé · 💭 À renseigner
+- Après édition : rebuild MkDocs (`cd web && .venv/bin/mkdocs build`) puis commit + push
+
 ## Informations véhicule
 
 - **Modèle** : Peugeot 403 break
