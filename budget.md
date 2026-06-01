@@ -15,8 +15,11 @@ Suivi des dépenses par phase.
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-01 | Jante 5R15 Michelin ajourée (LBC) + expédition | 40 | Réel | ✅ Payé |
 | — | 4 chambres à air neuves (via vendeur) | — | Réel | 🛒 Commandé |
+| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | 🛒 Commandé |
+| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | 🛒 Commandé |
 
 **Sous-total réel payé** : 790 €  
+**Sous-total réel commandé** : 463.40 €  
 **Prévisionnel restant** : 2 950 €
 
 ---
@@ -25,8 +28,6 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | 🛒 Commandé |
-| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | 🛒 Commandé |
 | — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
 | — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
@@ -84,7 +85,7 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| — | Inscription Crazy Dust 2027 | — | Prévisionnel | 💭 À renseigner |
+| — | Inscription Crazy Dust 2027 | 3 000 | Prévisionnel | 💭 À renseigner |
 | — | Assurance annulation obligatoire | — | Prévisionnel | 💭 À renseigner |
 | — | Carburant (Maroc + Espagne) | — | Prévisionnel | 💭 À renseigner |
 | — | Péages | — | Prévisionnel | 💭 À renseigner |

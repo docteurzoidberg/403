@@ -28,14 +28,14 @@ Géré via le skill `/todo` (code : `resto`).
 
 ### Aménagement intérieur
 
-- [ ] Fabrication galerie de tableau de bord — accessoires d'époque → [fiche technique](../../fiches/galerie-tableau-de-bord/fiche.md)
+- [ ] Fabrication galerie de tableau de bord — accessoires d'époque → [fiche technique](../fiches/galerie-tableau-de-bord/fiche.md)
 
 ### Modifications facultatives
 
 - ~~[ ] installation snorkel — uniquement si complètement démontable / réversible (nécessite achat d'un capot supplémentaire en France pour ne pas modifier l'original)~~ → séparateur cyclonique retenu
 - [ ] installation séparateur cyclonique (filtration air moteur)
 - [ ] attelage sur mesure (si réalisé, l'anneau remorquage arrière y sera installé)
-- [ ] remplacement dynamo par alternateur ? → [fiche technique](../../fiches/dynamo-alternateur/fiche.md)
+- [ ] remplacement dynamo par alternateur ? → [fiche technique](../fiches/dynamo-alternateur/fiche.md)
 - [ ] fiabilisation / amélioration ventilation du radiateur
 - [ ] Support pour plaques de désensablage (optionnel — décision sur place selon fixation galerie vs support dédié)
 
