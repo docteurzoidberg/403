@@ -112,6 +112,7 @@ nav:
       - Faisceau accessoires: vehicule/fiches/faisceau-accessoires/fiche.md
       - Galerie tableau de bord: vehicule/fiches/galerie-tableau-de-bord/fiche.md
       - Compresseur 12V DIY: vehicule/fiches/compresseur-12v/fiche.md
+  - Budget: budget.md
   - Raid:
     - Inscription:
       - À faire: raid/01-inscription/taches.md
