@@ -11,7 +11,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
 - Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
 - Rétroviseur côté conducteur — présent ou manquant ? (à demander au vendeur)
-- Attelage — le vendeur peut-il en trouver un ? (question posée 2026-06-01)
+- Attelage — le vendeur cherche à la casse (en attente de retour, 2026-06-01)
 
 ## Préparation export (France → Maroc)
 

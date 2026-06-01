@@ -92,6 +92,13 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-01 — Appel vendeur (Claude)
+
+- **4 chambres à air neuves** — le vendeur se charge de les trouver ✅
+- **Attelage** — le vendeur va vérifier si un attelage est disponible à la casse pour la 403 (en cours)
+
+---
+
 ### 2026-06-01 — Attelage
 
 - Demander au vendeur s'il peut mettre la main sur un attelage pour la 403.
