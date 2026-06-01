@@ -39,27 +39,39 @@ Compresseur du commerce (gonfleur 12V à pinces batterie, sans réservoir) coupl
 
 ## Liste d'achats
 
+### Kit pressostat — remplace plusieurs composants séparés
+
+[KEUPOK — Kit pressostat compresseur](https://www.amazon.fr/dp/B0GVV9QKKT) — ~26 €
+
+![KEUPOK kit complet](photos/keupok-kit-complet.png)
+
+**Contenu du kit :**
+- Pressostat avec ports intégrés (220V natif — contacts utilisés via relai 12V externe)
+- 2 manomètres
+- Soupape de sécurité
+- Valve de régulation de pression (sortie trompettes)
+- 2 raccords rapides G1/4"
+- 10m ruban téflon
+
+![KEUPOK pressostat détail](photos/keupok-pressostat.png)
+
+---
+
+### Composants complémentaires
+
 | # | Composant | Remarque / Référence | Prix indicatif |
 |---|---|---|---|
 | 1 | **Compresseur de base** | VIAIR 400P (150 PSI, 2.54 CFM, 12A) — référence overland | ~150-180 € |
 | | *Alternative budget* | Gonfleur double cylindre 12V 150 PSI (AliExpress) | ~20-40 € |
-| 2 | **Pressostat 12V** | Pressostat mécanique universel type "train horn" 120-150 PSI — [Amazon B07RBJZPNN](https://www.amazon.fr/dp/B07RBJZPNN) | ~10-15 € |
-| | *Alternative à étudier* | KEUPOK pressostat multi-ports intégré (ports + soupape de décharge inclus) — **220V natif**, à utiliser via relai 12V — [Amazon B0GVV9QKKT](https://www.amazon.fr/dp/B0GVV9QKKT) — vérifier si variante 12V dispo | ~26 € |
-| | | ![KEUPOK pressostat](photos/keupok-pressostat.png) | |
-| 3 | **Adaptateur tête extincteur** | M30×2 → 1/4" BSP (filetage à confirmer sur l'extincteur) | ~5-10 € |
-| 4 | **Soupape de sécurité** | 10 bar, filetage 1/4" BSP | ~10-20 € |
-| 5 | **Manomètre** | Glycérine 0-16 bar, Ø50mm, 1/4" BSP | ~10-15 € |
-| 6 | **3× vannes quart de tour** | 1/4" BSP laiton | ~5 €/pièce |
-| 7 | **Raccord rapide européen** | Type C / NF E 49-053, mâle 1/4" BSP (sortie gonflage) | ~5-10 € |
-| 8 | **Régulateur de pression réglable** | Mini réducteur 1/4" BSP (sortie trompettes) | ~10-15 € |
-| 9 | **Raccord push-in + tuyau PTFE** | 6 ou 8mm selon trompettes, 1/4" BSP | ~5-10 € + ~3-5 €/m |
-| 10 | **Relai automobile 30A** | ISO mini | ~3-5 € |
-| 11 | **Câble 4mm²** | Rouge + noir, ~2m chaque | ~5-8 € |
-| 12 | **Porte-fusible + fusible 30A** | En ligne sur le + batterie | ~5 € |
-| 13 | **Collecteur 4 voies 1/4" BSP** | Pour distribuer les 3 sorties + soupape depuis la cuve | ~15-20 € |
-| 14 | **Assortiment raccords 1/4" BSP** | Nipples, coudes, tés selon montage final | ~10-20 € |
+| 2 | **Adaptateur tête extincteur** | M30×2 → 1/4" BSP (filetage à confirmer sur l'extincteur) | ~5-10 € |
+| 3 | **Vanne de purge** | 1/4" BSP laiton (fond de cuve) | ~5 € |
+| 4 | **Raccord push-in + tuyau PTFE** | 6mm, 1/4" BSP (réseau trompettes) | ~5-10 € + ~3-5 €/m |
+| 5 | **Relai automobile 30A** | ISO mini — commandé par le pressostat | ~3-5 € |
+| 6 | **Câble 4mm²** | Rouge + noir, ~2m chaque | ~5-8 € |
+| 7 | **Porte-fusible + fusible 30A** | En ligne sur le + batterie | ~5 € |
+| 8 | **Assortiment raccords 1/4" BSP** | Nipples, coudes, tés selon montage final | ~10-20 € |
 
-**Total estimé** : ~250-310 € avec VIAIR / ~120-170 € avec compresseur budget
+**Total estimé** : ~220-270 € avec VIAIR / ~90-130 € avec compresseur budget
 
 ---
 
