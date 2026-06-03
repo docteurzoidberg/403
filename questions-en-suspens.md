@@ -10,10 +10,12 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Mode de récupération du véhicule depuis Varilhes (conduire vs faire transporter — cf. plan B "frais transport" dans `export`)
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
 - Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
-- Rétroviseur côté conducteur — présent ou manquant ? (à demander au vendeur)
+- Rétroviseur côté conducteur — **manquant** — annonce repérée : [LBC Peugeot 203-403-404 miroir extérieur, Charmes](https://www.leboncoin.fr/ad/decoration/3128947126) — à commander/acheter
 - Attelage — le vendeur cherche à la casse (en attente de retour, 2026-06-01)
 
 ## Préparation export (France → Maroc)
+
+- Clignotant AV manquant — annonce repérée : [LBC paire clignotants AV 403, 60€, Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939) — à commander/acheter
 
 - Date cible de départ du véhicule vers le Maroc
 - Confirmer avec l'atelier la dispo des bavettes avant/arrière (sinon à acheter en France avant départ)
