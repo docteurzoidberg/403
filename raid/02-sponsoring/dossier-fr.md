@@ -15,23 +15,24 @@ Route, piste, désert, action humanitaire. Esprit aventure, déjanté, solidaire
 Organisé par Pro Raids Organisation.
 
 ### Notre projet — Crazy 403
-<!-- À compléter : votre histoire, pourquoi cette voiture, pourquoi ce raid -->
 
-_À écrire ensemble._
+Deux passionnés de mécanique qui se retrouvent autour d'une idée simple et un peu folle : prendre une Peugeot 403 Break — une vieille française de caractère — et la pousser jusqu'aux portes du Sahara.
+
+DrZoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
+
+Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de budget démesuré, juste une voiture qui a du caractère, deux gars qui ont envie d'aventure, et 2700 km de Maroc devant eux. Si ça casse, on répare. C'est notre premier raid ensemble, et on veut le faire bien — avec une vraie préparation, un vrai suivi, et une belle histoire à raconter.
 
 ---
 
 ## 2. L'équipage
 
-### Pilote — DrZoid
-- **Nom complet** : _à compléter_
-- **Né le** : _à compléter_
-- **Motivations** : _à compléter_
+### Pilote — Axel "DrZoid"
+- **Né en** : 1984
+- **Profil** : Passionné de vieille mécanique française — J7, tracteurs anciens, Solex. Toujours partant pour une aventure loufoque. Tomber en panne ne lui fait pas peur.
 
-### Copilote — Zill
-- **Nom complet** : _à compléter_
-- **Né le** : _à compléter_
-- **Motivations** : _à compléter_
+### Copilote — William "Zill"
+- **Né en** : 1995 *(à confirmer)*
+- **Profil** : Mécanicien dans l'âme, fan de vieilles françaises, débrouillard.
 
 ### Le véhicule
 - Peugeot 403 Break
@@ -62,7 +63,8 @@ Emplacements disponibles sur la 403 (hors zones réservées organisateur) :
 > Les tarifs sont à définir. Le PDF modèle laisse ces champs libres.
 
 ### Visibilité équipage
-- Logo sur les combinaisons de pilote pendant tout le raid
+- Patch brodé sponsor sur les combinaisons de pilote pendant tout le raid
+- Sticker(s) grand format sur le véhicule
 
 ### Visibilité digitale
 - Logo + lien sur le site du projet : <https://docteurzoidberg.github.io/403/>
@@ -122,12 +124,17 @@ trousse de secours, combinaison, GPS, radio VHF, Terratrip…
 
 ---
 
-## 8. Notes de travail
+## 8. La préparation — un projet documenté
 
-<!-- Section libre pour les échanges et décisions -->
+La préparation de la 403 sera documentée au fil des étapes : rendus de la restauration, photos des travaux en cours, étapes clés jusqu'au départ. La restauration est confiée à un artisan de confiance — le même qui a réalisé la remise en état complète d'un J7. Pour le sponsor, cela signifie une visibilité qui commence **avant le raid**.
+
+---
+
+## 9. Notes de travail
 
 - [ ] Définir tarifs encarts publicitaires
-- [ ] Écrire le texte "Notre histoire" (p.3 du modèle)
+- [x] Écrire le texte "Notre histoire" ✅
+- [x] Profils équipage ✅
 - [ ] Ajouter photos équipage + photos véhicule (dès réception)
 - [ ] Décider si création association loi 1901
 - [ ] Valider le budget global avant envoi aux sponsors
