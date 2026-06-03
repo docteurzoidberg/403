@@ -11,6 +11,8 @@ Deux passionnés de mécanique qui se retrouvent autour d'une idée simple et un
 
 DrZoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
 
+<!-- PHOTO: photos/vehicule-403-actuel.jpg — photo de la 403 à réception -->
+
 Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de budget démesuré, juste une voiture qui a du caractère, deux gars qui ont envie d'aventure, et 2700 km de Maroc devant eux. Si ça casse, on répare. C'est notre premier raid ensemble, et on veut le faire bien — avec une vraie préparation, un vrai suivi, et une belle histoire à raconter.
 
 ---
@@ -20,8 +22,12 @@ Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de b
 **Axel — "DrZoid" — Pilote**
 Né en 1984. Passionné de vieille mécanique française depuis toujours — un J7, des tracteurs anciens, un Solex, et maintenant une 403 Break. Toujours partant pour une aventure loufoque. Tomber en panne ne lui fait pas peur, ça fait partie du voyage.
 
+<!-- PHOTO: photos/equipage-drzoid.jpg — portrait DrZoid -->
+
 **William — "Zill" — Copilote**
 Né en 1995 *(à confirmer)*. Mécanicien dans l'âme, fan de vieilles françaises, débrouillard. Le genre de copilote qui trouve une solution avant même que le problème soit fini d'expliquer.
+
+<!-- PHOTO: photos/equipage-zill.jpg — portrait Zill -->
 
 ---
 
@@ -71,6 +77,10 @@ Participation financière partielle à l'inscription Crazy Dust (2 990 € / éq
 Ce dossier ne restera pas figé. La préparation de la 403 sera documentée et intégrée au fil des étapes : rendus de la restauration, photos des travaux en cours, étapes clés jusqu'au départ.
 
 La restauration est confiée à un artisan de confiance — le même qui a réalisé la remise en état complète d'un J7 pour DrZoid. Un travail soigné, photographié, raconté.
+
+<!-- PHOTO: photos/prep-01.jpg — première étape de préparation / état initial -->
+<!-- PHOTO: photos/prep-02.jpg — en cours de restauration -->
+<!-- PHOTO: photos/prep-03.jpg — 403 prête au départ -->
 
 Pour Norauto, cela signifie une visibilité qui commence **avant le raid** : le sponsor accompagne le projet dès la préparation, pas seulement sur la ligne de départ.
 
