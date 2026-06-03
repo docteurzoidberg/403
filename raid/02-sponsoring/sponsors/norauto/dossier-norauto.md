@@ -66,7 +66,17 @@ Participation financière partielle à l'inscription Crazy Dust (2 990 € / éq
 
 ---
 
-## 6. Contact
+## 6. La préparation — un projet documenté
+
+Ce dossier ne restera pas figé. La préparation de la 403 sera documentée et intégrée au fil des étapes : rendus de la restauration, photos des travaux en cours, étapes clés jusqu'au départ.
+
+La restauration est confiée à un artisan de confiance — le même qui a réalisé la remise en état complète d'un J7 pour DrZoid. Un travail soigné, photographié, raconté.
+
+Pour Norauto, cela signifie une visibilité qui commence **avant le raid** : le sponsor accompagne le projet dès la préparation, pas seulement sur la ligne de départ.
+
+---
+
+## 7. Contact
 
 - **Approche** : via Tintin (développeur Norauto, contact interne)
 - **Action** : lui demander le bon interlocuteur (communication / marketing / RSE) + nom et email direct
@@ -75,8 +85,9 @@ Participation financière partielle à l'inscription Crazy Dust (2 990 € / éq
 
 ---
 
-## Notes
+## 8. Notes
 
 - Année de naissance Zill à confirmer (noté 1995 provisoire)
 - Ajouter photos équipage + photos 403 dès réception du véhicule
+- Intégrer rendus et photos de préparation au fil des étapes (artisan, travaux, etc.)
 - Prévoir version PDF soignée pour envoi final
