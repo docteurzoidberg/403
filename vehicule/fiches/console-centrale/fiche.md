@@ -15,7 +15,8 @@ _À compléter après mesures dans l'habitacle._
 
 ## Matériaux
 
-_À définir._
+- Structure : **impression 3D** (FDM)
+- Finition : **sellerie par-dessus** — confié au sellier au Maroc
 
 ## Objectifs
 
