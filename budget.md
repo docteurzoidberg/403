@@ -31,6 +31,7 @@ Suivi des dépenses par phase.
 | — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
 | — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
+| 2026-06-03 | Paire clignotants AV (cabochons + platine + cerclage chromé, LBC) fdp inclus | 66 | Réel | 🛒 Commandé |
 | — | 1 rétroviseur côté conducteur | — | Prévisionnel | 💭 À renseigner |
 | — | Phares LED rétromod (AliExpress) | — | Prévisionnel | 💭 À renseigner |
 | — | Plaques de désensablage | — | Prévisionnel | 💭 À renseigner |
@@ -40,7 +41,7 @@ Suivi des dépenses par phase.
 | — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : —  
+**Sous-total réel commandé** : 66 €  
 **Prévisionnel partiel** : 465.20 € *(reste à compléter)*
 
 ---
