@@ -7,6 +7,7 @@ Géré via le skill `/todo` (code : `export`).
 
 ### Travaux à effectuer en France avant départ
 
+- [ ] Conception console centrale — à fabriquer avant départ (sera garnie par le sellier au Maroc)
 - [x] Fabrication support pour platine USB ✅ — à tester
 
     ![Support platine USB v1](photos/support-platine-usb-v1.png)
