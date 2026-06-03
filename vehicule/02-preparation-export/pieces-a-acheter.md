@@ -9,6 +9,7 @@ Géré via le skill `/todo` (code : `pieces`).
 
 - [ ] extincteur (obligatoire pour le raid)
 - [ ] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée)
+- [ ] clignotant AV manquant — [LBC - Paire clignotants AV 403 avec joints d'embase, 60€, Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939)
 - [ ] joint de feux arriere
 - [x] 1 jante classique fourgonnette **avec fixation enjoliveur**, 5R15 Michelin — pour compléter le jeu de 4 jantes identiques (vendeur LBC) ✅ payée et expédiée 2026-06-01
 - [x] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184) ✅ commandés 2026-05-29
@@ -16,7 +17,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] 4 pneus tout terrain raid (pour les 4 roues du véhicule) — **General Grabber AT3 195/80R15** (à commander avant départ)
 - ~~[ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)~~ — trouvé par le vendeur ✅
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
-- [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté)
+- [ ] 1 rétroviseur côté conducteur (manquant sur le véhicule acheté) — [LBC - Peugeot 203-403-404 miroir extérieur, Charmes](https://www.leboncoin.fr/ad/decoration/3128947126)
 - [ ] phares LED style rétromod — [AliExpress](https://fr.aliexpress.com/item/1005004800260632.html) ✅ modèle retenu
   ![Phares LED rétromod](photos/phares-retromod-retenus.png)
 - [ ] plaques de désensablage
