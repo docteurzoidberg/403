@@ -15,7 +15,6 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Préparation export (France → Maroc)
 
-- Clignotant AV manquant — annonce repérée : [LBC paire clignotants AV 403, 60€, Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939) — à commander/acheter
 
 - Date cible de départ du véhicule vers le Maroc
 - Confirmer avec l'atelier la dispo des bavettes avant/arrière (sinon à acheter en France avant départ)
