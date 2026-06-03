@@ -2,7 +2,7 @@
 
 Suivi des dépenses par phase.  
 **Type** : `Réel` = dépense engagée ou payée / `Prévisionnel` = montant à venir  
-**Statut** : ✅ Payé · 🛒 Commandé (payé, en attente réception) · 💭 À renseigner
+**Statut** : ✅ Payé · 💭 À renseigner
 
 ---
 
@@ -14,14 +14,13 @@ Suivi des dépenses par phase.
 | 2026-05-?? | Avance achat véhicule | 550 | Réel | ✅ Payé |
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-01 | Jante 5R15 Michelin ajourée (LBC) + expédition | 40 | Réel | ✅ Payé |
-| — | 4 chambres à air neuves (via vendeur) | — | Réel | 🛒 Commandé |
+| — | 4 chambres à air neuves (via vendeur) | — | Réel | ✅ Payé |
 | 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | ✅ Reçu 2026-06-03 |
-| 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | 🛒 Commandé |
+| 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | ✅ Payé |
 | — | Rétroviseur côté conducteur (manquant) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel payé** : 1 253.40 €  
-**Sous-total réel commandé** : 66 € *(clignotants + chambres à air)*  
+**Sous-total réel payé** : 1 319.40 € *(+ chambres à air à renseigner)*  
 **Prévisionnel restant** : 2 950 €
 
 ---
@@ -41,7 +40,6 @@ Suivi des dépenses par phase.
 | — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel commandé** : —  
 **Prévisionnel partiel** : 465.20 € *(reste à compléter)*
 
 ---
@@ -96,11 +94,11 @@ Suivi des dépenses par phase.
 **Sous-total réel engagé** : —  
 **Prévisionnel partiel** : 3 000 € *(reste à compléter)* global
 
-| Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
-|---|---|---|---|
-| 1 — Achat véhicule | 1 253.40 | 66 | 2 950 |
-| 2 — Préparation export | — | — | 465.20 *(partiel)* |
-| 3 — Restauration Maroc | — | — | *(à renseigner)* |
-| 4 — Préparation raid | — | — | *(à renseigner)* |
-| 5 — Raid | — | — | 3 000 *(partiel)* |
-| **TOTAL** | **1 253.40 €** | **66 €** | **6 415.20 € +** |
+| Phase | Réel payé (€) | Prévisionnel (€) |
+|---|---|---|
+| 1 — Achat véhicule | 1 319.40 *(+ chambres à air)* | 2 950 |
+| 2 — Préparation export | — | 465.20 *(partiel)* |
+| 3 — Restauration Maroc | — | *(à renseigner)* |
+| 4 — Préparation raid | — | *(à renseigner)* |
+| 5 — Raid | — | 3 000 *(partiel)* |
+| **TOTAL** | **1 319.40 € +** | **6 415.20 € +** |
