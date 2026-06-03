@@ -23,6 +23,8 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] plaques de désensablage
 - [ ] séparateur cyclonique (filtration air moteur)
 
+- [ ] durites radiateur supérieure + inférieure — à priori disponibles chez [Serie04](https://www.serie04.com) — confirmer avant départ
+
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
 
 - ~~[ ] capot supplémentaire~~ — snorkel non retenu ✅
