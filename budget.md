@@ -15,11 +15,11 @@ Suivi des dépenses par phase.
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-01 | Jante 5R15 Michelin ajourée (LBC) + expédition | 40 | Réel | ✅ Payé |
 | — | 4 chambres à air neuves (via vendeur) | — | Réel | 🛒 Commandé |
-| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | 🛒 Commandé |
-| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | 🛒 Commandé |
+| 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | ✅ Reçu 2026-06-03 |
+| 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | ✅ Reçu 2026-06-03 |
 
-**Sous-total réel payé** : 790 €  
-**Sous-total réel commandé** : 463.40 €  
+**Sous-total réel payé** : 1 253.40 €  
+**Sous-total réel commandé** : — *(chambres à air en attente)*  
 **Prévisionnel restant** : 2 950 €
 
 ---
@@ -98,9 +98,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
 |---|---|---|---|
-| 1 — Achat véhicule | 790 | 463.40 | 2 950 |
+| 1 — Achat véhicule | 1 253.40 | — | 2 950 |
 | 2 — Préparation export | — | 66 | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | — | *(à renseigner)* |
 | 4 — Préparation raid | — | — | *(à renseigner)* |
 | 5 — Raid | — | — | 3 000 *(partiel)* |
-| **TOTAL** | **790 €** | **529.40 €** | **6 415.20 € +** |
+| **TOTAL** | **1 253.40 €** | **66 €** | **6 415.20 € +** |

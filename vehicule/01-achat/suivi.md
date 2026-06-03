@@ -92,6 +92,13 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-03 — Réception pneus
+
+- 4 × Nankang Econex NA-1 165/80R15 reçus ✅
+- 2 × General Grabber AT3 195/80R15 reçus ✅
+
+---
+
 ### 2026-06-01 — Appel vendeur (Claude)
 
 - **4 chambres à air neuves** — le vendeur se charge de les trouver ✅
