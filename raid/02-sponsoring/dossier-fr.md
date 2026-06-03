@@ -12,7 +12,7 @@
 ### Le Crazy Dust
 Raid itinérant 2700 km à travers le Maroc — **19 au 27 octobre 2026**.
 Route, piste, désert, action humanitaire. Esprit aventure, déjanté, solidaire.
-Organisé par Pro Raids Organisation.
+Organisé par Pro Raids Organisation — <https://www.crazy-dust.com>
 
 ### Notre projet — Crazy 403
 

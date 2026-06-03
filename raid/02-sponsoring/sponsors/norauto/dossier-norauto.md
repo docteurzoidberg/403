@@ -17,6 +17,8 @@ DrZoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans 
 
 Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de budget démesuré, juste une voiture qui a du caractère, deux gars qui ont envie d'aventure, et 2700 km de Maroc devant eux. Si ça casse, on répare. C'est notre premier raid ensemble, et on veut le faire bien — avec une vraie préparation, un vrai suivi, et une belle histoire à raconter.
 
+En savoir plus sur le raid : <https://www.crazy-dust.com>
+
 ---
 
 ## 2. L'équipage
