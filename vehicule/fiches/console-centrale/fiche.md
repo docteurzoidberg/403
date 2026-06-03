@@ -27,6 +27,7 @@ Intégrations prévues :
 - **Interrupteurs accessoires** — commandes groupées (éclairage, gadgets, etc.)
 - **Platine USB** — chargement appareils
 - **Allume-cigare** — prise 12V accessoire
+- **Vide-poche** — rangement libre (si place disponible)
 
 ## Description
 
