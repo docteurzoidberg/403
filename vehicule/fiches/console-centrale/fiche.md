@@ -34,6 +34,12 @@ Intégrations prévues :
 
 _À compléter : dimensions des logements, disposition des éléments, passages câbles._
 
+## Emplacement — avant réalisation
+
+![Emplacement console centrale — habitacle avant réalisation](photos/emplacement-avant-realisation.png)
+
+Espace sous le tableau de bord côté conducteur. Chauffage d'origine en place — sera remplacé par la console.
+
 ## Rendu 3D / Plans
 
 _À ajouter._
