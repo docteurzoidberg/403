@@ -17,9 +17,11 @@ Suivi des dépenses par phase.
 | — | 4 chambres à air neuves (via vendeur) | — | Réel | 🛒 Commandé |
 | 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | ✅ Reçu 2026-06-03 |
+| 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | 🛒 Commandé |
+| — | Rétroviseur côté conducteur (manquant) | — | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel payé** : 1 253.40 €  
-**Sous-total réel commandé** : — *(chambres à air en attente)*  
+**Sous-total réel commandé** : 66 € *(clignotants + chambres à air)*  
 **Prévisionnel restant** : 2 950 €
 
 ---
@@ -31,8 +33,6 @@ Suivi des dépenses par phase.
 | — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
 | — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
-| 2026-06-03 | Paire clignotants AV (cabochons + platine + cerclage chromé, LBC) fdp inclus | 66 | Réel | 🛒 Commandé |
-| — | 1 rétroviseur côté conducteur | — | Prévisionnel | 💭 À renseigner |
 | — | Phares LED rétromod (AliExpress) | — | Prévisionnel | 💭 À renseigner |
 | — | Plaques de désensablage | — | Prévisionnel | 💭 À renseigner |
 | — | Séparateur cyclonique | — | Prévisionnel | 💭 À renseigner |
@@ -41,7 +41,7 @@ Suivi des dépenses par phase.
 | — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel commandé** : 66 €  
+**Sous-total réel commandé** : —  
 **Prévisionnel partiel** : 465.20 € *(reste à compléter)*
 
 ---
@@ -98,8 +98,8 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
 |---|---|---|---|
-| 1 — Achat véhicule | 1 253.40 | — | 2 950 |
-| 2 — Préparation export | — | 66 | 465.20 *(partiel)* |
+| 1 — Achat véhicule | 1 253.40 | 66 | 2 950 |
+| 2 — Préparation export | — | — | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | — | *(à renseigner)* |
 | 4 — Préparation raid | — | — | *(à renseigner)* |
 | 5 — Raid | — | — | 3 000 *(partiel)* |
