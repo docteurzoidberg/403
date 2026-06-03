@@ -833,7 +833,7 @@ body:has(.home-403) .md-top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  max-width: 520px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -871,6 +871,24 @@ body:has(.home-403) .md-top {
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--md-default-fg-color);
+}
+
+.home-403__pilot-role {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+  margin-top: 0.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.home-403__pilot-bio {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+  max-width: 220px;
 }
 
 /* =====================================================================
