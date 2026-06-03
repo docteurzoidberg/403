@@ -9,7 +9,7 @@
 
 Deux passionnés de mécanique qui se retrouvent autour d'une idée simple et un peu folle : prendre une Peugeot 403 Break — une vieille française de caractère — et la pousser jusqu'aux portes du Sahara.
 
-DrZoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
+Zoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
 
 !!! note "Photo à venir"
     📷 Photo de la 403 à réception du véhicule
@@ -23,11 +23,11 @@ En savoir plus sur le raid : <https://www.crazy-dust.com>
 
 ## 2. L'équipage
 
-**Axel — "DrZoid" — Pilote**
+**Axel — "Zoid" — Pilote**
 Né en 1984. Passionné de vieille mécanique française depuis toujours — un J7, des tracteurs anciens, un Solex, et maintenant une 403 Break. Toujours partant pour une aventure loufoque. Tomber en panne ne lui fait pas peur, ça fait partie du voyage.
 
 !!! note "Photo à venir"
-    📷 Portrait DrZoid
+    📷 Portrait Zoid
 
 
 **William — "Zill" — Copilote**
@@ -84,7 +84,7 @@ Participation financière partielle à l'inscription Crazy Dust (2 990 € / éq
 
 Ce dossier ne restera pas figé. La préparation de la 403 sera documentée et intégrée au fil des étapes : rendus de la restauration, photos des travaux en cours, étapes clés jusqu'au départ.
 
-La restauration est confiée à un artisan de confiance — le même qui a réalisé la remise en état complète d'un J7 pour DrZoid. Un travail soigné, photographié, raconté.
+La restauration est confiée à un artisan de confiance — le même qui a réalisé la remise en état complète d'un J7 pour Zoid. Un travail soigné, photographié, raconté.
 
 !!! note "Photos à venir"
     📷 État initial de la 403 à réception au Maroc

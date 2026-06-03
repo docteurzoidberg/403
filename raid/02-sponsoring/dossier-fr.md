@@ -18,7 +18,7 @@ Organisé par Pro Raids Organisation — <https://www.crazy-dust.com>
 
 Deux passionnés de mécanique qui se retrouvent autour d'une idée simple et un peu folle : prendre une Peugeot 403 Break — une vieille française de caractère — et la pousser jusqu'aux portes du Sahara.
 
-DrZoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
+Zoid, c'est le genre de type qui ne peut pas voir une vieille mécanique sans vouloir la faire tourner. Un J7 dans le garage, des tracteurs anciens, un Solex dans un coin, et maintenant une 403 Break. La mécanique française des années 50-60, c'est une religion. Zill, le copilote, partage la même passion de l'aventure et du débrouillage.
 
 Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de budget démesuré, juste une voiture qui a du caractère, deux gars qui ont envie d'aventure, et 2700 km de Maroc devant eux. Si ça casse, on répare. C'est notre premier raid ensemble, et on veut le faire bien — avec une vraie préparation, un vrai suivi, et une belle histoire à raconter.
 
@@ -26,7 +26,7 @@ Le **Crazy Dust**, c'est le raid qui nous correspond : pas d'élitisme, pas de b
 
 ## 2. L'équipage
 
-### Pilote — Axel "DrZoid"
+### Pilote — Axel "Zoid"
 - **Né en** : 1984
 - **Profil** : Passionné de vieille mécanique française — J7, tracteurs anciens, Solex. Toujours partant pour une aventure loufoque. Tomber en panne ne lui fait pas peur.
 

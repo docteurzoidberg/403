@@ -168,7 +168,7 @@
 
 **Proposition du vendeur :**
 
-- Faire sabler les jantes et les peindre en époxy via un ami — en attente de décision DrZoid
+- Faire sabler les jantes et les peindre en époxy via un ami — en attente de décision Zoid
 
 ---
 
