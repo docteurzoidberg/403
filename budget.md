@@ -98,9 +98,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Réel commandé (€) | Prévisionnel (€) |
 |---|---|---|---|
-| 1 — Achat véhicule | 790 | — | 2 950 |
-| 2 — Préparation export | — | — | 465.20 *(partiel)* |
+| 1 — Achat véhicule | 790 | 463.40 | 2 950 |
+| 2 — Préparation export | — | 66 | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | — | *(à renseigner)* |
 | 4 — Préparation raid | — | — | *(à renseigner)* |
 | 5 — Raid | — | — | 3 000 *(partiel)* |
-| **TOTAL** | **790 €** | **463.40 €** | **6 415.20 € +** |
+| **TOTAL** | **790 €** | **529.40 €** | **6 415.20 € +** |
