@@ -18,9 +18,10 @@ Suivi des dépenses par phase.
 | 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | ✅ Payé |
+| 2026-06-04 | Bras d'essuie-glace (LBC) | 29 | Réel | ✅ Payé |
 | — | Rétroviseur côté conducteur (manquant) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel payé** : 1 319.40 € *(+ chambres à air à renseigner)*  
+**Sous-total réel payé** : 1 348.40 € *(+ chambres à air à renseigner)*  
 **Prévisionnel restant** : 2 950 €
 
 ---
@@ -96,9 +97,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
-| 1 — Achat véhicule | 1 319.40 *(+ chambres à air)* | 2 950 |
+| 1 — Achat véhicule | 1 348.40 *(+ chambres à air)* | 2 950 |
 | 2 — Préparation export | — | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | *(à renseigner)* |
 | 4 — Préparation raid | — | *(à renseigner)* |
 | 5 — Raid | — | 3 000 *(partiel)* |
-| **TOTAL** | **1 319.40 € +** | **6 415.20 € +** |
+| **TOTAL** | **1 348.40 € +** | **6 415.20 € +** |
