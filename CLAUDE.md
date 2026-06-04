@@ -134,6 +134,8 @@ Plan homepage hero page (implémenté) : [`prompts/1_MKDOCS_HOMEPAGE_PLAN.md`](p
 - Statuts : ✅ Payé · 🛒 Commandé · 💭 À renseigner
 - Après édition : rebuild MkDocs (`cd web && .venv/bin/mkdocs build`) puis commit + push
 
+Gestion via le skill `/budget` (cf. [`.claude/skills/budget/SKILL.md`](.claude/skills/budget/SKILL.md)) : ajouter un élément, mettre à jour, consulter — recalcul automatique des sous-totaux et du récap global.
+
 ## Informations véhicule
 
 - **Modèle** : Peugeot 403 break
