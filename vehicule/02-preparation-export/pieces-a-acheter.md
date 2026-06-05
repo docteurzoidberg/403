@@ -25,6 +25,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] séparateur cyclonique (filtration air moteur)
 
 - [ ] durites radiateur supérieure + inférieure — à priori disponibles chez [Serie04](https://www.serie04.com) — confirmer avant départ
+- [ ] roulement de roue — à commander chez [Serie04](https://www.serie04.com) si commande en cours (profiter de la livraison)
 
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
 
