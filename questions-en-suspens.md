@@ -11,7 +11,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Mode de récupération du véhicule depuis Varilhes (conduire vs faire transporter — cf. plan B "frais transport" dans `export`)
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
 - Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
-- Rétroviseur côté conducteur — **manquant** — annonce repérée : [LBC Peugeot 203-403-404 miroir extérieur, Charmes](https://www.leboncoin.fr/ad/decoration/3128947126) — à commander/acheter
+- ~~Rétroviseur côté conducteur~~ — paire achetée sur eBay ✅ 2026-06-05
 - Attelage — le vendeur cherche à la casse (en attente de retour, 2026-06-01)
 
 ## Préparation export (France → Maroc)

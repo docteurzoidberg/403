@@ -17,7 +17,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] 4 pneus tout terrain raid (pour les 4 roues du véhicule) — **General Grabber AT3 195/80R15** (à commander avant départ)
 - ~~[ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)~~ — trouvé par le vendeur ✅
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
-- [ ] rétroviseur côté conducteur (manquant) — trouver un modèle identique au droit, sinon acheter la paire — [LBC - Peugeot 203-403-404 miroir extérieur, Charmes](https://www.leboncoin.fr/ad/decoration/3128947126)
+- [x] rétroviseur côté conducteur — paire achetée sur eBay ✅ 2026-06-05
 - [ ] balais d'essuie-glace — à monter sur les bras commandés (2026-06-04)
 - [ ] phares LED style rétromod — [AliExpress](https://fr.aliexpress.com/item/1005004800260632.html) ✅ modèle retenu
   ![Phares LED rétromod](photos/phares-retromod-retenus.png)
