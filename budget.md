@@ -20,9 +20,11 @@ Suivi des dépenses par phase.
 | 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | ✅ Payé |
 | 2026-06-04 | Bras d'essuie-glace (LBC) | 29 | Réel | ✅ Payé |
 | 2026-06-05 | Paire de rétroviseurs (eBay) | 88 | Réel | ✅ Payé |
+| — | Commande Serie04 — roulements AV ×2, joints spi ×2, joints phare ×2, joints feu AV ×2, joint plaque ×1, durites sup+inf | 350.88 | Prévisionnel | 💭 À renseigner |
+| — | Joints feux arrière (Serie04 — réf à confirmer) | — | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel payé** : 1 436.40 € *(+ chambres à air à renseigner)*  
-**Prévisionnel restant** : 2 950 €
+**Prévisionnel restant** : 3 300.88 € *(+ joints feux AR à renseigner)*
 
 ---
 
@@ -31,8 +33,6 @@ Suivi des dépenses par phase.
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
 | — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
-| — | Commande Serie04 — roulements AV ×2, joints spi ×2, joints phare ×2, joints feu AV ×2, joint plaque ×1, durites sup+inf | 350.88 | Prévisionnel | 💭 À renseigner |
-| — | Joints feux arrière (Serie04 — réf à confirmer) | — | Prévisionnel | 💭 À renseigner |
 | — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
 | — | Phares LED rétromod (AliExpress) | — | Prévisionnel | 💭 À renseigner |
@@ -42,7 +42,7 @@ Suivi des dépenses par phase.
 | — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
-**Prévisionnel partiel** : 816.08 € *(reste à compléter — joints feux AR + autres)*
+**Prévisionnel partiel** : 465.20 € *(reste à compléter)*
 
 ---
 
@@ -98,9 +98,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
-| 1 — Achat véhicule | 1 436.40 *(+ chambres à air)* | 2 950 |
-| 2 — Préparation export | — | 816.08 *(partiel)* |
+| 1 — Achat véhicule | 1 436.40 *(+ chambres à air)* | 3 300.88 *(partiel)* |
+| 2 — Préparation export | — | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | *(à renseigner)* |
 | 4 — Préparation raid | — | *(à renseigner)* |
 | 5 — Raid | — | 3 000 *(partiel)* |
-| **TOTAL** | **1 436.40 € +** | **7 166.08 € +** |
+| **TOTAL** | **1 436.40 € +** | **6 766.08 € +** |
