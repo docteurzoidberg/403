@@ -39,7 +39,6 @@ Suivi des dépenses par phase.
 | — | Plaques de désensablage | — | Prévisionnel | 💭 À renseigner |
 | — | Séparateur cyclonique | — | Prévisionnel | 💭 À renseigner |
 | — | Stickers (Gulf, Camel, Goodyear…) | — | Prévisionnel | 💭 À renseigner |
-| — | Transport véhicule (plan B) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
 **Prévisionnel partiel** : 465.20 € *(reste à compléter)*
