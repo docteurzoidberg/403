@@ -6,7 +6,8 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 ## Achat véhicule
 
 - Prix final négocié avec le propriétaire (annonce : 3 250 €)
-- Date prévisionnelle de prise en main / livraison
+- Date de prise en main — selon disponibilité de Zoid (pas de contrainte côté vendeur)
+- Vérifier validité du permis de conduire avant déplacement à Varilhes
 - Mode de récupération du véhicule depuis Varilhes (conduire vs faire transporter — cf. plan B "frais transport" dans `export`)
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
 - Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
