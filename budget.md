@@ -33,10 +33,8 @@ Suivi des dépenses par phase.
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
 | — | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
-| — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
 | — | Phares LED rétromod (AliExpress) | — | Prévisionnel | 💭 À renseigner |
-| — | Plaques de désensablage | — | Prévisionnel | 💭 À renseigner |
 | — | Séparateur cyclonique | — | Prévisionnel | 💭 À renseigner |
 | — | Stickers (Gulf, Camel, Goodyear…) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
@@ -67,6 +65,8 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
+| — | Extincteur (obligatoire raid) | — | Prévisionnel | 💭 À renseigner |
+| — | Plaques de désensablage | — | Prévisionnel | 💭 À renseigner |
 | — | Compresseur 12V DIY (kit KEUPOK + composants) | — | Prévisionnel | 💭 À renseigner |
 | — | Décoration & accessoires | — | Prévisionnel | 💭 À renseigner |
 | — | Éclairage (barre LED, antibrouillards) | — | Prévisionnel | 💭 À renseigner |
