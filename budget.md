@@ -36,6 +36,7 @@ Suivi des dépenses par phase.
 | — | Platine USB Thlevel (Amazon B0CCHRS8T3) | — | Prévisionnel | 💭 À renseigner |
 | — | Phares LED rétromod (AliExpress) | — | Prévisionnel | 💭 À renseigner |
 | — | Séparateur cyclonique | — | Prévisionnel | 💭 À renseigner |
+| — | Film teinté (vitres) | — | Prévisionnel | 💭 À renseigner |
 | — | Stickers (Gulf, Camel, Goodyear…) | — | Prévisionnel | 💭 À renseigner |
 | — | Ferry aller (Algésiras → Tanger Med) | — | Prévisionnel | 💭 À renseigner |
 
