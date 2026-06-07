@@ -10,7 +10,8 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Vérifier validité du permis de conduire avant déplacement à Varilhes
 - ~~Mode de récupération~~ — Zoid conduit jusqu'à Varilhes et ramène la voiture ✅
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
-- Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis
+- Points à valider à la prise en main : état réel du freinage refait, embrayage, boîte, démarrage, corrosion châssis, **jeux dans les passages de roue** (si upgrade 6J15 envisagé)
+- Jantes 6J15 — jante repérée : DZR Pyramid noire 5x139.7 / 6x15 / CB110 / **ET0** à 57.50€ HT/u ([dzr4x4.com](https://www.dzr4x4.com/fr/jantes/4663-723-jante-acier-4x4-pyramid-noire-5x1397-6x15-cb110-et-0-3701684324259.html)) — ⚠️ ET0 vs ET40 origine = roue trop en dehors, nécessite extensions d'aile ou trouver ET30-40 — à vérifier sur le véhicule avant commande
 - ~~Rétroviseur côté conducteur~~ — paire achetée sur eBay ✅ 2026-06-05
 - Attelage — le vendeur cherche à la casse (en attente de retour, 2026-06-01)
 
