@@ -31,6 +31,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Choix tissu / matériau sellerie (ciel de toit, banquettes, garnitures de portes)
 - Ski protection carter : matériau, épaisseur, design
 - Fiabilisation ventilation radiateur : approche retenue (ventilateur additionnel, autre ?)
+- Sur-ailes boulonnées (démontables) : décision oui/non — permettrait de monter des 6J ET0/ET+20 + 195/80R15 pour le raid, en remontant les jantes 5J d'origine pour le CT (à prévoir avec l'artisan carrossier au Maroc)
 
 ## Préparation raid (véhicule)
 
