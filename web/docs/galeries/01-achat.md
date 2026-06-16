@@ -49,3 +49,5 @@
 ![Jantes sablées et peintes — blanc crème](../vehicule/01-achat/photos/jantes-sablees-peintes.jpg)
 
 ![Jantes montées sur la voiture](../vehicule/01-achat/photos/jantes-montees-sur-voiture.jpg)
+
+![Profil gauche — jantes montées](../vehicule/01-achat/photos/voiture-profil-gauche-jantes.jpg)

@@ -96,6 +96,8 @@
 
 ![Jantes montées sur la voiture](photos/jantes-montees-sur-voiture.jpg)
 
+![Profil gauche](photos/voiture-profil-gauche-jantes.jpg)
+
 ---
 
 ### 2026-06-15 — Jantes sablées et peintes
