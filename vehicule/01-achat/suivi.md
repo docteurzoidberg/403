@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-16 — Jantes montées sur la voiture
+
+![Jantes montées sur la voiture](photos/jantes-montees-sur-voiture.jpg)
+
+---
+
 ### 2026-06-15 — Jantes sablées et peintes
 
 Les 6 jantes ont été sablées et peintes (blanc crème) par l'ami du vendeur ✅

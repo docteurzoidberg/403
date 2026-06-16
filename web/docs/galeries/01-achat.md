@@ -47,3 +47,5 @@
 ## Jantes sablées et peintes (2026-06-15)
 
 ![Jantes sablées et peintes — blanc crème](../vehicule/01-achat/photos/jantes-sablees-peintes.jpg)
+
+![Jantes montées sur la voiture](../vehicule/01-achat/photos/jantes-montees-sur-voiture.jpg)
