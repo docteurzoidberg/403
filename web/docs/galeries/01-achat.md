@@ -51,3 +51,5 @@
 ![Jantes montées sur la voiture](../vehicule/01-achat/photos/jantes-montees-sur-voiture.jpg)
 
 ![Profil gauche — jantes montées](../vehicule/01-achat/photos/voiture-profil-gauche-jantes.jpg)
+
+![Roue arrière gauche — détail jante](../vehicule/01-achat/photos/roue-arriere-gauche-detail.jpg)

@@ -98,6 +98,8 @@
 
 ![Profil gauche](photos/voiture-profil-gauche-jantes.jpg)
 
+![Roue arrière gauche — détail jante](photos/roue-arriere-gauche-detail.jpg)
+
 ---
 
 ### 2026-06-15 — Jantes sablées et peintes
