@@ -92,6 +92,14 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-15 — Jantes sablées et peintes
+
+Les 6 jantes ont été sablées et peintes (blanc crème) par l'ami du vendeur ✅
+
+![Jantes sablées et peintes](photos/jantes-sablees-peintes.jpg)
+
+---
+
 ### 2026-06-03 — Réception pneus
 
 - 4 × Nankang Econex NA-1 165/80R15 reçus ✅
