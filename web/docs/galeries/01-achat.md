@@ -35,3 +35,15 @@
 ![Vendeur — vue 9](../vehicule/01-achat/photos/vendeur-09.jpg)
 
 ![Vendeur — vue 10](../vehicule/01-achat/photos/vendeur-10.jpg)
+
+## Pièces commandées
+
+![Clignotants AV commandés](../vehicule/01-achat/photos/clignotants-av-commandes.png)
+
+![Bras d'essuie-glace commandés](../vehicule/01-achat/photos/bras-essuie-glace-commandes.png)
+
+![Rétroviseurs commandés](../vehicule/01-achat/photos/retroviseurs-commandes.png)
+
+## Jantes sablées et peintes (2026-06-15)
+
+![Jantes sablées et peintes — blanc crème](../vehicule/01-achat/photos/jantes-sablees-peintes.jpg)
