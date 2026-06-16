@@ -102,6 +102,8 @@
 
 ![Profil droit — Nankang AV + General Grabber AR (roue de secours)](photos/voiture-profil-droit-jantes-mixte.jpg)
 
+![General Grabber AT3 — détail flanc et sculpture](photos/grabber-at3-detail-flanc.jpg)
+
 ---
 
 ### 2026-06-15 — Jantes sablées et peintes
