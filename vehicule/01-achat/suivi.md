@@ -100,6 +100,8 @@
 
 ![Roue de secours montée — General Grabber AT3 195/80R15](photos/roue-secours-general-grabber-detail.jpg)
 
+![Profil droit — Nankang AV + General Grabber AR (roue de secours)](photos/voiture-profil-droit-jantes-mixte.jpg)
+
 ---
 
 ### 2026-06-15 — Jantes sablées et peintes

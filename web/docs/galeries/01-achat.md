@@ -53,3 +53,5 @@
 ![Profil gauche — jantes montées](../vehicule/01-achat/photos/voiture-profil-gauche-jantes.jpg)
 
 ![Roue de secours montée — General Grabber AT3 195/80R15](../vehicule/01-achat/photos/roue-secours-general-grabber-detail.jpg)
+
+![Profil droit — Nankang AV + General Grabber AR (roue de secours)](../vehicule/01-achat/photos/voiture-profil-droit-jantes-mixte.jpg)
