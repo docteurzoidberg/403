@@ -98,7 +98,7 @@
 
 ![Profil gauche](photos/voiture-profil-gauche-jantes.jpg)
 
-![Roue arrière gauche — détail jante](photos/roue-arriere-gauche-detail.jpg)
+![Roue de secours montée — General Grabber AT3 195/80R15](photos/roue-secours-general-grabber-detail.jpg)
 
 ---
 
