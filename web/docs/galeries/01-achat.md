@@ -44,6 +44,10 @@
 
 ![Rétroviseurs commandés](../vehicule/01-achat/photos/retroviseurs-commandes.png)
 
+## Éclairage avant opérationnel (2026-06-16)
+
+![Éclairage avant opérationnel — phares et veilleuses allumés, sur pont](../vehicule/01-achat/photos/eclairage-av-operationnel.jpg)
+
 ## Jantes sablées et peintes (2026-06-15)
 
 ![Jantes sablées et peintes — blanc crème](../vehicule/01-achat/photos/jantes-sablees-peintes.jpg)

@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-16 — Éclairage avant opérationnel
+
+![Éclairage avant opérationnel — phares et veilleuses allumés, sur pont](photos/eclairage-av-operationnel.jpg)
+
+---
+
 ### 2026-06-16 — Jantes montées sur la voiture
 
 ![Jantes montées sur la voiture](photos/jantes-montees-sur-voiture.jpg)
