@@ -20,11 +20,11 @@ Suivi des dépenses par phase.
 | 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | ✅ Payé |
 | 2026-06-04 | Bras d'essuie-glace (LBC) | 29 | Réel | ✅ Payé |
 | 2026-06-05 | Paire de rétroviseurs (eBay) | 88 | Réel | ✅ Payé |
-| — | Commande Serie04 — roulements AV ×2, joints spi ×2, joints phare ×2, joints feu AV ×2, joint plaque ×1, durites sup+inf | 350.88 | Prévisionnel | 💭 À renseigner |
+| 2026-06 | Commande Serie04 — joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13) + manutention | 98.39 | Réel | ✅ Payé |
 | — | Joints feux arrière (Serie04 — réf à confirmer) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel payé** : 1 436.40 € *(+ chambres à air à renseigner)*  
-**Prévisionnel restant** : 3 300.88 € *(+ joints feux AR à renseigner)*
+**Sous-total réel payé** : 1 534.79 € *(+ chambres à air à renseigner)*  
+**Prévisionnel restant** : 2 950 € *(+ joints feux AR à renseigner)*
 
 ---
 
@@ -98,9 +98,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
-| 1 — Achat véhicule | 1 436.40 *(+ chambres à air)* | 3 300.88 *(partiel)* |
+| 1 — Achat véhicule | 1 534.79 *(+ chambres à air)* | 2 950 *(partiel)* |
 | 2 — Préparation export | — | 465.20 *(partiel)* |
 | 3 — Restauration Maroc | — | *(à renseigner)* |
 | 4 — Préparation raid | — | *(à renseigner)* |
 | 5 — Raid | — | 3 000 *(partiel)* |
-| **TOTAL** | **1 436.40 € +** | **6 766.08 € +** |
+| **TOTAL** | **1 534.79 € +** | **6 415.20 € +** |

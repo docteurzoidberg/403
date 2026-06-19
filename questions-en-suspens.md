@@ -17,7 +17,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Préparation export (France → Maroc)
 
-- Référence joints de feux arrière (Serie04) — à confirmer avant de finaliser la commande (panier en cours)
+- Référence joints de feux arrière (Serie04) — à confirmer pour commande future (commande principale passée 2026-06)
 - Date cible de départ du véhicule vers le Maroc
 - Confirmer avec l'atelier la dispo des bavettes avant/arrière (sinon à acheter en France avant départ)
 - Hébergement sur place pendant la période atelier : où, combien de temps, budget
