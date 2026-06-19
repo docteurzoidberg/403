@@ -44,6 +44,12 @@
 
 ![Rétroviseurs commandés](../vehicule/01-achat/photos/retroviseurs-commandes.png)
 
+## Clignotants opérationnels — vidéo (2026-06-16)
+
+<video controls width="100%" style="border-radius:4px">
+  <source src="../vehicule/01-achat/photos/clignotants-operationnels.mp4" type="video/mp4">
+</video>
+
 ## Rétroviseurs installés (2026-06-16)
 
 ![Rétroviseurs chromés installés — profil gauche](../vehicule/01-achat/photos/retroviseurs-installes.jpg)
