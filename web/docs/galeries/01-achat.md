@@ -44,6 +44,10 @@
 
 ![Rétroviseurs commandés](../vehicule/01-achat/photos/retroviseurs-commandes.png)
 
+## Rétroviseurs installés (2026-06-16)
+
+![Rétroviseurs chromés installés — profil gauche](../vehicule/01-achat/photos/retroviseurs-installes.jpg)
+
 ## Éclairage avant opérationnel (2026-06-16)
 
 ![Éclairage avant opérationnel — phares et veilleuses allumés, sur pont](../vehicule/01-achat/photos/eclairage-av-operationnel.jpg)
