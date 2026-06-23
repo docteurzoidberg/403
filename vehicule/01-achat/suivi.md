@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-06-23 — Demande d'assurance
+
+Demande d'assurance effectuée. Prise d'effet : **1er juillet 2026**.
+
+---
+
 ### 2026-06-16 — Clignotants opérationnels (vidéo)
 
 Vidéo des clignotants en fonctionnement — fichier `photos/clignotants-operationnels.mp4` à ajouter manuellement.
