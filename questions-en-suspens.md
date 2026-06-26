@@ -17,7 +17,8 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 
 ## Préparation export (France → Maroc)
 
-- Référence joints de feux arrière (Serie04) — à confirmer pour commande future (commande principale passée 2026-06)
+- Référence joints de feux arrière (Serie04) — à trouver avant départ Maroc
+- Jante 5R15 reçue en 16 pouces (inutilisable) — à revendre (pas urgent)
 - Date cible de départ du véhicule vers le Maroc
 - Confirmer avec l'atelier la dispo des bavettes avant/arrière (sinon à acheter en France avant départ)
 - Hébergement sur place pendant la période atelier : où, combien de temps, budget
