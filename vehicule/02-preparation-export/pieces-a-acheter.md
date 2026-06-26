@@ -24,12 +24,12 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] plaques de désensablage
 - [ ] séparateur cyclonique (filtration air moteur)
 
-- [ ] durites radiateur supérieure + inférieure — au panier Serie04 ✅ (réf. 1343 38 SAS + 1350 13 S04)
+- [x] durites radiateur supérieure + inférieure — Serie04 ✅ reçues + montées 2026-06-26
 - [ ] roulement de roue AV × 2 — au panier Serie04 ✅ (réf. 3748 01 SNR, 114.55€/u)
 - [ ] joints spi 38x62x10 × 2 — au panier Serie04 ✅ (réf. 3724 07 CE)
-- [ ] joints de phare × 2 — au panier Serie04 ✅ (réf. 6228 01 S04)
+- [x] joints de phare × 2 — Serie04 ✅ reçus 2026-06-26, montage au Maroc
 - [ ] joints de feu avant × 2 — au panier Serie04 ✅ (réf. 6304 09 CE)
-- [ ] joint éclaireur plaque de police × 1 — au panier Serie04 ✅ (réf. 6341 08 CE)
+- [x] joint éclaireur plaque de police × 1 — Serie04 ✅ reçu 2026-06-26, montage au Maroc
 - [ ] joints de feux arrière — **référence à confirmer** avant de finaliser la commande Serie04
 
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
