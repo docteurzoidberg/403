@@ -15,7 +15,7 @@ Suivi des dépenses par phase.
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-01 | Jante 5R15 Michelin ajourée (LBC) + expédition — reçue en 16 pouces, non utilisable | 40 | Réel | ✅ Payé |
 | 2026-06-26 | Jante 5R15 remplacement (LBC) + frais de port | 26 | Réel | ✅ Payé |
-| — | 4 chambres à air neuves (via vendeur) | — | Réel | ✅ Payé |
+| — | 4 chambres à air neuves — offertes par le vendeur (Claude) | 0 | Réel | ✅ Offert |
 | 2026-05-29 | 4 × Nankang Econex NA-1 165/80R15 (pneus route provisoires) | 230.80 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-05-29 | 2 × General Grabber AT3 195/80R15 (pneus secours AT) | 232.60 | Réel | ✅ Reçu 2026-06-03 |
 | 2026-06-03 | Clignotants AV — paire cabochons + platine + cerclage chromé (LBC, fdp inclus) | 66 | Réel | ✅ Payé |
@@ -25,7 +25,7 @@ Suivi des dépenses par phase.
 | 2026-06 | Commande Serie04 — joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13) + manutention | 98.39 | Réel | ✅ Payé |
 | — | Joints feux arrière (Serie04 — réf à confirmer) | — | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel payé** : 1 560.79 € *(+ chambres à air à renseigner)*  
+**Sous-total réel payé** : 1 560.79 €  
 **Prévisionnel restant** : 2 950 € *(+ joints feux AR à renseigner)*
 
 ---
