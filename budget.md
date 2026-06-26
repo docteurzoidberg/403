@@ -10,7 +10,7 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| - | Peugeot 403 Break - solde restant | 1 550 | Prévisionnel | 💭 À renseigner |
+| — | Peugeot 403 Break — solde restant | 1 750 | Prévisionnel | 💭 À renseigner |
 | 2026-05-?? | Avance achat véhicule | 550 | Réel | ✅ Payé |
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-26 | Virement acompte véhicule | 1 200 | Réel | ✅ Payé |
@@ -27,7 +27,7 @@ Suivi des dépenses par phase.
 | - | Joints feux arrière (Serie04 - réf à confirmer) | - | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel payé** : 2 760.79 €
-**Prévisionnel restant** : 1 550 € *(solde véhicule)*
+**Prévisionnel restant** : 1 750 € *(solde véhicule + sablage)*
 
 ---
 
