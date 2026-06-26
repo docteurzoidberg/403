@@ -25,8 +25,8 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] séparateur cyclonique (filtration air moteur)
 
 - [x] durites radiateur supérieure + inférieure — Serie04 ✅ reçues + montées 2026-06-26
-- [ ] roulement de roue AV × 2 — au panier Serie04 ✅ (réf. 3748 01 SNR, 114.55€/u) — commande en attente
-- [ ] joints spi 38x62x10 × 2 — au panier Serie04 ✅ (réf. 3724 07 CE) — commande en attente
+- [x] roulement de roue AV × 2 — Serie04 ✅ reçus + installés 2026-06-26
+- [x] joints spi 38x62x10 × 2 — Serie04 ✅ reçus + installés 2026-06-26
 - [x] joints de phare × 2 — Serie04 ✅ reçus 2026-06-26, montage au Maroc (après étape carrosserie, au remontage)
 - [ ] joints de feu avant × 2 — au panier Serie04 ✅ (réf. 6304 09 CE) — commande en attente
 - [x] joint éclaireur plaque de police × 1 — Serie04 ✅ reçu 2026-06-26, montage au Maroc (après étape carrosserie, au remontage)

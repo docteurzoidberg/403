@@ -10,7 +10,7 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| — | Peugeot 403 Break — solde restant | 1 750 | Prévisionnel | 💭 À renseigner |
+| - | Peugeot 403 Break - solde restant | 1 750 | Prévisionnel | 💭 À renseigner |
 | 2026-05-?? | Avance achat véhicule | 550 | Réel | ✅ Payé |
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-26 | Virement acompte véhicule | 1 200 | Réel | ✅ Payé |
@@ -23,7 +23,7 @@ Suivi des dépenses par phase.
 | 2026-06-04 | Bras d'essuie-glace (LBC) | 29 | Réel | ✅ Payé |
 | 2026-06-26 | Balais d'essuie-glace - offerts par le vendeur (Claude) | 0 | Réel | ✅ Offert |
 | 2026-06-05 | Paire de rétroviseurs (eBay) | 88 | Réel | ✅ Payé |
-| 2026-06 | Commande Serie04 - joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13) + manutention | 98.39 | Réel | ✅ Payé |
+| 2026-06 | Commande Serie04 — joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13), roulements roue AV ×2 (3748 01 SNR), joints spi ×2 (3724 07 CE), joints feux AV ×2 (6304 09 CE) + manutention | 98.39 | Réel | ✅ Payé |
 | - | Joints feux arrière (Serie04 - réf à confirmer) | - | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel payé** : 2 760.79 €
