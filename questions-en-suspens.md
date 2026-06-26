@@ -6,7 +6,7 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 ## Achat véhicule
 
 - Prix final négocié avec le propriétaire (annonce : 3 250 €)
-- Date de prise en main — selon disponibilité de Zoid (pas de contrainte côté vendeur)
+- Carte grise — en attente du permis temporaire (disponible à partir du 9 juillet 2026)
 - Vérifier validité du permis de conduire avant déplacement à Varilhes
 - ~~Mode de récupération~~ — Zoid conduit jusqu'à Varilhes et ramène la voiture ✅
 - Contrôle technique : qui le passe, quand, où (avant ou après prise en main ?)
