@@ -93,19 +93,19 @@ nav:
       - Journal: vehicule/01-achat/suivi.md
       - Galerie: galeries/01-achat.md
     - Préparation export:
+      - Journal: vehicule/02-preparation-export/suivi.md
       - À faire: vehicule/02-preparation-export/taches.md
       - Pièces à acheter: vehicule/02-preparation-export/pieces-a-acheter.md
-      - Journal: vehicule/02-preparation-export/suivi.md
       - Galerie: galeries/02-preparation-export.md
     - Restauration Maroc:
+      - Journal: vehicule/03-restauration-maroc/suivi.md
       - À faire: vehicule/03-restauration-maroc/taches.md
       - Peinture: vehicule/03-restauration-maroc/peinture.md
-      - Journal: vehicule/03-restauration-maroc/suivi.md
       - Galerie: galeries/03-restauration-maroc.md
     - Préparation raid:
+      - Journal: vehicule/04-preparation-raid/suivi.md
       - À faire: vehicule/04-preparation-raid/taches.md
       - Déco, Gadgets & Accessoires: vehicule/04-preparation-raid/deco-accessoires.md
-      - Journal: vehicule/04-preparation-raid/suivi.md
       - Galerie: galeries/04-preparation-raid.md
     - Fiches techniques:
       - Dynamo → Alternateur: vehicule/fiches/dynamo-alternateur/fiche.md
