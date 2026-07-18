@@ -10,7 +10,7 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| - | Peugeot 403 Break - solde restant | 1 750 | Prévisionnel | 💭 À renseigner |
+| 2026-07-18 | Peugeot 403 Break - solde restant | 1 750 | Réel | ✅ Payé |
 | 2026-05-?? | Avance achat véhicule | 550 | Réel | ✅ Payé |
 | 2026-05-?? | Sablage + peinture jantes (via ami vendeur) | 200 | Réel | ✅ Payé |
 | 2026-06-26 | Virement acompte véhicule | 1 200 | Réel | ✅ Payé |
@@ -26,8 +26,8 @@ Suivi des dépenses par phase.
 | 2026-06 | Commande Serie04 — joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13), roulements roue AV ×2 (3748 01 SNR), joints spi ×2 (3724 07 CE) + manutention | 98.39 | Réel | ✅ Payé |
 | - | Joints feux arrière (Serie04 - réf à confirmer) | - | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel payé** : 2 760.79 €
-**Prévisionnel restant** : 1 750 € *(solde véhicule + sablage)*
+**Sous-total réel payé** : 4 510.79 €
+**Prévisionnel restant** : 0 € *(véhicule intégralement payé)*
 
 ---
 
@@ -101,9 +101,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
-| 1 - Achat véhicule | 1 534.79 *(+ chambres à air)* | 2 950 *(partiel)* |
+| 1 - Achat véhicule | 4 510.79 | 0 |
 | 2 - Préparation export | - | 465.20 *(partiel)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
 | 4 - Préparation raid | - | *(à renseigner)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **1 534.79 € +** | **6 415.20 € +** |
+| **TOTAL** | **4 510.79 €** | **3 465.20 € +** |
