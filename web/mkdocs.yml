@@ -117,8 +117,8 @@ nav:
   - Budget: budget.md
   - Raid:
     - Inscription:
-      - À faire: raid/01-inscription/taches.md
       - Journal: raid/01-inscription/suivi.md
+      - À faire: raid/01-inscription/taches.md
     - Sponsoring:
       - Dossier: raid/02-sponsoring/dossier-fr.md
       - À faire: raid/02-sponsoring/taches.md
