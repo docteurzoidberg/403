@@ -23,15 +23,6 @@ Commande de 2 manilles en D VEVOR 3/4" (19 mm) — acier allié, résistance à 
 
 ---
 
-### 2026-07-18 — Commande bouton tête de mort (tirette d'arrêt)
-
-Commande de 2 boutons décoratifs Crystal Skull — pour personnaliser la tirette d'arrêt moteur.
-- Référence : [Crystal Skull Decorative Drawer Knobs 2 Pack](https://www.amazon.fr/dp/B0CR4BL1QF)
-- Prix : 11,16 €
-- Statut : commandé ⏳
-
----
-
 ### 2026-06-03
 Clignotants AV commandés sur LeBonCoin : paire de cabochons + platine + cerclage chromé. Vendeur validé.
 
