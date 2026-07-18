@@ -1,7 +1,7 @@
 # Achat du véhicule
 
 **Véhicule** : Peugeot 403 break  
-**Statut** : 🔄 En cours
+**Statut** : ✅ Récupéré — à la maison depuis le 2026-07-10
 
 ---
 
@@ -91,6 +91,12 @@
 ## Journal
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
+
+### 2026-07-10 — Récupération de la 403 🎉
+
+La Peugeot 403 Break est récupérée et à la maison. Livraison faite le 10 juillet 2026. L'achat est finalisé.
+
+---
 
 ### 2026-06-23 — Demande d'assurance
 

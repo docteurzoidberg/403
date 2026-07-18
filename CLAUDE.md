@@ -12,7 +12,7 @@ Documentation bilingue : français (principal) + anglais (sections sponsoring no
 
 ## Statut actuel
 
-- Véhicule : en cours d'achat en France (réservé, pas encore livré)
+- Véhicule : récupéré, à la maison depuis le 2026-07-10
 - Raid : aucune démarche engagée pour l'instant
 
 ## Structure du dossier
