@@ -28,7 +28,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [x] roulement de roue AV × 2 — Serie04 ✅ reçus + installés 2026-06-26
 - [x] joints spi 38x62x10 × 2 — Serie04 ✅ reçus + installés 2026-06-26
 - [x] joints de phare × 2 — Serie04 ✅ reçus 2026-06-26, montage au Maroc (après étape carrosserie, au remontage)
-- [ ] joints de feu avant × 2 — au panier Serie04 (réf. 6304 09 CE) — pas en stock, à commander
+- [x] joints de feu avant × 2 — Serie04 (réf. 6304 09 CE) ✅ commandés et reçus
 - [x] joint éclaireur plaque de police × 1 — Serie04 ✅ reçu 2026-06-26, montage au Maroc (après étape carrosserie, au remontage)
 - [ ] joints de feux arrière — **référence à trouver avant départ Maroc** — montage après étape carrosserie, au remontage
 
