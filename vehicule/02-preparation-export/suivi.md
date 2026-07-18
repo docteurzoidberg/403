@@ -8,6 +8,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-07-18 — Réception carte grise
+
+Carte grise reçue. Commande des plaques d'immatriculation à faire.
+
+---
+
 ### 2026-07-18 — Commande manilles de remorquage
 
 Commande de 2 manilles en D VEVOR 3/4" (19 mm) — acier allié, résistance à la rupture 28,5 T — pour les futurs anneaux de remorquage AV+AR.

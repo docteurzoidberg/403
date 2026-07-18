@@ -5,6 +5,11 @@ Géré via le skill `/todo` (code : `export`).
 
 ## À faire
 
+### Administratif
+
+- [x] Carte grise reçue ✅
+- [ ] Commander les plaques d'immatriculation
+
 ### Travaux à effectuer en France avant départ
 
 - [ ] Conception console centrale — à fabriquer avant départ (sera garnie par le sellier au Maroc)
