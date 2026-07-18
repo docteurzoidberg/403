@@ -57,7 +57,7 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 
 - 🛒 **Bouton tête de mort** — [Crystal Skull Decorative Drawer Knobs 2 Pack](https://www.amazon.fr/dp/B0CR4BL1QF) — pour la tirette d'arrêt moteur — 11,16 €
 
-  ![Bouton skull](photos/deco/bouton-skull.jpg)
+    ![Bouton skull](photos/deco/bouton-skull.jpg)
 - 💡 **Panneau de switchs déco style course** — 3 switchs + 1 bouton start, ne servent à rien — [AliExpress](https://fr.aliexpress.com/item/1005006888977837.html)
   Libellés suggérés : **BOOST** / **WARP** / **EJECT** + bouton **START**
 
