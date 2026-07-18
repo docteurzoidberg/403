@@ -18,6 +18,10 @@ Géré via le skill `/todo` (code : `export`).
     ![Support platine USB v1](photos/support-platine-usb-v1.png)
 - [ ] Installation platine USB dans l'habitacle (avec fusible en amont)
 
+### Administratif
+
+- [ ] Commander les plaques d'immatriculation
+
 ### Logistique
 
 - [ ] Prévoir frais transport véhicule (plan B si incapacité de ramener au domicile après achat)

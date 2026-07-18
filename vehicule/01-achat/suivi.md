@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-07-17 — Réception de la carte grise
+
+Carte grise reçue. Commande des plaques d'immatriculation à faire.
+
+---
+
 ### 2026-07-10 — Récupération de la 403 🎉
 
 La Peugeot 403 Break est récupérée et à la maison. Livraison faite le 10 juillet 2026. L'achat est finalisé.
