@@ -98,7 +98,11 @@ Suivi des dépenses par phase.
 | - | Réparations mécaniques éventuelles | - | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel engagé** : -
-**Prévisionnel partiel** : 3 000 € *(reste à compléter)* global
+**Prévisionnel partiel** : 3 000 € *(reste à compléter)*
+
+---
+
+## Récapitulatif global
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|

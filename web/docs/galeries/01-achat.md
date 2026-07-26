@@ -33,7 +33,7 @@
 ## Vidéo envoyée par le vendeur (2026-05-27)
 
 <video controls width="100%" style="border-radius:4px">
-  <source src="../../vehicule/01-achat/photos/vendeur-video-01.mp4" type="video/mp4">
+  <source src="../vehicule/01-achat/photos/vendeur-video-01.mp4" type="video/mp4">
 </video>
 
 ## Pièces commandées
@@ -67,7 +67,7 @@
 ## Clignotants opérationnels — vidéo (2026-06-16)
 
 <video controls width="100%" style="border-radius:4px">
-  <source src="../../vehicule/01-achat/photos/clignotants-operationnels.mp4" type="video/mp4">
+  <source src="../vehicule/01-achat/photos/clignotants-operationnels.mp4" type="video/mp4">
 </video>
 
 ## Rétroviseurs installés (2026-06-16)
