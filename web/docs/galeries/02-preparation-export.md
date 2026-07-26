@@ -7,5 +7,8 @@
 
 ## Bouton tirette arrêt déco
 
-![Bouton tirette arrêt déco](../../vehicule/02-preparation-export/photos/bouton-tirette-arret-deco.png)
-*Bouton tirette arrêt déco*
+![Bouton tirette arrêt déco — vue large](../../vehicule/02-preparation-export/photos/bouton-tirette-arret-deco-large.jpg)
+*Tirette d'arrêt déco — vue d'ensemble avec volant au premier plan*
+
+![Bouton tirette arrêt déco — détail](../../vehicule/02-preparation-export/photos/bouton-tirette-arret-deco-detail.png)
+*Tirette d'arrêt déco — détail bouton personnalisé tête de mort en verre (bouton de tiroir Amazon, pas d'origine)*
