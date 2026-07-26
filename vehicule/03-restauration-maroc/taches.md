@@ -25,6 +25,7 @@ Géré via le skill `/todo` (code : `resto`).
 - [ ] 'ski' protection carter, sur mesure
 - [ ] protection réservoir (plaque sur mesure — à valider avec l'atelier selon exposition réelle)
 - [ ] anneaux remorquage avant et arrière
+- [ ] installation crochets de remorquage AV+AR (à adapter/souder — crochets achetés en France, diamètre mini 24.5 mm, compatibles manilles VEVOR 3/4" déjà reçues)
 
 ### Aménagement intérieur
 
