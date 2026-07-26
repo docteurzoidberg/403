@@ -48,7 +48,7 @@ Suivi des dépenses par phase.
 |---|---|---|---|---|
 | 2026-07-26 | 4 × General Grabber AT3 195/80R15 (pneus raid) | 456 | Réel | ✅ Commandé |
 | 2026-07-18 | 2 manilles en D VEVOR 3/4" — anneaux remorquage AV+AR | 16.90 | Réel | ✅ Reçu |
-| - | Platine USB Thlevel (Amazon B0CCHRS8T3) | - | Prévisionnel | 💭 À renseigner |
+| 2026-07-25 | Platine USB Thlevel (Amazon B0CCHRS8T3) | - | Réel | ✅ Commandé |
 | - | Phares LED rétromod (AliExpress) | - | Prévisionnel | 💭 À renseigner |
 | - | Séparateur cyclonique | - | Prévisionnel | 💭 À renseigner |
 | - | Film teinté (vitres) | - | Prévisionnel | 💭 À renseigner |

@@ -8,7 +8,7 @@ Géré via le skill `/todo` (code : `pieces`).
 ### À acheter en France
 
 - [ ] extincteur (obligatoire pour le raid)
-- [ ] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée)
+- [x] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée) ✅ commandée 2026-07-25
 - [x] clignotant AV manquant — paire de cabochons + platine + cerclage chromé — [LBC Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939) ✅ commandés 2026-06-03, montés 2026-06-26
 - [ ] joints de feux arrière × 2 — référence à trouver avant départ Maroc — disponibles chez Western Autos — montage après étape carrosserie, au remontage
 - [x] 1 jante classique fourgonnette **avec fixation enjoliveur**, 5R15 Michelin — pour compléter le jeu de 4 jantes identiques (vendeur LBC) ✅ payée et expédiée 2026-06-01, jeux montés 2026-06-26
