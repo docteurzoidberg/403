@@ -6,6 +6,17 @@ Suivi des dépenses par phase.
 
 ---
 
+## Sommaire
+
+- [Phase 1 — Achat du véhicule](#phase-1-achat-du-vehicule)
+- [Phase 2 — Préparation export](#phase-2-preparation-export-france)
+- [Phase 3 — Restauration Maroc](#phase-3-restauration-maroc)
+- [Phase 4 — Préparation raid](#phase-4-preparation-raid)
+- [Phase 5 — Raid](#phase-5-raid-sur-place)
+- [Récapitulatif global](#recapitulatif-global)
+
+---
+
 ## Phase 1 - Achat du véhicule
 
 | Date | Description | Montant (€) | Type | Statut |
