@@ -46,7 +46,7 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
   ![Panneau switchs déco course](photos/deco/panneau-switchs-course.png)
 - 🛒 **Canard oscillant rétroviseur** — décoration suspendue rétroviseur — 12 € ✅ commandé 2026-07-26
   ![Canard oscillant rétroviseur](photos/deco/canard-oscillant-retroviseur.png)
-- 💡 **Dé de rétroviseur** — déco rétro
+- ~~💡 **Dé de rétroviseur** — déco rétro~~ — remplacé par le canard oscillant
 - 💡 **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
 - 💡 **Extincteur peint en bleu + sticker NOS** (DIY) — positionné sur le passage d'arbre (tunnel de transmission) — réf. produit existant pour inspiration : [Extincteur NOS Nitro personnalisable 1kg](http://tppt.eu/u/wouepT.png) ~79 €
