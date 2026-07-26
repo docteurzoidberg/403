@@ -48,6 +48,7 @@ Suivi des dépenses par phase.
 |---|---|---|---|---|
 | 2026-07-26 | 4 × General Grabber AT3 195/80R15 (pneus raid) | 456 | Réel | ✅ Commandé |
 | 2026-07-18 | 2 manilles en D VEVOR 3/4" — anneaux remorquage AV+AR | 16.90 | Réel | ✅ Reçu |
+| 2026-07-24 | Support téléphone magnétique Yianerm — ventouse, bras télescopique (Amazon) | 15.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-27 |
 | 2026-07-24 | Platine USB Thlevel 12V — double chargeur PD 45W + QC3.0 18W + voltmètre LED + interrupteur (Amazon B0CCHRS8T3) | 18.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-29 |
 | - | Phares LED rétromod (AliExpress) | - | Prévisionnel | 💭 À renseigner |
 | - | Séparateur cyclonique | - | Prévisionnel | 💭 À renseigner |
@@ -55,7 +56,7 @@ Suivi des dépenses par phase.
 | - | Stickers (Gulf, Camel, Goodyear...) | - | Prévisionnel | 💭 À renseigner |
 | - | Ferry aller (Algésiras → Tanger Med) | - | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : 491.89 €
+**Sous-total réel engagé** : 507.88 €
 **Prévisionnel** : *(reste à compléter)*
 
 ---
@@ -119,8 +120,8 @@ Suivi des dépenses par phase.
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
 | 1 - Achat véhicule | 4 510.79 | 0 |
-| 2 - Préparation export | 491.89 | *(reste à compléter)* |
+| 2 - Préparation export | 507.88 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
 | 4 - Préparation raid | - | *(à renseigner)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **5 002.68 €** | **3 000 € +** |
+| **TOTAL** | **5 018.67 €** | **3 000 € +** |

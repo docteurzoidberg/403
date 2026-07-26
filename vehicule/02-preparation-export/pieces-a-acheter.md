@@ -8,6 +8,7 @@ Géré via le skill `/todo` (code : `pieces`).
 ### À acheter en France
 
 - [ ] extincteur (obligatoire pour le raid)
+- [x] support téléphone voiture magnétique Yianerm — ventouse aimant fort, bras télescopique réglable ✅ commandé 2026-07-24, livraison prévue 2026-07-27
 - [x] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée) ✅ commandée 2026-07-24, livraison prévue 2026-07-29
 - [x] clignotant AV manquant — paire de cabochons + platine + cerclage chromé — [LBC Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939) ✅ commandés 2026-06-03, montés 2026-06-26
 - [ ] joints de feux arrière × 2 — référence à trouver avant départ Maroc — disponibles chez Western Autos — montage après étape carrosserie, au remontage
