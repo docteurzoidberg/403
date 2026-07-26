@@ -8,6 +8,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-07-26 — Commande plaques d'immatriculation
+
+Commande passée. En attente du retour de chez Maillefauds pour envoi de la carte grise.
+
+---
+
 ### 2026-07-26 — Tirette d'arrêt moteur — bouton personnalisé
 
 Tirette d'arrêt moteur constatée et photographiée. Bouton personnalisé : tête de mort en verre (bouton de tiroir Amazon) — pas d'origine, mais du style.

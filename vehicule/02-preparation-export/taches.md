@@ -8,7 +8,7 @@ Géré via le skill `/todo` (code : `export`).
 ### Administratif
 
 - [x] Carte grise reçue ✅
-- [ ] Commander les plaques d'immatriculation
+- [x] Commander les plaques d'immatriculation ⏳ *(en attente retour Maillefauds pour envoi carte grise)*
 
 ### Travaux à effectuer en France avant départ
 
