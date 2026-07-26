@@ -8,6 +8,8 @@ Géré via le skill `/todo` (code : `pieces`).
 ### À acheter en France
 
 - [ ] extincteur (obligatoire pour le raid)
+- [ ] sangles de remorquage (4 ou 6 ? à cliquet ou sans ? longueur à définir)
+- [ ] crochets de remorquage — à adapter/souder sur le véhicule à l'atelier Maroc — diamètre mini 24.5 mm (compatibles manilles VEVOR 3/4" déjà reçues)
 - [x] support téléphone voiture magnétique Yianerm — ventouse aimant fort, bras télescopique réglable ✅ commandé 2026-07-24, livraison prévue 2026-07-27
 - [x] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée) ✅ commandée 2026-07-24, livraison prévue 2026-07-29
 - [x] clignotant AV manquant — paire de cabochons + platine + cerclage chromé — [LBC Mur-sur-Allier](https://www.leboncoin.fr/ad/equipement_auto/3187769939) ✅ commandés 2026-06-03, montés 2026-06-26
