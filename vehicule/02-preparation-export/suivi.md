@@ -25,12 +25,9 @@ Tirette d'arrêt moteur constatée et photographiée. Bouton personnalisé : tê
 
 ---
 
-### 2026-07-18 — Commande manilles de remorquage
+### 2026-07-18 — Réception manilles de remorquage
 
-Commande de 2 manilles en D VEVOR 3/4" (19 mm) — acier allié, résistance à la rupture 28,5 T — pour les futurs anneaux de remorquage AV+AR.
-- Référence : [VEVOR D Ring Shackle 3/4" 2 Pack](https://www.amazon.fr/dp/B0D7VV8HRT)
-- Prix : 16,90 €
-- Statut : commandé ⏳
+2 manilles en D VEVOR 3/4" (19 mm) reçues ✅
 
 ---
 
