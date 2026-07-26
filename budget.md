@@ -86,7 +86,7 @@ Suivi des dépenses par phase.
 | - | Extincteur (obligatoire raid) | - | Prévisionnel | 💭 À renseigner |
 | - | Plaques de désensablage | - | Prévisionnel | 💭 À renseigner |
 | - | Compresseur 12V DIY (kit KEUPOK + composants) | - | Prévisionnel | 💭 À renseigner |
-| - | Décoration & accessoires | - | Prévisionnel | 💭 À renseigner |
+| 2026-07-26 | Canard oscillant rétroviseur — décoration suspendue intérieur | 12 | Réel | ✅ Commandé |
 | - | Éclairage (barre LED, antibrouillards) | - | Prévisionnel | 💭 À renseigner |
 | - | Sono de toit (trompettes, sirène, HP, ampli) | - | Prévisionnel | 💭 À renseigner |
 | - | TPMS | - | Prévisionnel | 💭 À renseigner |
@@ -94,7 +94,7 @@ Suivi des dépenses par phase.
 | - | Sangles de remorquage, pelle | - | Prévisionnel | 💭 À renseigner |
 | - | GPS / roadbook (si non fourni orga) | - | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : -
+**Sous-total réel engagé** : 12 €
 **Prévisionnel** : *(à renseigner)*
 
 ---
@@ -122,6 +122,6 @@ Suivi des dépenses par phase.
 | 1 - Achat véhicule | 4 510.79 | 0 |
 | 2 - Préparation export | 507.88 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
-| 4 - Préparation raid | - | *(à renseigner)* |
+| 4 - Préparation raid | 12 | *(à compléter)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **5 018.67 €** | **3 000 € +** |
+| **TOTAL** | **5 030.67 €** | **3 000 € +** |

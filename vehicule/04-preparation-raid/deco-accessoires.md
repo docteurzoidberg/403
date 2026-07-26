@@ -62,6 +62,9 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
   Libellés suggérés : **BOOST** / **WARP** / **EJECT** + bouton **START**
 
     ![Panneau switchs déco course](photos/deco/panneau-switchs-course.png)
+- 🛒 **Canard oscillant rétroviseur** — décoration suspendue rétroviseur — 12 € ✅ commandé 2026-07-26
+
+    ![Canard oscillant rétroviseur](photos/deco/canard-oscillant-retroviseur.png)
 - 💡 **Dé de rétroviseur** — déco rétro
 - 💡 **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
