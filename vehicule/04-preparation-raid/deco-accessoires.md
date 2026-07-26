@@ -62,8 +62,8 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
   Libellés suggérés : **BOOST** / **WARP** / **EJECT** + bouton **START**
 
     ![Panneau switchs déco course](photos/deco/panneau-switchs-course.png)
-- [ ] **Dé de rétroviseur** — déco rétro
-- [ ] **Chien à ressort** — tableau de bord
+- 💡 **Dé de rétroviseur** — déco rétro
+- 💡 **Chien à ressort** — tableau de bord
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
 - 💡 **Extincteur peint en bleu + sticker NOS** (DIY) — positionné sur le passage d'arbre (tunnel de transmission) — réf. produit existant pour inspiration : [Extincteur NOS Nitro personnalisable 1kg](http://tppt.eu/u/wouepT.png) ~79 €
 
