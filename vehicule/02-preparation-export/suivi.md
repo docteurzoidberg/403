@@ -1,12 +1,21 @@
 # Préparation export — Transport vers le Maroc
 
-**Statut** : ⏳ À venir
+**Statut** : 🔧 En cours
 
 ---
 
 ## Journal
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
+
+### 2026-07-26 — Tirette d'arrêt moteur — bouton personnalisé
+
+Tirette d'arrêt moteur constatée et photographiée. Bouton personnalisé : tête de mort en verre (bouton de tiroir Amazon) — pas d'origine, mais du style.
+
+![Tirette d'arrêt — bouton tête de mort](photos/tirette-arret-tete-de-mort.png)
+![Tirette d'arrêt — vue tableau de bord](photos/tirette-arret-tableau-de-bord.jpg)
+
+---
 
 ### 2026-07-26 — Commande 4 pneus AT raid
 
