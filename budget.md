@@ -35,7 +35,7 @@ Suivi des dépenses par phase.
 
 | Date | Description | Montant (€) | Type | Statut |
 |---|---|---|---|---|
-| - | 4 × General Grabber AT3 195/80R15 (pneus raid) | 465.20 | Prévisionnel | 💭 À renseigner |
+| 2026-07-26 | 4 × General Grabber AT3 195/80R15 (pneus raid) | 456 | Réel | ✅ Commandé |
 | - | Platine USB Thlevel (Amazon B0CCHRS8T3) | - | Prévisionnel | 💭 À renseigner |
 | - | Phares LED rétromod (AliExpress) | - | Prévisionnel | 💭 À renseigner |
 | - | Séparateur cyclonique | - | Prévisionnel | 💭 À renseigner |
@@ -43,7 +43,8 @@ Suivi des dépenses par phase.
 | - | Stickers (Gulf, Camel, Goodyear...) | - | Prévisionnel | 💭 À renseigner |
 | - | Ferry aller (Algésiras → Tanger Med) | - | Prévisionnel | 💭 À renseigner |
 
-**Prévisionnel partiel** : 465.20 € *(reste à compléter)*
+**Sous-total réel engagé** : 456 €
+**Prévisionnel** : *(reste à compléter)*
 
 ---
 
@@ -102,8 +103,8 @@ Suivi des dépenses par phase.
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
 | 1 - Achat véhicule | 4 510.79 | 0 |
-| 2 - Préparation export | - | 465.20 *(partiel)* |
+| 2 - Préparation export | 456 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
 | 4 - Préparation raid | - | *(à renseigner)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **4 510.79 €** | **3 465.20 € +** |
+| **TOTAL** | **4 966.79 €** | **3 000 € +** |

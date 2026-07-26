@@ -8,6 +8,14 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-07-26 — Commande 4 pneus AT raid
+
+4 × General Grabber AT3 195/80R15 commandés — pneus raid définitifs.
+- Montant : 456 €
+- Statut : commandé ⏳
+
+---
+
 ### 2026-07-10 — Réception carte grise
 
 Carte grise reçue. Commande des plaques d'immatriculation à faire.
