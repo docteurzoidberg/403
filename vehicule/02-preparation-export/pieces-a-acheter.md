@@ -37,7 +37,6 @@ Géré via le skill `/todo` (code : `pieces`).
 ### Si disponible: achat au Maroc. sinon à acheter en France avant départ
 
 - ~~[ ] capot supplémentaire~~ — snorkel non retenu ✅
-- ~~[ ] manivelle de démarrage~~ — présente sur le véhicule ✅
 - [ ] bavettes avant/arriere
 
 ### Stickers (à commander en France avant départ atelier)
