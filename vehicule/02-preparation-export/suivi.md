@@ -8,6 +8,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-07-29 — Réception pneus AT
+
+Réception des 4 pneus AT (General Grabber AT3 195/80R15) pour le raid.
+
+---
+
 ### 2026-07-26 — Commande plaques d'immatriculation
 
 Commande passée. En attente du retour de chez Maillefauds pour envoi de la carte grise.
