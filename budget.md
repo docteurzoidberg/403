@@ -35,9 +35,9 @@ Suivi des dépenses par phase.
 | 2026-06-26 | Balais d'essuie-glace - offerts par le vendeur (Claude) | 0 | Réel | ✅ Offert |
 | 2026-06-05 | Paire de rétroviseurs (eBay) | 88 | Réel | ✅ Payé |
 | 2026-06 | Commande Serie04 — joint plaque ×1 (6341 08 CE), joints phare ×2 (6228 01), durite sup ×1 (1343 38), durite inf ×1 (1350 13), roulements roue AV ×2 (3748 01 SNR), joints spi ×2 (3724 07 CE) + manutention | 98.39 | Réel | ✅ Payé |
-| - | Joints feux arrière (Serie04 - réf à confirmer) | - | Prévisionnel | 💭 À renseigner |
+| 2026-08-01 | Commande Serie04 — joint cloche filtre ×2 (1115 09), joint cuivre ×2 (1117 14), filtre à huile ×2 (1109 14 HIFI), joints feux arrière ×2 (6344 02 CE) + expédition | 71.28 | Réel | ✅ Commandé |
 
-**Sous-total réel payé** : 4 510.79 €
+**Sous-total réel payé** : 4 582.07 €
 **Prévisionnel restant** : 0 € *(véhicule intégralement payé)*
 
 ---
@@ -50,13 +50,14 @@ Suivi des dépenses par phase.
 | 2026-07-18 | 2 manilles en D VEVOR 3/4" — anneaux remorquage AV+AR | 16.90 | Réel | ✅ Reçu |
 | 2026-07-24 | Support téléphone magnétique Yianerm — ventouse, bras télescopique (Amazon) | 15.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-27 |
 | 2026-07-24 | Platine USB Thlevel 12V — double chargeur PD 45W + QC3.0 18W + voltmètre LED + interrupteur (Amazon B0CCHRS8T3) | 18.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-29 |
+| 2026-08-01 | Store Gradulux — baie arrière | 121.77 | Réel | ✅ Commandé |
 | - | Phares LED rétromod (AliExpress) | - | Prévisionnel | 💭 À renseigner |
 | - | Séparateur cyclonique | - | Prévisionnel | 💭 À renseigner |
 | - | Film teinté (vitres) | - | Prévisionnel | 💭 À renseigner |
 | - | Stickers (Gulf, Camel, Goodyear...) | - | Prévisionnel | 💭 À renseigner |
 | - | Ferry aller (Algésiras → Tanger Med) | - | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : 507.88 €
+**Sous-total réel engagé** : 629.65 €
 **Prévisionnel** : *(reste à compléter)*
 
 ---
@@ -119,9 +120,9 @@ Suivi des dépenses par phase.
 
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
-| 1 - Achat véhicule | 4 510.79 | 0 |
-| 2 - Préparation export | 507.88 | *(reste à compléter)* |
+| 1 - Achat véhicule | 4 582.07 | 0 |
+| 2 - Préparation export | 629.65 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
 | 4 - Préparation raid | 12 | *(à compléter)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **5 030.67 €** | **3 000 € +** |
+| **TOTAL** | **5 223.72 €** | **3 000 € +** |
