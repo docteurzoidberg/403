@@ -29,7 +29,10 @@ Une question résolue est retirée de la liste (pas de case à cocher).
 - Attelage sur mesure : décision oui/non (conditionne l'emplacement de l'anneau de remorquage arrière)
 - Remplacement dynamo → alternateur : décision oui/non
 - Couleur de peinture
-- Choix tissu / matériau sellerie (ciel de toit, banquettes, garnitures de portes)
+- Mesurer largeur réelle intérieure du pavillon (de bord à bord, point le plus large) — tissu ciel de toit repéré fait 148cm, juste limite si pavillon > 138cm
+- Choix tissu ciel de toit : molleton tête de mort (réf. 355640 mondialtissus.fr, 148cm, 95% coton 5% élasthanee) repéré MAIS extensible/molleton = risque gondolage sous chaleur — à confirmer ou trouver équivalent tissage non extensible
+- Choix tissu siège : denim gris foncé / noir, oriénter vers tissu d'ameublement / sellerie (pas confection) pour résistance UV et frottement
+- Choix tissu / matériau garnitures de portes : pas de décision prise
 - Ski protection carter : matériau, épaisseur, design
 - Fiabilisation ventilation radiateur : approche retenue (ventilateur additionnel, autre ?)
 - Sur-ailes boulonnées (démontables) : décision oui/non — permettrait de monter des 6J ET0/ET+20 + 195/80R15 pour le raid, en remontant les jantes 5J d'origine pour le CT (à prévoir avec l'artisan carrossier au Maroc)

@@ -92,6 +92,12 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-08-21 — Plaques d'immatriculation posées
+
+Plaques Maillefauds reçues et posées sur le véhicule ✅
+
+---
+
 ### 2026-07-17 — Réception de la carte grise
 
 Carte grise reçue. Commande des plaques d'immatriculation à faire.

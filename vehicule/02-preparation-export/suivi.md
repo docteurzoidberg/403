@@ -8,6 +8,24 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-08-21 — Point de situation
+
+**Câble tirette d'arrêt moteur** : câble cassé, remplacé par pièce d'origine ✅
+**Câble de ralenti/accélérateur** : câble cassé, remplacé par pièce d'origine ✅
+
+**Store Gradulux (baie arrière)** : reçu et posé ✅ — photos à ajouter en galerie
+
+**Support téléphone magnétique Yianerm** : reçu ✅
+**Platine USB Thlevel** : reçue ✅ — support imprimé et validé — montage non fait ⏳
+
+**Plaques d'immatriculation** : reçues et posées ✅
+
+**Pneus AT + vidange + purge freins** : rendez-vous garage prévu en septembre pour montage pneus AT, vidange et purge freins ⏳
+
+**Roulage** : la 403 roule régulièrement sur petits/moyens trajets — utilisée comme véhicule principal ✅
+
+---
+
 ### 2026-07-29 — Réception pneus AT
 
 Réception des 4 pneus AT (General Grabber AT3 195/80R15) pour le raid.
