@@ -1,5 +1,7 @@
 # Références ampoules — Éclairage 403
 
+**Source :** [Kit éclairage LED complet pour Peugeot 403 — ClassicAutoElec](https://classicautoelec.com/fr/kit-led-complet-pour-peugeot/22162-kit-eclairage-led-complet-pour-peugeot-403.html)
+
 > Véhicule post-1957.
 
 ---
