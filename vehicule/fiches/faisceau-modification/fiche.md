@@ -46,7 +46,8 @@ Batterie (+)
                                                    ├─ Voie 1 — 20/25 A → Relais klaxon Ooga
                                                    │                          └─ Klaxon Ooga
                                                    ├─ Voie 2 — 5 A    → Interrupteur momentané (trigger relais)
-                                                   ├─ Voie 3 — réserve
+                                                   ├─ Voie 3 — 20 A    → Platine USB (préparation export)
+                                                   │                          [chargeur USB-C 40W + prise allume-cigare 150W max]
                                                    └─ Voie 4 — réserve
 ```
 

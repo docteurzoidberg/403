@@ -15,7 +15,7 @@ Géré via le skill `/todo` (code : `export`).
 - [ ] Conception console centrale — à fabriquer avant départ (sera garnie par le sellier au Maroc)
 - [x] Fabrication support pour platine USB ✅ — à tester
   ![Support platine USB v1](photos/support-platine-usb-v1.png)
-- [ ] Installation platine USB dans l'habitacle (avec fusible en amont)
+- [ ] Installation platine USB dans l'habitacle — voir [Modification faisceau](../fiches/faisceau-modification/fiche.md) (voie 3 ATO, fusible 20 A)
 
 ### Logistique
 
