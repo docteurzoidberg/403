@@ -14,7 +14,7 @@
 
 **Câble de ralenti/accélérateur** : câble cassé, remplacé par pièce d'origine ✅
 
-**Store Gradulux (baie arrière)** : reçu et posé ✅ — photos à ajouter en galerie
+**Store Gradulux (baie arrière)** : reçu et posé ✅
 
 **Support téléphone magnétique Yianerm** : reçu ✅
 

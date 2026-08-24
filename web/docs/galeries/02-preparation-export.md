@@ -5,6 +5,11 @@
 ![Pneus General Grabber AT3 195/80R15](../vehicule/02-preparation-export/photos/pneus-at-grabber.jpg)
 *4 × General Grabber AT3 195/80R15 — pneus raid commandés le 2026-07-26*
 
+## Store Gradulux + plaque arrière Maillefaud (2026-08-21)
+
+![Store Gradulux et plaque arrière Maillefaud posés](../vehicule/02-preparation-export/photos/store-gradulux-plaque-arriere.png)
+*Store Gradulux baie arrière + plaque d'immatriculation Maillefaud posés*
+
 ## Bouton tirette arrêt déco
 
 ![Bouton tirette arrêt déco — vue large](../vehicule/02-preparation-export/photos/bouton-tirette-arret-deco-large.jpg)
