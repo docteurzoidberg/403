@@ -5,9 +5,11 @@ Fiabilisation du câblage d'origine + préparation pour futurs accessoires (hors
 ## Matériel
 
 - [ ] Coupe-circuit rotatif à clé Master Switch — ref. Amazon B0C36X7LBV (2 clés fournies)
+  ![Coupe-circuit à clé](photos/coupe-circuit-cle.png)
 - [ ] Support coupe-circuit à concevoir/fabriquer (baie moteur)
 - [ ] Tirette + câble bowden (commande habitacle → coupe-circuit)
 - [ ] Porte-fusible ANL 2 voies bolt-down, couvercle rouge — ref. Amazon B0FLT2RJMW
+  ![Porte-fusible ANL 2 voies](photos/porte-fusible-anl.png)
 - [ ] 2 × fusible ANL 30 A
 - [ ] Porte-fusible ATO 4 voies (habitacle)
 - [ ] Fusibles ATO : 1 × 20 ou 25 A / 1 × 5 A / réserves
