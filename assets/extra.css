@@ -544,6 +544,28 @@ body:has(.home-403) .md-top {
   }
 }
 
+/* =====================================================================
+   Schémas faisceau — viewer responsive
+   ===================================================================== */
+
+.harness-viewer {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  background: var(--md-default-bg-color--light);
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.harness-viewer svg,
+.harness-viewer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Pas de border-bottom dotted sur les liens dans la home */
 .home-403 a {
   border-bottom: none !important;
