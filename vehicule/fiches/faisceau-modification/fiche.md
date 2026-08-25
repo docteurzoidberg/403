@@ -4,7 +4,7 @@ Fiabilisation du câblage d'origine + préparation pour futurs accessoires (hors
 
 ## Matériel
 
-- [ ] Coupe-circuit rotatif à clé Master Switch — ref. Amazon B0C36X7LBV (2 clés fournies)
+- [x] Coupe-circuit rotatif à clé Master Switch — ref. Amazon B0C36X7LBV (2 clés fournies) ✅ reçu 2026-08-25
   ![Coupe-circuit à clé](photos/coupe-circuit-cle.png)
 - [ ] Support coupe-circuit à concevoir/fabriquer (baie moteur)
 - [ ] Tirette + câble bowden (commande habitacle → coupe-circuit)
