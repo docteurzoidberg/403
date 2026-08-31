@@ -85,7 +85,10 @@ Batterie (+)
 
 ### Habitacle
 
-<!-- à étudier et compléter -->
+- [ ] **Concevoir le tiroir électrique** → voir [fiche tiroir électrique](../tiroir-electrique/fiche.md) — compartiment boutons/interrupteurs, relais accessoires, porte-fusible ATO
+- [ ] **Réaliser le tiroir électrique** → voir [fiche tiroir électrique](../tiroir-electrique/fiche.md)
+- [ ] **Définir l'emplacement du tiroir** dans l'habitacle
+- [ ] **Installer le tiroir électrique** à l'emplacement retenu
 
 ---
 
