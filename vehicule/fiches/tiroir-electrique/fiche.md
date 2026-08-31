@@ -27,7 +27,7 @@ Compartiment coulissant dédié à l'électronique habitacle. Fixé dans un supp
 - 1 × bouton poussoir (klaxon Ooga)
 - 3 × toggle switches (accessoires futurs)
 - 4 × relais 12V (un par bouton/toggle)
-- 1 × porte-fusible ATO 4 voies (évolutif selon câblage final)
+- 1 × porte-fusible ATO 4 voies (évolutif selon câblage final) — entrée **M5**, sorties **M4**
 
 ### Façade
 
