@@ -76,7 +76,8 @@ Liste ordonnée — vérifications/choix en premier, fabrication et pose ensuite
 
 ### Phase 3 — Installation
 
-- [ ] **Installer le coupe-circuit** sur son support, côté baie moteur près de la batterie
+- [ ] **Fixer le support** dans la baie moteur (trouver la visserie adaptée aux inserts choisis)
+- [ ] **Monter le coupe-circuit** sur le support
 - [ ] **Modifier le câble + batterie** — séparer en deux segments :
   - Segment 1 : conserve la cosse batterie → va jusqu'au coupe-circuit → ajouter cosse 35 mm² trou M10 côté coupe-circuit
   - Segment 2 : repart du coupe-circuit → va jusqu'au démarreur → ajouter cosse 35 mm² trou M10 côté coupe-circuit
