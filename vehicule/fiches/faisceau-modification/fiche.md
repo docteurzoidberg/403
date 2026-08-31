@@ -4,18 +4,18 @@ Fiabilisation du câblage d'origine + préparation pour futurs accessoires (hors
 
 ## Matériel
 
-- [x] Coupe-circuit rotatif à clé Master Switch — ref. Amazon B0C36X7LBV (2 clés fournies) ✅ reçu 2026-08-25
+- [x] Coupe-circuit rotatif à clé Master Switch — ref. Amazon B0C36X7LBV (2 clés fournies)
   ![Coupe-circuit à clé](photos/coupe-circuit-cle.png)
 - [ ] Support coupe-circuit à concevoir/fabriquer (baie moteur)
 - [ ] Tirette + câble bowden (commande habitacle → coupe-circuit)
-- [ ] Porte-fusible ANL 2 voies bolt-down, couvercle rouge — ref. Amazon B0FLT2RJMW
+- [x] Porte-fusible ANL 2 voies bolt-down, couvercle rouge — ref. Amazon B0FLT2RJMW
   ![Porte-fusible ANL 2 voies](photos/porte-fusible-anl.png)
-- [ ] 2 × fusible ANL 30 A
-- [ ] Porte-fusible ATO 4 voies (habitacle)
-- [ ] Fusibles ATO : 1 × 20 ou 25 A / 1 × 5 A / réserves
+- [x] 2 × fusible ANL 30 A
+- [x] Porte-fusible ATO 4 voies (habitacle)
+- [x] Fusibles ATO : 1 × 20 ou 25 A / 1 × 5 A / réserves
 - [ ] Relais 12 V (type 5 broches, 30/40 A) — klaxon Ooga
-- [ ] Klaxon Ooga (puissance max 18 A)
-- [ ] Interrupteur momentané (trigger klaxon)
+- [x] Klaxon Ooga (puissance max 18 A)
+- [x] Interrupteur momentané (trigger klaxon)
 - [ ] Câble automobile multibrin (sections adaptées aux circuits)
 - [ ] Cosses à sertir (anneau, fourche — assorties aux sections)
 - [ ] Gaine thermorétractable (assortiment diamètres)
