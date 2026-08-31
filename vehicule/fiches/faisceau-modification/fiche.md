@@ -51,7 +51,9 @@ Batterie (+)
 
 ## À faire
 
-### Phase 1 — Choix et mesures (avant toute commande ou fabrication)
+### Baie moteur
+
+#### Phase 1 — Choix et mesures (avant toute commande ou fabrication)
 
 - [ ] **Valider le diamètre des boulons du porte-fusible ANL** (entrée et sortie) — pour choisir les cosses adaptées (M8 ou M10)
 - [ ] **Définir l'emplacement exact du coupe-circuit** dans la baie moteur (près de la batterie, accessible) — détermine la longueur du câble entre la borne + batterie et le coupe-circuit
@@ -61,7 +63,7 @@ Batterie (+)
 - [ ] **Inspecter le câble habitacle existant** (démarreur → habitacle) — relever section, type de cosse, longueur disponible ; vérifier compatibilité avec la sortie du porte-fusible ANL retenu
 - [ ] **Calculer la section du câble démarreur → porte-fusible** — selon distance mesurée et courant max du circuit
 
-### Phase 2 — Fabrication
+#### Phase 2 — Fabrication
 
 - [ ] **Fabriquer le support coupe-circuit** → voir [fiche coupe-circuit](../coupe-circuit/fiche.md)
   - [ ] Trouver la tôle (acier 1,6 ou 2 mm, dimensions suffisantes pour le développé)
@@ -70,7 +72,7 @@ Batterie (+)
   - [ ] Souder les pliages
   - [ ] Poser les inserts filetés (taille définie en Phase 1)
 
-### Phase 3 — Installation
+#### Phase 3 — Installation
 
 - [ ] **Fixer le support** dans la baie moteur (trouver la visserie adaptée aux inserts choisis)
 - [ ] **Monter le coupe-circuit** sur le support
@@ -80,6 +82,10 @@ Batterie (+)
 - [ ] **Installer le porte-fusible ANL 2 voies** à l'emplacement défini en Phase 1
 - [ ] **Refaire le câble démarreur → entrée porte-fusible ANL** — section et cosses déterminées en Phase 1 (M10 démarreur / M8 ou M10 porte-fusible)
 - [ ] **Déplacer le câble habitacle** — décrocher du démarreur, adapter la cosse si nécessaire, brancher en sortie d'une voie du porte-fusible ANL
+
+### Habitacle
+
+<!-- à étudier et compléter -->
 
 ---
 
