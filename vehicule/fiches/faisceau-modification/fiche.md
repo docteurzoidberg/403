@@ -21,8 +21,6 @@ Fiabilisation du câblage d'origine + préparation pour futurs accessoires (hors
 - [ ] Gaine thermorétractable (assortiment diamètres)
 - [ ] Gaine tressée ou spiralée
 - [ ] Passe-fils caoutchouc (traversées de tôle)
-- [ ] Multimètre + pince ampèremétrique
-- [ ] Pince à sertir
 
 ## Schéma d'origine
 
