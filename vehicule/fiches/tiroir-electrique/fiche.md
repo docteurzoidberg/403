@@ -11,6 +11,17 @@ Compartiment coulissant dédié à l'électronique habitacle. Fixé dans un supp
 - **Matière :** tôle acier (épaisseur à définir)
 - **Procédé :** découpe + pliage, rebords servant de glissières dans le support
 
+### Illustrations
+
+![Tiroir électrique — vue 3D complète](photos/tiroir-3d-complet.png)
+*Vue 3D complète : tiroir avec façade (bouton poussoir rouge + 3 toggles orange), relais dans le fond, support platine USB visible en dessous*
+
+![Tiroir — vue 3D nue (sans façade ni équipements)](photos/tiroir-3d-nu.png)
+*Structure tôlée du tiroir seul : flancs servant de glissières dans le support, trous de visserie façade (M4) visibles en bas des flancs*
+
+![Tiroir — développé tôle à plat](photos/tiroir-tole-plat.png)
+*Patron de découpe à plat — lignes de pliage cyan sur les flancs, onglets de fixation avec trous en haut de chaque flanc*
+
 ### Contenu
 
 - 1 × bouton poussoir (klaxon Ooga)
