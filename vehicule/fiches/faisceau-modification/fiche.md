@@ -85,10 +85,15 @@ Batterie (+)
 
 ### Habitacle
 
-- [ ] **Concevoir le tiroir électrique** → voir [fiche tiroir électrique](../tiroir-electrique/fiche.md) — compartiment boutons/interrupteurs, relais accessoires, porte-fusible ATO
-- [ ] **Réaliser le tiroir électrique** → voir [fiche tiroir électrique](../tiroir-electrique/fiche.md)
-- [ ] **Définir l'emplacement du tiroir** dans l'habitacle
-- [ ] **Installer le tiroir électrique** à l'emplacement retenu
+→ Détail complet dans la [fiche tiroir électrique](../tiroir-electrique/fiche.md)
+
+- [ ] **Concevoir le support tiroir** — plaque tôle pliée, fixation tableau de bord + pare-feu, rebords de guidage pour coulissement du tiroir
+- [ ] **Concevoir le tiroir électrique** — boîtier coulissant, disposition interne (porte-fusible ATO, relais, boutons)
+- [ ] **Définir l'emplacement** dans l'habitacle (position entre tableau de bord et pare-feu)
+- [ ] **Fabriquer le support tiroir**
+- [ ] **Fabriquer le tiroir électrique**
+- [ ] **Installer le support** (fixation tableau de bord + pare-feu)
+- [ ] **Câbler et installer le tiroir électrique** dans son support
 
 ---
 
