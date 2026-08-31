@@ -87,11 +87,11 @@ Batterie (+)
 
 → Détail complet dans la [fiche tiroir électrique](../tiroir-electrique/fiche.md)
 
-- [ ] **Concevoir le support tiroir** — plaque tôle pliée, fixation tableau de bord + pare-feu, rebords de guidage pour coulissement du tiroir
-- [ ] **Concevoir le tiroir électrique** — boîtier coulissant, disposition interne (porte-fusible ATO, relais, boutons)
+- [ ] **Concevoir le tiroir électrique** — tôle pliée, disposition interne (1 poussoir klaxon + 3 toggles, 4 relais, porte-fusible ATO 4 voies), façade détachable M4, platine USB fixée sous le tiroir
+- [ ] **Concevoir le support tiroir** — après tiroir, glissières calquées sur ses dimensions, fixation tableau de bord + pare-feu
 - [ ] **Définir l'emplacement** dans l'habitacle (position entre tableau de bord et pare-feu)
-- [ ] **Fabriquer le support tiroir**
 - [ ] **Fabriquer le tiroir électrique**
+- [ ] **Fabriquer le support tiroir**
 - [ ] **Installer le support** (fixation tableau de bord + pare-feu)
 - [ ] **Câbler et installer le tiroir électrique** dans son support
 

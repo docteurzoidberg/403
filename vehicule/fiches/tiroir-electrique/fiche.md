@@ -1,28 +1,43 @@
 # Tiroir électrique habitacle
 
-Compartiment dédié à l'électronique habitacle : boutons/interrupteurs, relais accessoires, porte-fusible ATO.
+Compartiment coulissant dédié à l'électronique habitacle. Fixé dans un support tôlé entre tableau de bord et pare-feu.
+
+> Le tiroir doit être conçu et fabriqué **avant** le support, car ses dimensions déterminent les cotes des glissières.
 
 ---
 
-## Support tiroir électrique
+## Tiroir
 
-Pièce tôlée fixée d'un côté au tableau de bord, de l'autre au pare-feu. Elle sert de rail de guidage et de maintien pour le tiroir électrique.
+- **Matière :** tôle acier (épaisseur à définir)
+- **Procédé :** découpe + pliage, rebords servant de glissières dans le support
+
+### Contenu
+
+- 1 × bouton poussoir (klaxon Ooga)
+- 3 × toggle switches (accessoires futurs)
+- 4 × relais 12V (un par bouton/toggle)
+- 1 × porte-fusible ATO 4 voies (évolutif selon câblage final)
+
+### Façade
+
+- Panneau avant **détachable**, vissé sur le tiroir
+- Visserie M4 (type et longueur à choisir)
+- Porte les 4 boutons (poussoir + 3 toggles)
+
+### Platine USB (sous le tiroir)
+
+- Fixée sous le tiroir avec son support (voir fiche platine USB — déjà référencée en préparation export)
+- Visserie de fixation à déterminer
+
+---
+
+## Support tiroir
+
+Pièce tôlée fabriquée **après** le tiroir (dimensions des glissières calquées sur le tiroir).
 
 - **Matière :** tôle acier (épaisseur à définir)
 - **Fixations :** tableau de bord côté habitacle + pare-feu
-- **Principe :** rebords repliés sur les côtés pour que le tiroir électrique puisse coulisser et se maintenir en position — tiroir extractible pour accéder aux fusibles et au matériel
-
----
-
-## Tiroir électrique
-
-Boîtier coulissant dans le support, contient :
-
-- Porte-fusible ATO 4 voies
-- Relais accessoires (klaxon Ooga, etc.)
-- Boutons / interrupteurs
-
-<!-- à détailler : dimensions, matière, disposition interne -->
+- **Principe :** rebords repliés formant glissières — le tiroir coulisse dedans et peut être extrait pour accéder aux fusibles et au matériel
 
 ---
 
