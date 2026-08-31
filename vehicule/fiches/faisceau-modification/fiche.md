@@ -53,11 +53,10 @@ Batterie (+)
 
 ### Phase 1 — Choix et mesures (avant toute commande ou fabrication)
 
-- [ ] **Choisir le modèle de porte-fusible ANL 2 voies** — noter le diamètre des trous de cosses en entrée et en sortie (M8 ou M10)
+- [ ] **Valider le diamètre des boulons du porte-fusible ANL** (entrée et sortie) — pour choisir les cosses adaptées (M8 ou M10)
 - [ ] **Définir l'emplacement exact du coupe-circuit** dans la baie moteur (près de la batterie, accessible) — détermine la longueur du câble entre la borne + batterie et le coupe-circuit
 - [ ] **Définir la taille des inserts filetés** pour la fixation du support coupe-circuit dans la baie moteur
 - [ ] **Définir l'emplacement exact du porte-fusible ANL 2 voies** (côté baie moteur, près du pare-feu)
-- [ ] **Inspecter le câble + batterie existant** — confirmer la section (35 mm² ?) et mesurer la longueur totale pour calculer les deux segments (batterie → coupe-circuit, coupe-circuit → démarreur)
 - [ ] **Confirmer le diamètre du boulon démarreur** (M10 présumé — mesurer sur le véhicule)
 - [ ] **Inspecter le câble habitacle existant** (démarreur → habitacle) — relever section, type de cosse, longueur disponible ; vérifier compatibilité avec la sortie du porte-fusible ANL retenu
 - [ ] **Calculer la section du câble démarreur → porte-fusible** — selon distance mesurée et courant max du circuit
@@ -75,7 +74,7 @@ Batterie (+)
 
 - [ ] **Fixer le support** dans la baie moteur (trouver la visserie adaptée aux inserts choisis)
 - [ ] **Monter le coupe-circuit** sur le support
-- [ ] **Modifier le câble + batterie** — séparer en deux segments :
+- [ ] **Modifier le câble + batterie (35 mm²)** — séparer en deux segments, longueur segment 1 déterminée à l'étape de validation emplacement :
   - Segment 1 : conserve la cosse batterie → va jusqu'au coupe-circuit → ajouter cosse 35 mm² trou M10 côté coupe-circuit
   - Segment 2 : repart du coupe-circuit → va jusqu'au démarreur → ajouter cosse 35 mm² trou M10 côté coupe-circuit
 - [ ] **Installer le porte-fusible ANL 2 voies** à l'emplacement défini en Phase 1
