@@ -50,7 +50,35 @@ Batterie (+)
 - [ ] Gaines tressées ou spiralées pour protection
 - [ ] Connecteurs étanches (Deutsch DT ou équivalent) pour traversées de carrosserie
 
-## À faire
+## Étapes d'installation — circuit principal
+
+Liste ordonnée — vérifications/choix en premier, fabrication et pose ensuite.
+
+### Phase 1 — Choix et mesures (avant toute commande ou fabrication)
+
+- [ ] **Choisir le modèle de porte-fusible double Midi** — noter le diamètre des trous de cosses en entrée et en sortie (M8 ou M10)
+- [ ] **Définir l'emplacement exact du coupe-circuit** dans la baie moteur (près de la batterie, accessible)
+- [ ] **Définir l'emplacement exact du porte-fusible double Midi** (côté baie moteur, près du pare-feu)
+- [ ] **Inspecter le câble + batterie existant** — confirmer la section (35 mm² ?) et mesurer la longueur totale pour calculer les deux segments (batterie → coupe-circuit, coupe-circuit → démarreur)
+- [ ] **Confirmer le diamètre du boulon démarreur** (M10 présumé — mesurer sur le véhicule)
+- [ ] **Inspecter le câble habitacle existant** (démarreur → habitacle) — relever section, type de cosse, longueur disponible ; vérifier compatibilité avec la sortie du porte-fusible Midi retenu
+- [ ] **Calculer la section du câble démarreur → porte-fusible** — selon distance mesurée et courant max du circuit (courant de charge + courant consommateurs habitacle)
+
+### Phase 2 — Fabrication
+
+- [ ] **Fabriquer le support coupe-circuit** → voir [fiche coupe-circuit](../coupe-circuit/fiche.md) — tôle 1,6 ou 2 mm, pliage + soudure
+
+### Phase 3 — Installation
+
+- [ ] **Installer le coupe-circuit** sur son support, côté baie moteur près de la batterie
+- [ ] **Modifier le câble + batterie** — séparer en deux segments :
+  - Segment 1 : conserve la cosse batterie → va jusqu'au coupe-circuit → ajouter cosse 35 mm² trou M10 côté coupe-circuit
+  - Segment 2 : repart du coupe-circuit → va jusqu'au démarreur → ajouter cosse 35 mm² trou M10 côté coupe-circuit
+- [ ] **Installer le porte-fusible double Midi** à l'emplacement défini en Phase 1
+- [ ] **Refaire le câble démarreur → entrée porte-fusible double Midi** — section et cosses déterminées en Phase 1 (M10 démarreur / M8 ou M10 porte-fusible)
+- [ ] **Déplacer le câble habitacle** — décrocher du démarreur, adapter la cosse si nécessaire, brancher en sortie d'une voie du porte-fusible Midi
+
+## À faire — faisceau accessoires
 
 - [ ] Décider emplacement boîte à fusibles
 - [ ] Dimensionner câblage principal (mesure longueur depuis batterie)
