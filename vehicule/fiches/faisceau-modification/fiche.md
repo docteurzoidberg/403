@@ -82,7 +82,7 @@ Batterie (+)
 - [ ] **Installer le porte-fusible ANL 2 voies** à l'emplacement défini en Phase 1
 - [ ] **Refaire le câble démarreur → entrée porte-fusible ANL** — section déterminée en Phase 1 ; cosses : M10 côté démarreur / **M5** côté ANL
 - [ ] **Déplacer le câble habitacle d'origine** — décrocher du démarreur, remplacer la cosse par une **M5**, brancher sur voie 1 du porte-fusible ANL
-- [ ] **Tirer le nouveau câble accessoire** — porte-fusible ANL voie 2 (**M5**) → tiroir électrique habitacle (section à déterminer selon longueur et courant)
+- [ ] **Tirer le nouveau câble accessoire** — porte-fusible ANL voie 2 (**M5**) → entrée porte-fusible ATO tiroir électrique (**M5**) ; section à déterminer selon longueur et courant
 
 ### Habitacle
 
