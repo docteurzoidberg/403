@@ -15,6 +15,25 @@ Le coupe-circuit est monté sur une platine en tôle fixée près de la batterie
 - **Matière :** tôle acier 1,6 ou 2 mm
 - **Procédé :** découpe à plat puis pliage + soudure des plis
 
+### Étapes détaillées
+
+**Phase préliminaire — avant fabrication**
+
+- [ ] **Valider l'emplacement d'installation** dans la baie moteur (détermine la longueur du câble entre la borne + batterie et le coupe-circuit)
+- [ ] **Définir la taille des inserts filetés** pour la fixation du support dans la baie moteur
+
+**Phase fabrication**
+
+- [ ] **Trouver la tôle** — acier 1,6 ou 2 mm, dimensions suffisantes pour le développé
+- [ ] **Découper** la tôle selon le patron développé
+- [ ] **Plier** aux lignes de pliage
+- [ ] **Souder** les pliages
+- [ ] **Poser les inserts filetés** (taille définie en phase préliminaire)
+
+**Phase installation**
+
+- [ ] **Fixer le support** dans la baie moteur (visserie adaptée aux inserts choisis)
+
 ### Vue 3D assemblée
 
 ![Support coupe-circuit — vue 3D](photos/support-3d.png)
