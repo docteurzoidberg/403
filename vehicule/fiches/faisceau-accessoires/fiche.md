@@ -57,7 +57,8 @@ Liste ordonnée — vérifications/choix en premier, fabrication et pose ensuite
 ### Phase 1 — Choix et mesures (avant toute commande ou fabrication)
 
 - [ ] **Choisir le modèle de porte-fusible double Midi** — noter le diamètre des trous de cosses en entrée et en sortie (M8 ou M10)
-- [ ] **Définir l'emplacement exact du coupe-circuit** dans la baie moteur (près de la batterie, accessible)
+- [ ] **Définir l'emplacement exact du coupe-circuit** dans la baie moteur (près de la batterie, accessible) — détermine la longueur du câble entre la borne + batterie et le coupe-circuit
+- [ ] **Définir la taille des inserts filetés** pour la fixation du support coupe-circuit dans la baie moteur
 - [ ] **Définir l'emplacement exact du porte-fusible double Midi** (côté baie moteur, près du pare-feu)
 - [ ] **Inspecter le câble + batterie existant** — confirmer la section (35 mm² ?) et mesurer la longueur totale pour calculer les deux segments (batterie → coupe-circuit, coupe-circuit → démarreur)
 - [ ] **Confirmer le diamètre du boulon démarreur** (M10 présumé — mesurer sur le véhicule)
@@ -66,7 +67,12 @@ Liste ordonnée — vérifications/choix en premier, fabrication et pose ensuite
 
 ### Phase 2 — Fabrication
 
-- [ ] **Fabriquer le support coupe-circuit** → voir [fiche coupe-circuit](../coupe-circuit/fiche.md) — tôle 1,6 ou 2 mm, pliage + soudure
+- [ ] **Fabriquer le support coupe-circuit** → voir [fiche coupe-circuit](../coupe-circuit/fiche.md)
+  - [ ] Trouver la tôle (acier 1,6 ou 2 mm, dimensions suffisantes pour le développé)
+  - [ ] Découper selon le patron développé
+  - [ ] Plier aux lignes de pliage
+  - [ ] Souder les pliages
+  - [ ] Poser les inserts filetés (taille définie en Phase 1)
 
 ### Phase 3 — Installation
 
