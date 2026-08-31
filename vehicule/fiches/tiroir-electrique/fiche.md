@@ -31,6 +31,9 @@ Compartiment coulissant dédié à l'électronique habitacle. Fixé dans un supp
 
 ### Façade
 
+![Façade boutons — vue 3D](photos/facade-3d.png)
+*Façade détachable : panneau finition carbone, bouton poussoir rouge (klaxon) à gauche + 3 toggles orange, 4 trous de visserie M4 aux coins*
+
 - Panneau avant **détachable**, vissé sur le tiroir
 - Visserie M4 (type et longueur à choisir)
 - Porte les 4 boutons (poussoir + 3 toggles)
