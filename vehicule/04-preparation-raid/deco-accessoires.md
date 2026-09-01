@@ -48,6 +48,9 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
   ![Canard oscillant rétroviseur](photos/deco/canard-oscillant-retroviseur.png){ width="480" style="display:block" }
 - ~~💡 **Dé de rétroviseur** — déco rétro~~ — remplacé par le canard oscillant
 - 💡 **Chien à ressort** — tableau de bord
+- ✅ **Centre de volant custom 3D** — skull + masque à gaz, imprimé en 3D (filament gris), monté sur le volant d'origine
+  ![Centre de volant — vue large](photos/deco/centre-volant-vue-large.png){ width="480" style="display:block" }
+  ![Centre de volant — gros plan](photos/deco/centre-volant-gros-plan.jpg){ width="480" style="display:block" }
 - 💡 **Volant style Mad Max** — idée non décidée, à l'étude
 - 💡 **Extincteur peint en bleu + sticker NOS** (DIY) — positionné sur le passage d'arbre (tunnel de transmission) — réf. produit existant pour inspiration : [Extincteur NOS Nitro personnalisable 1kg](http://tppt.eu/u/wouepT.png) ~79 €
   ![Intérieur — position sur tunnel](photos/deco/extincteur-nos-tunnel.png){ width="480" style="display:block" }
