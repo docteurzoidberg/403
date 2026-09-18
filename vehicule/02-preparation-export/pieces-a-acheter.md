@@ -23,6 +23,7 @@ Géré via le skill `/todo` (code : `pieces`).
 - [x] 4 pneus route provisoires (contrôle technique + roulage en attendant les pneus raid) — **Nankang Econex NA-1 165/80R15 87T** (tourisme été) — 57 €/pièce — [allopneus.com](https://www.allopneus.com/produit/pneu-auto/nankang/tourisme-ete/econex-na-1/165-80r15-87t/0004280184) ✅ commandés 2026-05-29, montés avec chambres à air 2026-06-26
 - [x] 2 pneus tout terrain pour roues de secours — **General Grabber AT3 195/80R15** ✅ commandés 2026-05-29, montés avec chambres à air 2026-06-26
 - [x] 4 pneus tout terrain raid (pour les 4 roues du véhicule) — **General Grabber AT3 195/80R15** ✅ commandés 2026-07-26
+- [ ] jeu de chambres à air (2) — pour les roues raid
 - ~~[ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)~~ — trouvé par le vendeur ✅
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
 - [x] rétroviseur côté conducteur — paire achetée sur eBay ✅ 2026-06-05, montés 2026-06-26
