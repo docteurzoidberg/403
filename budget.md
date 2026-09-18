@@ -51,13 +51,14 @@ Suivi des dépenses par phase.
 | 2026-07-24 | Support téléphone magnétique Yianerm — ventouse, bras télescopique (Amazon) | 15.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-27 |
 | 2026-07-24 | Platine USB Thlevel 12V — double chargeur PD 45W + QC3.0 18W + voltmètre LED + interrupteur (Amazon B0CCHRS8T3) | 18.99 | Réel | ✅ Commandé ⏳ livraison 2026-07-29 |
 | 2026-08-01 | Store Gradulux — baie arrière | 121.77 | Réel | ✅ Commandé |
+| - | 2 jerricans acier 20L LEADZM + verseurs (Amazon B0BYV78NFL) | 72.99 | Réel | ✅ Reçu |
 | - | Phares LED rétromod (AliExpress) | - | Prévisionnel | 💭 À renseigner |
 | - | Séparateur cyclonique | - | Prévisionnel | 💭 À renseigner |
 | - | Film teinté (vitres) | - | Prévisionnel | 💭 À renseigner |
 | - | Stickers (Gulf, Camel, Goodyear...) | - | Prévisionnel | 💭 À renseigner |
 | - | Ferry aller (Algésiras → Tanger Med) | - | Prévisionnel | 💭 À renseigner |
 
-**Sous-total réel engagé** : 629.65 €
+**Sous-total réel engagé** : 702.64 €
 **Prévisionnel** : *(reste à compléter)*
 
 ---
@@ -121,8 +122,8 @@ Suivi des dépenses par phase.
 | Phase | Réel payé (€) | Prévisionnel (€) |
 |---|---|---|
 | 1 - Achat véhicule | 4 582.07 | 0 |
-| 2 - Préparation export | 629.65 | *(reste à compléter)* |
+| 2 - Préparation export | 702.64 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
 | 4 - Préparation raid | 12 | *(à compléter)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **5 223.72 €** | **3 000 € +** |
+| **TOTAL** | **5 296.71 €** | **3 000 € +** |
