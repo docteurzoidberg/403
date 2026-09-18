@@ -12,7 +12,7 @@ Géré via le skill `/todo` (code : `pieces`).
   ![Support rapide extincteur](photos/support-extincteur-rapide.png)
 - [ ] pelle de sable "type Jeep" — pelle acier pliante MFH Type I, coloris OD Green (kaki) — [Amazon](https://www.amazon.fr/gp/product/B06WVYMKC5/) — 19,75 €
   ![Pelle de sable type Jeep kaki](photos/pelle-sable-jeep.png)
-- [ ] sangle cinétique de remorquage — VEVOR 76,2 mm × 6,1 m, résistance 36 000 lbs (~16 t), gaines de protection + 2 manilles D-ring 19 mm + sac — [Amazon](https://www.amazon.fr/gp/product/B0FG7QL486/)
+- [ ] sangle cinétique de remorquage — VEVOR 76,2 mm × 6,1 m, résistance 36 000 lbs (~16 t), gaines de protection + 2 manilles D-ring 19 mm + sac — [Amazon](https://www.amazon.fr/gp/product/B0FG7QL486/) — 32,90 €
   ![Kit sangle cinétique de remorquage VEVOR](photos/sangle-cinetique-remorquage.png)
 - [ ] crochets de remorquage — à adapter/souder sur le véhicule à l'atelier Maroc — diamètre mini 24.5 mm (compatibles manilles VEVOR 3/4" déjà reçues)
 - [x] support téléphone voiture magnétique Yianerm — ventouse aimant fort, bras télescopique réglable ✅ commandé 2026-07-24, livraison prévue 2026-07-27

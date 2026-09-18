@@ -96,11 +96,11 @@ Suivi des dépenses par phase.
 | - | Pelle de sable type Jeep (Amazon B06WVYMKC5) | 19.75 | Prévisionnel | 💭 À acheter |
 | - | Support de pelle galerie ×2 (Amazon B0DRCYJFHH) | 12.99 | Prévisionnel | 💭 À acheter |
 | - | Support rapide extincteur (Amazon B0BYW5TZ6S) | 28.89 | Prévisionnel | 💭 À acheter |
-| - | Sangle cinétique de remorquage | - | Prévisionnel | 💭 À renseigner |
+| - | Sangle cinétique de remorquage VEVOR (Amazon B0FG7QL486) | 32.90 | Prévisionnel | 💭 À acheter |
 | - | GPS / roadbook (si non fourni orga) | - | Prévisionnel | 💭 À renseigner |
 
 **Sous-total réel engagé** : 12 €
-**Prévisionnel partiel** : 61.63 € *(reste à compléter)*
+**Prévisionnel partiel** : 94.53 € *(reste à compléter)*
 
 ---
 
@@ -127,6 +127,6 @@ Suivi des dépenses par phase.
 | 1 - Achat véhicule | 4 582.07 | 0 |
 | 2 - Préparation export | 702.64 | *(reste à compléter)* |
 | 3 - Restauration Maroc | - | *(à renseigner)* |
-| 4 - Préparation raid | 12 | 61.63 *(partiel)* |
+| 4 - Préparation raid | 12 | 94.53 *(partiel)* |
 | 5 - Raid | - | 3 000 *(partiel)* |
-| **TOTAL** | **5 296.71 €** | **3 061.63 € +** |
+| **TOTAL** | **5 296.71 €** | **3 094.53 € +** |
