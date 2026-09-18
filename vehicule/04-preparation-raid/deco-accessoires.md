@@ -17,6 +17,8 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 - 💡 **Support de pelle pour galerie de toit (lot de 2)** — supports métal + caoutchouc pour barres de toit / galerie, fixation pelle ou outils, visserie fournie — [Amazon](https://www.amazon.fr/gp/product/B0DRCYJFHH/) — 12,99 €
   ![Support de pelle galerie — lot de 2](photos/deco/support-pelle-galerie.png){ width="480" style="display:block" }
 - 💡 **Support rapide extincteur** — fixation à dégagement rapide (type Jeep/JK), pour l'extincteur NOS DIY sur le tunnel de transmission — [Amazon](https://www.amazon.fr/gp/product/B0BYW5TZ6S/) — 28,89 €
+- 💡 **Sangle cinétique de remorquage** — VEVOR 76,2 mm × 6,1 m, résistance 36 000 lbs (~16 t), gaines de protection + 2 manilles D-ring 19 mm + sac de rangement — [Amazon](https://www.amazon.fr/gp/product/B0FG7QL486/)
+  ![Kit sangle cinétique de remorquage VEVOR](photos/deco/sangle-cinetique-remorquage.png){ width="480" style="display:block" }
 
 ### Jantes
 
