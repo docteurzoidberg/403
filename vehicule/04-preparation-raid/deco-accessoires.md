@@ -14,7 +14,8 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
   ![Film micro-perforé tête de mort — rendu](photos/deco/film-microperfore-tete-de-mort.png){ width="480" style="display:block" }
 - 💡 **Pelle de sable "type Jeep"** — pelle acier pliante MFH Type I, coloris OD Green (kaki) — [Amazon](https://www.amazon.fr/gp/product/B06WVYMKC5/) — 19,75 €
   ![Pelle de sable type Jeep kaki](photos/deco/pelle-sable-jeep.png){ width="480" style="display:block" }
-- 💡 **Support de pelle (lot de 2)** — supports métal + caoutchouc pour barres de toit / galerie, fixation pelle ou outils — [Amazon](https://www.amazon.fr/gp/product/B0DRCYJFHH/) — 12,99 €
+- 💡 **Support de pelle pour galerie de toit (lot de 2)** — supports métal + caoutchouc pour barres de toit / galerie, fixation pelle ou outils, visserie fournie — [Amazon](https://www.amazon.fr/gp/product/B0DRCYJFHH/) — 12,99 €
+  ![Support de pelle galerie — lot de 2](photos/deco/support-pelle-galerie.png){ width="480" style="display:block" }
 - 💡 **Support rapide extincteur** — fixation à dégagement rapide (type Jeep/JK), pour l'extincteur NOS DIY sur le tunnel de transmission — [Amazon](https://www.amazon.fr/gp/product/B0BYW5TZ6S/) — 28,89 €
 
 ### Jantes
