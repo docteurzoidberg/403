@@ -10,7 +10,8 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 
 ### Carrosserie & extérieur
 
-*(à compléter)*
+- 💡 **Film micro-perforé impression "tête de mort"** — sur les vitres latérales arrière (vision unidirectionnelle : visible de l'extérieur, transparent de l'intérieur)
+  ![Film micro-perforé tête de mort — rendu](photos/deco/film-microperfore-tete-de-mort.png){ width="480" style="display:block" }
 
 ### Jantes
 
