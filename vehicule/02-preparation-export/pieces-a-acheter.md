@@ -26,6 +26,8 @@ Géré via le skill `/todo` (code : `pieces`).
 - [ ] jeu de chambres à air (2) — pour les roues raid
 - [x] manilles de remorquage (2) — VEVOR D-ring 3/4" (19 mm), acier allié, résistance à la rupture 28,5 t, axe fileté 22 mm, avec isolateurs + rondelles — [Amazon](https://www.amazon.fr/dp/B0D7VV8HRT) — 13,90 € ✅ reçues
   ![Manilles de remorquage VEVOR 3/4" — lot de 2](photos/manilles-remorquage-vevor.jpg)
+- [x] jerricans 20L (2) — LEADZM acier, coloris vert, avec 2 verseurs flexibles + valve, étanche norme UN, compatible diesel/essence/kérosène — [Amazon](https://www.amazon.fr/dp/B0BYV78NFL) — 72,99 € ✅ reçus
+  ![Lot de 2 jerricans acier 20L avec verseurs](photos/jerricans-20l.png)
 - ~~[ ] 1 bouton de poignée de porte arrière (manquant sur le véhicule acheté)~~ — trouvé par le vendeur ✅
 - ~~[ ] 2 cabochons de feux arrière (manquants sur le véhicule acheté)~~ — trouvés par le vendeur ✅
 - [x] rétroviseur côté conducteur — paire achetée sur eBay ✅ 2026-06-05, montés 2026-06-26
