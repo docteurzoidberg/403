@@ -12,16 +12,6 @@ Statuts : 💡 idée | ✅ retenu | ❌ écarté | 🛒 commandé/en cours
 
 - 💡 **Film micro-perforé impression "tête de mort"** — sur les vitres latérales arrière (vision unidirectionnelle : visible de l'extérieur, transparent de l'intérieur)
   ![Film micro-perforé tête de mort — rendu](photos/deco/film-microperfore-tete-de-mort.png){ width="480" style="display:block" }
-- 💡 **Pelle de sable "type Jeep"** — pelle acier pliante MFH Type I, coloris OD Green (kaki) — [Amazon](https://www.amazon.fr/gp/product/B06WVYMKC5/) — 19,75 €
-  ![Pelle de sable type Jeep kaki](photos/deco/pelle-sable-jeep.png){ width="480" style="display:block" }
-- 💡 **Support de pelle pour galerie de toit (lot de 2)** — supports métal + caoutchouc pour barres de toit / galerie, fixation pelle ou outils, visserie fournie — [Amazon](https://www.amazon.fr/gp/product/B0DRCYJFHH/) — 12,99 €
-  ![Support de pelle galerie — lot de 2](photos/deco/support-pelle-galerie.png){ width="480" style="display:block" }
-- 💡 **Support rapide extincteur** — fixation à dégagement rapide (type Jeep/JK), pour l'extincteur NOS DIY sur le tunnel de transmission — [Amazon](https://www.amazon.fr/gp/product/B0BYW5TZ6S/) — 28,89 €
-  ![Support rapide extincteur](photos/deco/support-extincteur-rapide.png){ width="480" style="display:block" }
-- 💡 **Sangle cinétique de remorquage** — VEVOR 76,2 mm × 6,1 m, résistance 36 000 lbs (~16 t), gaines de protection + 2 manilles D-ring 19 mm + sac de rangement — [Amazon](https://www.amazon.fr/gp/product/B0FG7QL486/)
-  ![Kit sangle cinétique de remorquage VEVOR](photos/deco/sangle-cinetique-remorquage.png){ width="480" style="display:block" }
-- 💡 **Plaques de désensablage + supports** — jeu de 2 plaques de traction (orange) avec supports de fixation galerie, sangles de maintien et sac de rangement — [Amazon](https://www.amazon.fr/gp/product/B0DCS71CLH/)
-  ![Plaques de désensablage orange + supports galerie + sac](photos/deco/plaque-desensablage.png){ width="480" style="display:block" }
 
 ### Jantes
 

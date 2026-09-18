@@ -8,7 +8,12 @@ Géré via le skill `/todo` (code : `pieces`).
 ### À acheter en France
 
 - [ ] extincteur (obligatoire pour le raid)
-- [ ] sangles de remorquage (4 ou 6 ? à cliquet ou sans ? longueur à définir)
+- [ ] support rapide extincteur — fixation à dégagement rapide (type Jeep/JK), pour l'extincteur NOS DIY sur le tunnel de transmission — [Amazon](https://www.amazon.fr/gp/product/B0BYW5TZ6S/) — 28,89 €
+  ![Support rapide extincteur](photos/support-extincteur-rapide.png)
+- [ ] pelle de sable "type Jeep" — pelle acier pliante MFH Type I, coloris OD Green (kaki) — [Amazon](https://www.amazon.fr/gp/product/B06WVYMKC5/) — 19,75 €
+  ![Pelle de sable type Jeep kaki](photos/pelle-sable-jeep.png)
+- [ ] sangle cinétique de remorquage — VEVOR 76,2 mm × 6,1 m, résistance 36 000 lbs (~16 t), gaines de protection + 2 manilles D-ring 19 mm + sac — [Amazon](https://www.amazon.fr/gp/product/B0FG7QL486/)
+  ![Kit sangle cinétique de remorquage VEVOR](photos/sangle-cinetique-remorquage.png)
 - [ ] crochets de remorquage — à adapter/souder sur le véhicule à l'atelier Maroc — diamètre mini 24.5 mm (compatibles manilles VEVOR 3/4" déjà reçues)
 - [x] support téléphone voiture magnétique Yianerm — ventouse aimant fort, bras télescopique réglable ✅ commandé 2026-07-24, livraison prévue 2026-07-27
 - [x] platine USB encastrable (pour installation habitacle) — [Amazon - Thlevel chargeur USB + voltmètre + interrupteur](https://www.amazon.fr/Thlevel-Chargeur-Voltm%C3%A8tre-Num%C3%A9rique-Interrupteur/dp/B0CCHRS8T3) (prise allume-cigare intégrée) ✅ commandée 2026-07-24, livraison prévue 2026-07-29
@@ -24,7 +29,10 @@ Géré via le skill `/todo` (code : `pieces`).
 - [x] balais d'essuie-glace — trouvés et montés ✅ 2026-06-26
 - [ ] phares LED style rétromod — [AliExpress](https://fr.aliexpress.com/item/1005004800260632.html) ✅ modèle retenu
   ![Phares LED rétromod](photos/phares-retromod-retenus.png)
-- [ ] plaques de désensablage
+- [ ] plaques de désensablage + supports — jeu de 2 plaques de traction (orange) avec supports de fixation galerie, sangles de maintien et sac de rangement — [Amazon](https://www.amazon.fr/gp/product/B0DCS71CLH/)
+  ![Plaques de désensablage orange + supports galerie + sac](photos/plaque-desensablage.png)
+- [ ] support de pelle pour galerie de toit (lot de 2) — supports métal + caoutchouc pour barres de toit / galerie, fixation pelle ou outils, visserie fournie — [Amazon](https://www.amazon.fr/gp/product/B0DRCYJFHH/) — 12,99 €
+  ![Support de pelle galerie — lot de 2](photos/support-pelle-galerie.png)
 - [ ] séparateur cyclonique (filtration air moteur)
 
 - [x] durites radiateur supérieure + inférieure — Serie04 ✅ reçues + montées 2026-06-26
