@@ -8,6 +8,18 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-09-23 — Passage garage
+
+**Vidange** : faite ✅
+
+**Purge des freins** : faite ✅
+
+**Graissage** : fait ✅
+
+**Montage pneus AT** : les 4 pneus tout terrain (General Grabber AT3) montés ✅
+
+---
+
 ### 2026-08-21 — Point de situation
 
 **Câble tirette d'arrêt moteur** : câble cassé, remplacé par pièce d'origine ✅
