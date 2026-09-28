@@ -8,6 +8,14 @@
 
 <!-- Les entrées sont ajoutées en haut du journal, du plus récent au plus ancien. -->
 
+### 2026-09-28 — Dépose chauffage
+
+**Chauffage** : boîtier de chauffage déposé ✅
+
+![Dépose chauffage](photos/depose-chauffage.png)
+
+---
+
 ### 2026-09-23 — Passage garage
 
 **Vidange** : faite ✅
