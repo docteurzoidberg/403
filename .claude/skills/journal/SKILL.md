@@ -17,25 +17,31 @@ description: Ajoute, consulte ou liste des entrées dans les journaux (suivi.md)
 
 ## Format d'une entrée
 
-Les entrées sont ajoutées dans la section `## Journal` de chaque fichier, en bas, par ordre chronologique :
+Les entrées sont ajoutées dans la section `## Journal` de chaque fichier, **en haut**, par ordre antichronologique (entrée la plus récente en premier). Les entrées sont séparées par une ligne `---` :
 
 ```markdown
 ### YYYY-MM-DD — <Titre court>
 
 Contenu libre (texte, listes à puces, sous-sections, etc.)
+
+---
 ```
 
 ## Opérations
 
 ### Ajouter une entrée
 
-Appender sous `## Journal` (après le commentaire HTML et les entrées existantes) :
+Insérer sous `## Journal`, juste après le commentaire HTML et **avant** la première entrée existante, suivie d'un séparateur `---` :
 
 ```
 ### YYYY-MM-DD — <titre>
 
 <contenu>
+
+---
 ```
+
+Ne jamais réordonner ni réécrire les entrées existantes.
 
 **Règles :**
 - Date : celle fournie par l'utilisateur, ou date du jour si non précisée.
